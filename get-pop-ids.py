@@ -1,7 +1,5 @@
-'''
-script to loop through seq folder and create a pop.txt file that contains the population ID for each fly.
-The nature of the for loop is not alphbetical so you will need to sort to a new file in terminal
-'''
+#script to loop through seq folder and create a pop.txt file that contains the population ID for each fly.
+#The nature of the for loop is not alphbetical so you will need to sort to a new file in terminal
 #Put this script in directory with the seq files
 
 import os
@@ -14,6 +12,7 @@ seq_directory = #path/to/seq/directory/
 vcf_directory = #path/to/new/directory/ <--- make sure you end with "/"
 
 
+#creating pop.txt file, printing in pop IDs by splitting file names at multiple delimiters
 with open('{path}'.format(path = vcf_directory) + 'unsorted_pop.txt', 'w') as pop:
         for file in os.listdir(seq_directory):
                 if file.endswith('.seq'):
@@ -23,3 +22,5 @@ with open('{path}'.format(path = vcf_directory) + 'unsorted_pop.txt', 'w') as po
                         pop.write(result + '\n')
                 else:
                         continue       
+
+
