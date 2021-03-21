@@ -18,7 +18,7 @@ for file in os.listdir(seq_directory):
         sequence = seq_file.read()
         #creating new file with header and sequence
         with open('{path}'.format(path = converted_fas_dir) + '{file}'.format(file = file), 'w') as conversion:
-            conversion.write('>' + '{filename}'.format(filename = file.split('.')[0]) + '\n' + sequence + '\n')
+            conversion.write('>' + '{filename}'.format(filename = file.split('_')[0]) + '\n' + sequence + '\n')
     else:
         continue       
 
