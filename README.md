@@ -12,3 +12,6 @@ This python script is the same script that is located in each of the directories
 
 seq2fasta.py --->
 This python script converts the seq files to individual fasta files by looping through the seq directory, creating new files in the fasta directory (you set the directories), appending ">" plus the title of each file to the beginning line, and adding a line break to the end of each file.  Then it changes the file extensions of the new files to ".fas"
+
+get-pop-ids.py --->
+This python script loops through a directory of seq files and extracts the population IDs of the flies from the file names.  This is done by using the re module to split the file name at either a '-' or a number.  The population IDs are printed to a text file with line breaks between them.  The nature of the for loop, however, is not alphabetical and you must use the sort unix command to alphabetize the population IDs.  This script ensures that your population text file did not miss an ID for any individual fly.
