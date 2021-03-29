@@ -15,3 +15,6 @@ This python script converts the seq files to individual fasta files by looping t
 
 get-pop-ids.py --->
 This python script loops through a directory of seq files and extracts the population IDs of the flies from the file names.  This is done by using the re module to split the file name at either a '-' or a number.  The population IDs are printed to a text file with line breaks between them.  The nature of the for loop, however, is not alphabetical and you must use the sort unix command to alphabetize the population IDs.  This script ensures that your population text file did not miss an ID for any individual fly.
+
+search+replace.py --->
+This python script performs a find and replace of a character ina very large file (too large to use normal find and replace).  This script is currently not being used in the DrosSpecation project.
