@@ -18,3 +18,6 @@ This python script loops through a directory of seq files and extracts the popul
 
 search+replace.py --->
 This python script performs a find and replace of a character ina very large file (too large to use normal find and replace).  This script is currently not being used in the DrosSpecation project.
+
+pca-plot.R --->
+This is an R script to make a pca plot from a vcf file.  You will just have to put in a directory and the file into the script.  You do not have to convert the vcf to a gds if you have already done so.
