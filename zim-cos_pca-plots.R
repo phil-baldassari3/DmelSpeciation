@@ -27,19 +27,19 @@ gds <- snpgdsOpen('zim-cos.gds')
 snpgdsSummary(gds, show=TRUE)
 #ChrX
 gdsX <- snpgdsOpen('zim-cos_ChrX.gds')
-snpgdsSummary(gds, show=TRUE)
+snpgdsSummary(gdsX, show=TRUE)
 #Chr2L
 gds2L <- snpgdsOpen('zim-cos_Chr2L.gds')
-snpgdsSummary(gds, show=TRUE)
+snpgdsSummary(gds2L, show=TRUE)
 #Chr2R
 gds2R <- snpgdsOpen('zim-cos_Chr2R.gds')
-snpgdsSummary(gds, show=TRUE)
+snpgdsSummary(gds2R, show=TRUE)
 #Chr3L
 gds3L <- snpgdsOpen('zim-cos_Chr3L.gds')
-snpgdsSummary(gds, show=TRUE)
+snpgdsSummary(gds3L, show=TRUE)
 #Chr3R
 gds3R <- snpgdsOpen('zim-cos_Chr3R.gds')
-snpgdsSummary(gds, show=TRUE)
+snpgdsSummary(gds3R, show=TRUE)
 
 
 #pca (ONLY DO ONCE?)
