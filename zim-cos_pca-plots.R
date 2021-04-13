@@ -185,17 +185,17 @@ ylab3R
 
 #scatterplot
 #Full Genome
-ggplot(tab, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab) +ylab(ylab)
+ggplot(tab, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab) +ylab(ylab) +ggtitle("Whole Genome (minor alleles filtered )")
 #ChrX
-ggplot(tabX, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlabX) +ylab(ylabX)
+ggplot(tabX, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlabX) +ylab(ylabX) +ggtitle("ChrX (minor alleles filtered )")
 #Chr2L
-ggplot(tab2L, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab2L) +ylab(ylab2L)
+ggplot(tab2L, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab2L) +ylab(ylab2L) +ggtitle("Chr2L (minor alleles filtered )")
 #Chr2R
-ggplot(tab2R, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab2R) +ylab(ylab2R)
+ggplot(tab2R, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab2R) +ylab(ylab2R) +ggtitle("Chr2R (minor alleles filtered )")
 #Chr3L
-ggplot(tab3L, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab3L) +ylab(ylab3L)
+ggplot(tab3L, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab3L) +ylab(ylab3L) +ggtitle("Chr3L (minor alleles filtered )")
 #Chr3R
-ggplot(tab3R, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab3R) +ylab(ylab3R)
+ggplot(tab3R, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +xlab(xlab3R) +ylab(ylab3R) +ggtitle("Chr3R (minor alleles filtered )")
 
 
 
