@@ -9,17 +9,17 @@ setwd("/Users/philipbaldassari/Desktop/zim-cos_pca-plots")
 ##################################################################################
 #convert vcf to gds (ONLY DO THIS ONCE!)
 #full genome
-snpgdsVCF2GDS('zim-cos.vcf', 'zim-cos.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('zim-cos.vcf', 'zim-cos.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 #ChrX
-snpgdsVCF2GDS('zim-cos_ChrX.vcf', 'zim-cos_ChrX.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('zim-cos_ChrX.vcf', 'zim-cos_ChrX.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 #Chr2L
-snpgdsVCF2GDS('zim-cos_Chr2L.vcf', 'zim-cos_Chr2L.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('zim-cos_Chr2L.vcf', 'zim-cos_Chr2L.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 #Chr2R
-snpgdsVCF2GDS('zim-cos_Chr2R.vcf', 'zim-cos_Chr2R.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('zim-cos_Chr2R.vcf', 'zim-cos_Chr2R.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 #Chr3L
-snpgdsVCF2GDS('zim-cos_Chr3L.vcf', 'zim-cos_Chr3L.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('zim-cos_Chr3L.vcf', 'zim-cos_Chr3L.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 #Chr3R
-snpgdsVCF2GDS('zim-cos_Chr3R.vcf', 'zim-cos_Chr3R.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('zim-cos_Chr3R.vcf', 'zim-cos_Chr3R.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 ##################################################################################
 
 #Full genome
@@ -201,6 +201,7 @@ ggplot(tab3R, aes(EV2, EV1, colour=Population)) +geom_point(shape=19, size=2) +x
 
 
 #if you need to filter to only see specific populations
+################################################################################################################
 #Full Genome
 just_african <- tab %>%
   filter(!(Population == "FR"), !(Population == "RAL"))

@@ -7,7 +7,7 @@ library(dplyr)
 setwd("path/to/directory/with/vcf/or/gds")
 
 #convert vcf to gds (ONLY DO THIS ONCE)
-snpgdsVCF2GDS('file.vcf', 'file.gds', method=("copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
+snpgdsVCF2GDS('file.vcf', 'file.gds', method=c("biallelic.only", "copy.num.of.ref"), snpfirstdim=FALSE, compress.annotation="ZIP_RA.max", compress.geno="", ref.allele=NULL, ignore.chr.prefix="chr", verbose=TRUE)
 
 gds <- snpgdsOpen('file.gds')
 snpgdsSummary(gds, show=TRUE)
