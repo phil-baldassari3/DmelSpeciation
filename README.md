@@ -21,3 +21,6 @@ This python script performs a find and replace of a character ina very large fil
 
 pca-plot.R --->
 This is an R script to make a pca plot from a vcf file.  You will just have to put in a directory and the file into the script.  You do not have to convert the vcf to a gds if you have already done so.
+
+test_phylo.R --->
+This is a script I was using to test out making different phylogentic trees.  This script was only for trying things out, so only use it for reference when making a new script.
