@@ -279,4 +279,4 @@ with open('dipzim-cos_Chr_3R_0.05.vcf', 'w') as _3Rfile6:
   _3Rfile6.write(_3Rfiledata3)
 
 print("Corrected erroneous triploids in Chr3R.")
-print(Done!")
+print("Done!")
