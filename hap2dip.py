@@ -58,225 +58,225 @@ print("Corrected erroneous triploids in ChrX. Done!")
 print("Please wait...")
 
 ############################################################################################################
-###Converting zim-cos_Chr2L_0.05.vcf
+###Converting zim-cos_Chr_2L_0.05.vcf
 ###########################
 # Read in the file
-with open('zim-cos_Chr2L_0.05.vcf', 'r') as 2Lfile:
-  2Lfiledata = 2Lfile.read()
+with open('zim-cos_Chr_2L_0.05.vcf', 'r') as _2Lfile:
+  _2Lfiledata = _2Lfile.read()
 # Replace the target string
-2Lfiledata = 2Lfiledata.replace('	0	0', '	0/0	0/0')
-2Lfiledata = 2Lfiledata.replace('	1	1', '	1/1	1/1')
-2Lfiledata = 2Lfiledata.replace('	1	0', '	1/1	0/0')
-2Lfiledata = 2Lfiledata.replace('	0	1', '	0/0	1/1')
+_2Lfiledata = _2Lfiledata.replace('	0	0', '	0/0	0/0')
+_2Lfiledata = _2Lfiledata.replace('	1	1', '	1/1	1/1')
+_2Lfiledata = _2Lfiledata.replace('	1	0', '	1/1	0/0')
+_2Lfiledata = _2Lfiledata.replace('	0	1', '	0/0	1/1')
 # Write the file out again
-with open('dipzim-cos_Chr2L_0.05.vcf', 'w') as 2Lfile1:
-  2Lfile1.write(2Lfiledata)
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'w') as _2Lfile1:
+  _2Lfile1.write(_2Lfiledata)
 
 print("Ploidy of Chr2L changed.  Please wait...")
 ############################
 
 # Read in the file
-with open('dipzim-cos_Chr2L_0.05.vcf', 'r') as 2Lfile1:
-  2Lfiledata1 = 2Lfile1.read()
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'r') as _2Lfile1:
+  _2Lfiledata1 = _2Lfile1.read()
 # Replace the target string
-2Lfiledata1 = 2Lfiledata1.replace('/0/', '/')
-2Lfiledata1 = 2Lfiledata1.replace('/1/', '/')
+_2Lfiledata1 = _2Lfiledata1.replace('/0/', '/')
+_2Lfiledata1 = _2Lfiledata1.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr2L_0.05.vcf', 'w') as 2Lfile2:
-  2Lfile2.write(2Lfiledata1)
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'w') as _2Lfile2:
+  _2Lfile2.write(_2Lfiledata1)
 
 print("Corrected erroneous triploids in Chr2L.  Please wait...")
 ###########################
 
 # Read in the file
-with open('dipzim-cos_Chr2L_0.05.vcf', 'r') as 2Lfile3:
-  2Lfiledata2 = 2Lfile3.read()
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'r') as _2Lfile3:
+  _2Lfiledata2 = _2Lfile3.read()
 # Replace the target string
-2Lfiledata2 = 2Lfiledata2.replace('0' + '\n' + '2L', '0/0' + '\n' + '2L')
-2Lfiledata2 = 2Lfiledata2.replace('1' + '\n' + '2L', '1/1' + '\n' + '2L')
+_2Lfiledata2 = _2Lfiledata2.replace('0' + '\n' + '2L', '0/0' + '\n' + '2L')
+_2Lfiledata2 = _2Lfiledata2.replace('1' + '\n' + '2L', '1/1' + '\n' + '2L')
 # Write the file out again
-with open('dipzim-cos_Chr2L_0.05.vcf', 'w') as 2Lfile4:
-  2Lfile4.write(2Lfiledata2)
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'w') as _2Lfile4:
+  _2Lfile4.write(_2Lfiledata2)
 
 print("Corrected remaining haploids in Chr2L.  Please wait...")
 ###########################
 # Read in the file
-with open('dipzim-cos_Chr2L_0.05.vcf', 'r') as 2Lfile5:
-  2Lfiledata3 = 2Lfile5.read()
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'r') as _2Lfile5:
+  _2Lfiledata3 = _2Lfile5.read()
 # Replace the target string
-2Lfiledata3 = 2Lfiledata3.replace('/0/', '/')
-2Lfiledata3 = 2Lfiledata3.replace('/1/', '/')
+_2Lfiledata3 = _2Lfiledata3.replace('/0/', '/')
+_2Lfiledata3 = _2Lfiledata3.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr2L_0.05.vcf', 'w') as 2Lfile6:
-  2Lfile6.write(2Lfiledata3)
+with open('dipzim-cos_Chr_2L_0.05.vcf', 'w') as _2Lfile6:
+  _2Lfile6.write(_2Lfiledata3)
 
 print("Corrected erroneous triploids in Chr2L. Done!")
 print("Please wait...")
 
 ############################################################################################################
-###Converting zim-cos_Chr2R_0.05.vcf
+###Converting zim-cos_Chr_2R_0.05.vcf
 ###########################
 # Read in the file
-with open('zim-cos_Chr2R_0.05.vcf', 'r') as 2Rfile:
-  2Rfiledata = 2Rfile.read()
+with open('zim-cos_Chr_2R_0.05.vcf', 'r') as _2Rfile:
+  _2Rfiledata = _2Rfile.read()
 # Replace the target string
-2Rfiledata = 2Rfiledata.replace('	0	0', '	0/0	0/0')
-2Rfiledata = 2Rfiledata.replace('	1	1', '	1/1	1/1')
-2Rfiledata = 2Rfiledata.replace('	1	0', '	1/1	0/0')
-2Rfiledata = 2Rfiledata.replace('	0	1', '	0/0	1/1')
+_2Rfiledata = _2Rfiledata.replace('	0	0', '	0/0	0/0')
+_2Rfiledata = _2Rfiledata.replace('	1	1', '	1/1	1/1')
+_2Rfiledata = _2Rfiledata.replace('	1	0', '	1/1	0/0')
+_2Rfiledata = _2Rfiledata.replace('	0	1', '	0/0	1/1')
 # Write the file out again
-with open('dipzim-cos_Chr2R_0.05.vcf', 'w') as 2Rfile1:
-  2Rfile1.write(2Rfiledata)
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'w') as _2Rfile1:
+  _2Rfile1.write(_2Rfiledata)
 
 print("Ploidy of Chr2R changed.  Please wait...")
 ############################
 
 # Read in the file
-with open('dipzim-cos_Chr2R_0.05.vcf', 'r') as 2Rfile1:
-  2Rfiledata1 = 2Rfile1.read()
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'r') as _2Rfile1:
+  _2Rfiledata1 = _2Rfile1.read()
 # Replace the target string
-2Rfiledata1 = 2Rfiledata1.replace('/0/', '/')
-2Rfiledata1 = 2Rfiledata1.replace('/1/', '/')
+_2Rfiledata1 = _2Rfiledata1.replace('/0/', '/')
+_2Rfiledata1 = _2Rfiledata1.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr2R_0.05.vcf', 'w') as 2Rfile2:
-  2Rfile2.write(2Rfiledata1)
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'w') as _2Rfile2:
+  _2Rfile2.write(_2Rfiledata1)
 
 print("Corrected erroneous triploids in Chr2R.  Please wait...")
 ###########################
 
 # Read in the file
-with open('dipzim-cos_Chr2R_0.05.vcf', 'r') as 2Rfile3:
-  2Rfiledata2 = 2Rfile3.read()
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'r') as _2Rfile3:
+  _2Rfiledata2 = _2Rfile3.read()
 # Replace the target string
-2Rfiledata2 = 2Rfiledata2.replace('0' + '\n' + '2R', '0/0' + '\n' + '2R')
-2Rfiledata2 = 2Rfiledata2.replace('1' + '\n' + '2R', '1/1' + '\n' + '2R')
+_2Rfiledata2 = _2Rfiledata2.replace('0' + '\n' + '2R', '0/0' + '\n' + '2R')
+_2Rfiledata2 = _2Rfiledata2.replace('1' + '\n' + '2R', '1/1' + '\n' + '2R')
 # Write the file out again
-with open('dipzim-cos_Chr2R_0.05.vcf', 'w') as 2Rfile4:
-  2Rfile4.write(2Rfiledata2)
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'w') as _2Rfile4:
+  _2Rfile4.write(_2Rfiledata2)
 
 print("Corrected remaining haploids in Chr2R.  Please wait...")
 ###########################
 # Read in the file
-with open('dipzim-cos_Chr2R_0.05.vcf', 'r') as 2Rfile5:
-  2Rfiledata3 = 2Rfile5.read()
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'r') as _2Rfile5:
+  _2Rfiledata3 = _2Rfile5.read()
 # Replace the target string
-2Rfiledata3 = 2Rfiledata3.replace('/0/', '/')
-2Rfiledata3 = 2Rfiledata3.replace('/1/', '/')
+_2Rfiledata3 = _2Rfiledata3.replace('/0/', '/')
+_2Rfiledata3 = _2Rfiledata3.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr2R_0.05.vcf', 'w') as 2Rfile6:
-  2Rfile6.write(2Rfiledata3)
+with open('dipzim-cos_Chr_2R_0.05.vcf', 'w') as _2Rfile6:
+  _2Rfile6.write(_2Rfiledata3)
 
 print("Corrected erroneous triploids in Chr2R. Done!")
 print("Please wait...")
 
 ############################################################################################################
-###Converting zim-cos_Chr3L_0.05.vcf
+###Converting zim-cos_Chr_3L_0.05.vcf
 ###########################
 # Read in the file
-with open('zim-cos_Chr3L_0.05.vcf', 'r') as 3Lfile:
-  3Lfiledata = 3Lfile.read()
+with open('zim-cos_Chr_3L_0.05.vcf', 'r') as _3Lfile:
+  _3Lfiledata = _3Lfile.read()
 # Replace the target string
-3Lfiledata = 3Lfiledata.replace('	0	0', '	0/0	0/0')
-3Lfiledata = 3Lfiledata.replace('	1	1', '	1/1	1/1')
-3Lfiledata = 3Lfiledata.replace('	1	0', '	1/1	0/0')
-3Lfiledata = 3Lfiledata.replace('	0	1', '	0/0	1/1')
+_3Lfiledata = _3Lfiledata.replace('	0	0', '	0/0	0/0')
+_3Lfiledata = _3Lfiledata.replace('	1	1', '	1/1	1/1')
+_3Lfiledata = _3Lfiledata.replace('	1	0', '	1/1	0/0')
+_3Lfiledata = _3Lfiledata.replace('	0	1', '	0/0	1/1')
 # Write the file out again
-with open('dipzim-cos_Chr3L_0.05.vcf', 'w') as 3Lfile1:
-  3Lfile1.write(3Lfiledata)
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'w') as _3Lfile1:
+  _3Lfile1.write(_3Lfiledata)
 
 print("Ploidy of Chr3L changed.  Please wait...")
 ############################
 
 # Read in the file
-with open('dipzim-cos_Chr3L_0.05.vcf', 'r') as 3Lfile1:
-  3Lfiledata1 = 3Lfile1.read()
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'r') as _3Lfile1:
+  _3Lfiledata1 = _3Lfile1.read()
 # Replace the target string
-3Lfiledata1 = 3Lfiledata1.replace('/0/', '/')
-3Lfiledata1 = 3Lfiledata1.replace('/1/', '/')
+_3Lfiledata1 = _3Lfiledata1.replace('/0/', '/')
+_3Lfiledata1 = _3Lfiledata1.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr3L_0.05.vcf', 'w') as 3Lfile2:
-  3Lfile2.write(3Lfiledata1)
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'w') as _3Lfile2:
+  _3Lfile2.write(_3Lfiledata1)
 
 print("Corrected erroneous triploids in Chr3L.  Please wait...")
 ###########################
 
 # Read in the file
-with open('dipzim-cos_Chr3L_0.05.vcf', 'r') as 3Lfile3:
-  3Lfiledata2 = 3Lfile3.read()
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'r') as _3Lfile3:
+  _3Lfiledata2 = _3Lfile3.read()
 # Replace the target string
-3Lfiledata2 = 3Lfiledata2.replace('0' + '\n' + '3L', '0/0' + '\n' + '3L')
-3Lfiledata2 = 3Lfiledata2.replace('1' + '\n' + '3L', '1/1' + '\n' + '3L')
+_3Lfiledata2 = _3Lfiledata2.replace('0' + '\n' + '3L', '0/0' + '\n' + '3L')
+_3Lfiledata2 = _3Lfiledata2.replace('1' + '\n' + '3L', '1/1' + '\n' + '3L')
 # Write the file out again
-with open('dipzim-cos_Chr3L_0.05.vcf', 'w') as 3Lfile4:
-  3Lfile4.write(3Lfiledata2)
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'w') as _3Lfile4:
+  _3Lfile4.write(_3Lfiledata2)
 
 print("Corrected remaining haploids in Chr3L.  Please wait...")
 ###########################
 # Read in the file
-with open('dipzim-cos_Chr3L_0.05.vcf', 'r') as 3Lfile5:
-  3Lfiledata3 = 3Lfile5.read()
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'r') as _3Lfile5:
+  _3Lfiledata3 = _3Lfile5.read()
 # Replace the target string
-3Lfiledata3 = 3Lfiledata3.replace('/0/', '/')
-3Lfiledata3 = 3Lfiledata3.replace('/1/', '/')
+_3Lfiledata3 = _3Lfiledata3.replace('/0/', '/')
+_3Lfiledata3 = _3Lfiledata3.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr3L_0.05.vcf', 'w') as 3Lfile6:
-  3Lfile6.write(3Lfiledata3)
+with open('dipzim-cos_Chr_3L_0.05.vcf', 'w') as _3Lfile6:
+  _3Lfile6.write(_3Lfiledata3)
 
 print("Corrected erroneous triploids in Chr3L. Done!")
 print("Please wait...")
 
 ############################################################################################################
-###Converting zim-cos_Chr3R_0.05.vcf
+###Converting zim-cos_Chr_3R_0.05.vcf
 ###########################
 # Read in the file
-with open('zim-cos_Chr3R_0.05.vcf', 'r') as 3Rfile:
-  3Rfiledata = 3Rfile.read()
+with open('zim-cos_Chr_3R_0.05.vcf', 'r') as _3Rfile:
+  _3Rfiledata = _3Rfile.read()
 # Replace the target string
-3Rfiledata = 3Rfiledata.replace('	0	0', '	0/0	0/0')
-3Rfiledata = 3Rfiledata.replace('	1	1', '	1/1	1/1')
-3Rfiledata = 3Rfiledata.replace('	1	0', '	1/1	0/0')
-3Rfiledata = 3Rfiledata.replace('	0	1', '	0/0	1/1')
+_3Rfiledata = _3Rfiledata.replace('	0	0', '	0/0	0/0')
+_3Rfiledata = _3Rfiledata.replace('	1	1', '	1/1	1/1')
+_3Rfiledata = _3Rfiledata.replace('	1	0', '	1/1	0/0')
+_3Rfiledata = _3Rfiledata.replace('	0	1', '	0/0	1/1')
 # Write the file out again
-with open('dipzim-cos_Chr3R_0.05.vcf', 'w') as 3Rfile1:
-  3Rfile1.write(3Rfiledata)
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'w') as _3Rfile1:
+  _3Rfile1.write(_3Rfiledata)
 
 print("Ploidy of Chr3R changed.  Please wait...")
 ############################
 
 # Read in the file
-with open('dipzim-cos_Chr3R_0.05.vcf', 'r') as 3Rfile1:
-  3Rfiledata1 = 3Rfile1.read()
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'r') as _3Rfile1:
+  _3Rfiledata1 = _3Rfile1.read()
 # Replace the target string
-3Rfiledata1 = 3Rfiledata1.replace('/0/', '/')
-3Rfiledata1 = 3Rfiledata1.replace('/1/', '/')
+_3Rfiledata1 = _3Rfiledata1.replace('/0/', '/')
+_3Rfiledata1 = _3Rfiledata1.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr3R_0.05.vcf', 'w') as 3Rfile2:
-  3Rfile2.write(3Rfiledata1)
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'w') as _3Rfile2:
+  _3Rfile2.write(_3Rfiledata1)
 
 print("Corrected erroneous triploids in Chr3R.  Please wait...")
 ###########################
 
 # Read in the file
-with open('dipzim-cos_Chr3R_0.05.vcf', 'r') as 3Rfile3:
-  3Rfiledata2 = 3Rfile3.read()
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'r') as _3Rfile3:
+  _3Rfiledata2 = _3Rfile3.read()
 # Replace the target string
-3Rfiledata2 = 3Rfiledata2.replace('0' + '\n' + '3R', '0/0' + '\n' + '3R')
-3Rfiledata2 = 3Rfiledata2.replace('1' + '\n' + '3R', '1/1' + '\n' + '3R')
+_3Rfiledata2 = _3Rfiledata2.replace('0' + '\n' + '3R', '0/0' + '\n' + '3R')
+_3Rfiledata2 = _3Rfiledata2.replace('1' + '\n' + '3R', '1/1' + '\n' + '3R')
 # Write the file out again
-with open('dipzim-cos_Chr3R_0.05.vcf', 'w') as 3Rfile4:
-  3Rfile4.write(3Rfiledata2)
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'w') as _3Rfile4:
+  _3Rfile4.write(_3Rfiledata2)
 
 print("Corrected remaining haploids in Chr3R.  Please wait...")
 ###########################
 # Read in the file
-with open('dipzim-cos_Chr3R_0.05.vcf', 'r') as 3Rfile5:
-  3Rfiledata3 = 3Rfile5.read()
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'r') as _3Rfile5:
+  _3Rfiledata3 = _3Rfile5.read()
 # Replace the target string
-3Rfiledata3 = 3Rfiledata3.replace('/0/', '/')
-3Rfiledata3 = 3Rfiledata3.replace('/1/', '/')
+_3Rfiledata3 = _3Rfiledata3.replace('/0/', '/')
+_3Rfiledata3 = _3Rfiledata3.replace('/1/', '/')
 # Write the file out again
-with open('dipzim-cos_Chr3R_0.05.vcf', 'w') as 3Rfile6:
-  3Rfile6.write(3Rfiledata3)
+with open('dipzim-cos_Chr_3R_0.05.vcf', 'w') as _3Rfile6:
+  _3Rfile6.write(_3Rfiledata3)
 
 print("Corrected erroneous triploids in Chr3R.")
 print(Done!")
