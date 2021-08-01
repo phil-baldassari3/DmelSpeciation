@@ -27,3 +27,7 @@ This is a script I was using to test out making different phylogentic trees.  Th
 
 hap2dip.py --->
 This script converts my haploid vcf files to diploid by searching and replacing the data. (Example "0" replaced with "0/0")  This script works with my specific vcf files.  Yes, I know there is probably an easier way to do this, but I needed to get this done now.  This script has to serach and replace in 4 rounds.  The first round converts most of the SNP data to diploid but erronously leaves some haploid and makes some triploid.  The second round fixes the triploids.  The third round fixes the remaining haploids which is always the last data point.  The final round fixes the resulting triploid errors.
+
+fst2csv.py --->
+This script converts the vcftools fst output files to csv files so that they can be used easily in R.  It does so by replacing spaces with commas.
+
