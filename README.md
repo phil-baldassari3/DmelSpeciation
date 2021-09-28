@@ -30,3 +30,7 @@ This script converts my haploid vcf files to diploid by searching and replacing 
 
 9/13/21 --->
 added the scripts fru.R, fst_plotting.R, and zim-cos_phylo.R as a backup.
+
+seq_diff_demo.py --->
+This is a demo script for comparing sequence differences by populations by using proportional difference scores.  This is just a backup.
+
