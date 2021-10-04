@@ -34,3 +34,6 @@ added the scripts fru.R, fst_plotting.R, and zim-cos_phylo.R as a backup.
 seq_diff_demo.py --->
 This is a demo script for comparing sequence differences by populations by using proportional difference scores.  This is just a backup.
 
+seq_diff.py --->
+This is a script to compare sequence differentiation of seq (text) files.  This script loops through a directory of sequences, opens and reads each file into a dictionary.  Then through zip loops, the script compares the differences in sequences and prints a dataframe.  This is still a work in progress.
+
