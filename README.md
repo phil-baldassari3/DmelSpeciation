@@ -37,3 +37,6 @@ This is a demo script for comparing sequence differences by populations by using
 seq_diff.py --->
 This is a script to compare sequence differentiation of seq (text) files.  This script loops through a directory of sequences, opens and reads each file into a dictionary.  Then through zip loops, the script compares the differences in sequences and prints a dataframe.  This is still a work in progress.
 
+seq_diff2.py --->
+Same as seq_diff.py except all calculations are performed outside of the looping.
+
