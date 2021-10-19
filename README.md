@@ -40,3 +40,4 @@ This is a script to compare sequence differentiation of seq (text) files.  This 
 seq_diff2.py --->
 Same as seq_diff.py except all calculations are performed outside of the looping.
 
+

@@ -1,13 +1,10 @@
-#importing modules
 import os
 import itertools
 import pandas as pd
-import numpy as np
 
-#setting directory
 directory = '/Users/philipbaldassari/Desktop/zim-cos_Chr3R/'
 
-#extracting data
+#creating a dictionary for file names and sequences
 data = {}
 for file in os.listdir(directory):
     if file.endswith('.seq'):
@@ -19,12 +16,12 @@ for file in os.listdir(directory):
 
 print(data.keys())
  
-#creating data frames for each population which will be merged
+#creating data frames for each population which will be merged later after operations are performed
 
 #df for zim
-print("Making zim dataframe.  Looping through zim data.  Please wait...")
+print("Making zim dataframe.  Looping through zim data and performing calculations.  Please wait...")
 
-df_zim = pd.DataFrame(columns = ["Locus", "Acount_zim", "Tcount_zim", "Ccount_zim", "Gcount_zim"])
+df_zim = pd.DataFrame(columns = ["Locus", "Prop_tot_zim", "Aprop_zim", "Tprop_zim", "Cprop_zim", "Gprop_zim"])
 
 site_zim = 0
 
@@ -37,17 +34,31 @@ for locus in zip(data.get("ZS10"), data.get("ZS11"), data.get("ZS37"), data.get(
     Tcount_zim = locus.count("T")
     Ccount_zim = locus.count("C")
     Gcount_zim = locus.count("G")
+
+    bpcount_zim = Acount_zim + Tcount_zim + Ccount_zim + Gcount_zim
     
-    df_zim = df_zim.append({'Locus' : site_zim, 'Acount_zim' : Acount_zim, 'Tcount_zim' : Tcount_zim, 'Ccount_zim' : Ccount_zim, 'Gcount_zim' : Gcount_zim}, 
+    if bpcount_zim == 0:
+        bpcount_zim += 1
+    else:
+        bpcount_zim == bpcount_zim
+        
+    Aprop_zim = Acount_zim / bpcount_zim
+    Tprop_zim = Tcount_zim / bpcount_zim
+    Cprop_zim = Ccount_zim / bpcount_zim
+    Gprop_zim = Gcount_zim / bpcount_zim
+
+    prop_tot_zim = Aprop_zim + Tprop_zim + Cprop_zim + Gprop_zim
+    
+    df_zim = df_zim.append({'Locus' : site_zim, 'Prop_tot_zim' : prop_tot_zim,  'Aprop_zim' : Aprop_zim, 'Tprop_zim' : Tprop_zim, 'Cprop_zim' : Cprop_zim, 'Gprop_zim' : Gprop_zim}, 
                 ignore_index = True)
 
 print("Done creating zim dataframe.  Continuing...")
 
 #df for RAL
 
-print("Making RAL dataframe.  Looping through RAL data.  Please wait...")
+print("Making RAL dataframe.  Looping through zim data and performing calculations.  Please wait...")
 
-df_RAL = pd.DataFrame(columns = ["Locus", "Acount_RAL", "Tcount_RAL", "Ccount_RAL", "Gcount_RAL"])
+df_RAL = pd.DataFrame(columns = ["Locus", "Prop_tot_RAL", "Aprop_RAL", "Tprop_RAL", "Cprop_RAL", "Gprop_RAL"])
 
 site_RAL = 0
 
@@ -60,39 +71,32 @@ for locus in zip(data.get("RAL-100"), data.get("RAL-101"), data.get("RAL-105"), 
     Ccount_RAL = locus.count("C")
     Gcount_RAL = locus.count("G")
     
-    df_RAL = df_RAL.append({'Locus' : site_RAL, 'Acount_RAL' : Acount_RAL, 'Tcount_RAL' : Tcount_RAL, 'Ccount_RAL' : Ccount_RAL, 'Gcount_RAL' : Gcount_RAL}, 
+    bpcount_RAL = Acount_RAL + Tcount_RAL + Ccount_RAL + Gcount_RAL
+    
+    if bpcount_RAL == 0:
+        bpcount_RAL += 1
+    else:
+        bpcount_RAL == bpcount_RAL
+        
+    Aprop_RAL = Acount_RAL / bpcount_RAL
+    Tprop_RAL = Tcount_RAL / bpcount_RAL
+    Cprop_RAL = Ccount_RAL / bpcount_RAL
+    Gprop_RAL = Gcount_RAL / bpcount_RAL
+
+    prop_tot_RAL = Aprop_RAL + Tprop_RAL + Cprop_RAL + Gprop_RAL
+    
+    df_RAL = df_RAL.append({'Locus' : site_RAL , 'Prop_tot_RAL' : prop_tot_RAL, 'Aprop_RAL' : Aprop_RAL, 'Tprop_RAL' : Tprop_RAL, 'Cprop_RAL' : Cprop_RAL, 'Gprop_RAL' : Gprop_RAL}, 
                 ignore_index = True)
 
 print("Done creating RAL dataframe.  Continuing...")
 
+(
+#combining the dataframes to perform difference score calculations. Merges based on locus
 
-#merge on locus (all loci present)
-
-print("Merging dataframes based on locus. (All loci present.)")
+print("Merging dataframes bases on locus.  Please wait for difference score calculations to be performed...")
 
 combined = pd.merge(df_zim, df_RAL, on='Locus')
 
-#Calculations
-
-#bp counts
-combined['bpcount_zim'] = combined['Acount_zim'] + combined['Tcount_zim'] + combined['Ccount_zim'] + combined['Gcount_zim']
-combined['bpcount_RAL'] = combined['Acount_RAL'] + combined['Tcount_RAL'] + combined['Ccount_RAL'] + combined['Gcount_RAL']
-#replace bpcounts of zero with NaN
-combined['bpcount_zim'] = combined['bpcount_zim'].replace([0], np.nan)
-combined['bpcount_RAL'] = combined['bpcount_RAL'].replace([0], np.nan)
-
-#divisions
-combined['Aprop_zim'] = combined['Acount_zim']/combined['bpcount_zim']
-combined['Tprop_zim'] = combined['Tcount_zim']/combined['bpcount_zim']
-combined['Cprop_zim'] = combined['Ccount_zim']/combined['bpcount_zim']
-combined['Gprop_zim'] = combined['Gcount_zim']/combined['bpcount_zim']
-
-combined['Aprop_RAL'] = combined['Acount_RAL']/combined['bpcount_RAL']
-combined['Tprop_RAL'] = combined['Tcount_RAL']/combined['bpcount_RAL']
-combined['Cprop_RAL'] = combined['Ccount_RAL']/combined['bpcount_RAL']
-combined['Gprop_RAL'] = combined['Gcount_RAL']/combined['bpcount_RAL']
-
-#difference scoring
 combined['Adiff'] = abs(combined['Aprop_zim'] - combined['Aprop_RAL'])
 combined['Tdiff'] = abs(combined['Tprop_zim'] - combined['Tprop_RAL'])
 combined['Cdiff'] = abs(combined['Cprop_zim'] - combined['Cprop_RAL'])
@@ -100,13 +104,17 @@ combined['Gdiff'] = abs(combined['Gprop_zim'] - combined['Gprop_RAL'])
 
 combined['diff_score'] = combined[["Adiff","Tdiff","Cdiff","Gdiff"]].max(axis=1)
 
-#filter out monomorphic and missing sites
-filtered = combined[combined['diff_score'].notna() & combined.diff_score != 0]
+nomissing_zim = combined[combined.Prop_tot_zim !=0]
+nomissing_RAL = nomissing_zim[nomissing_zim.Prop_tot_RAL !=0]
+
+#filtering put all sites with difference score of zero meaning monomorphic site
+
+print("Filtering out monomorphic sites.  Please wait...")
+
+filtered = nomissing_RAL[nomissing_RAL.diff_score !=0]
+
 
 print("Done!")
 
 print(filtered)
-
-filtered.to_csv('seq_diff_fru.csv', index=False)
-
 
