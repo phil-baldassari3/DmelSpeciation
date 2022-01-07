@@ -1,11 +1,8 @@
 #3rd iteration of the python based SNP calling tool.  Goal is to make an alignment dataframe and filter out the monomorphic sites.
 
 #importing modules
-import os
 import pandas as pd
 import numpy as np
-import sys
-import itertools
 
 #setting directory
 directory = "/Users/philipbaldassari/desktop/seq_diff_test/"
@@ -64,5 +61,13 @@ aln['MajorAF'] = aln[["Aprop","Tprop","Cprop","Gprop"]].max(axis=1)
 #getting rid of monomorphic sites
 aln = aln[aln.MajorAF !=1]
 
+
+aln.loc[aln['Acount'] == 1] = aln.replace('A', np.nan)
+aln.loc[aln['Tcount'] == 1] = aln.replace('T', np.nan)
+aln.loc[aln['Ccount'] == 1] = aln.replace('C', np.nan)
+aln.loc[aln['Gcount'] == 1] = aln.replace('G', np.nan)
+
+
 #saving as csv
-aln.to_csv('SNPs_called_test.csv', index=False)
+aln.to_csv('SNPs_called_no_singletons.csv', index=False)
+
