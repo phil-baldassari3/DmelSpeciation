@@ -7,6 +7,8 @@ import numpy as np
 #setting directory
 directory = "/Users/philipbaldassari/desktop/seq_diff_test/"
 
+print('reading fasta alignment file into python dictionary...')
+
 #opening fasta and converting to dictionary
 with open("aln_test.fa") as file_one:
     fasta = {line.strip(">\n"):next(file_one).rstrip() for line in file_one}
@@ -14,17 +16,21 @@ with open("aln_test.fa") as file_one:
 #converting values in dictionary to list
     for k, v in fasta.items():
             fasta[k] = list(v)
-    
+ 
+print('done...continuing')
+print('making dataframe from dictionary...')
+
 #making dataframe from dictionary
 aln = pd.DataFrame.from_dict(fasta)
 
 #Replace N with NaN
 aln = aln.replace('N', np.nan)
 
-
-
 #Add Locus column
 aln.insert(0, "Locus", aln.index + 1)
+
+print('done...continuing')
+print('counting alleles...')
 
 #new dataframe for bp counts
 counts = pd.DataFrame(columns = ["Acount", "Tcount", "Ccount", "Gcount"])
@@ -43,6 +49,9 @@ for row in aln.itertuples():
 #merging counts to aln dataframe by index
 aln = pd.merge(aln, counts, left_index=True, right_index=True)
 
+print('done...continuing')
+print('estimating allele frequecies at each site...')
+
 #summing for total bp count
 aln["bpcount"] = aln['Acount'] + aln['Tcount'] + aln['Ccount'] + aln['Gcount']
 
@@ -58,16 +67,16 @@ aln['Gprop'] = aln['Gcount']/aln['bpcount']
 #Major allele Frequency
 aln['MajorAF'] = aln[["Aprop","Tprop","Cprop","Gprop"]].max(axis=1)
 
+print('done...continuing')
+print('getting rid of monomorphic sites...')
+
 #getting rid of monomorphic sites
 aln = aln[aln.MajorAF !=1]
 
-
-aln.loc[aln['Acount'] == 1] = aln.replace('A', np.nan)
-aln.loc[aln['Tcount'] == 1] = aln.replace('T', np.nan)
-aln.loc[aln['Ccount'] == 1] = aln.replace('C', np.nan)
-aln.loc[aln['Gcount'] == 1] = aln.replace('G', np.nan)
-
+print('done...finalizing')
 
 #saving as csv
-aln.to_csv('SNPs_called_no_singletons.csv', index=False)
+aln.to_csv('SNPs_called.csv', index=False)
+
+print('Process complete! A files has been saved to this directory named "SNPs_called.csv"')
 
