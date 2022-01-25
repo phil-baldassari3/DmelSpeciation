@@ -16,12 +16,16 @@ with open("aln_test.fa") as file_one:
 #converting values in dictionary to list
     for k, v in fasta.items():
             fasta[k] = list(v)
+
+del file_one
  
 print('done...continuing')
 print('making dataframe from dictionary...')
 
 #making dataframe from dictionary
 aln = pd.DataFrame.from_dict(fasta)
+
+del fasta
 
 #Replace N with NaN
 aln = aln.replace('N', np.nan)
@@ -49,6 +53,8 @@ for row in aln.itertuples():
 #merging counts to aln dataframe by index
 aln = pd.merge(aln, counts, left_index=True, right_index=True)
 
+del counts
+
 print('done...continuing')
 print('estimating allele frequecies at each site...')
 
@@ -75,8 +81,12 @@ aln = aln[aln.MajorAF !=1]
 
 print('done...finalizing')
 
+print(aln)
+
+'''
 #saving as csv
 aln.to_csv('SNPs_called.csv', index=False)
 
 print('Process complete! A files has been saved to this directory named "SNPs_called.csv"')
+'''
 
