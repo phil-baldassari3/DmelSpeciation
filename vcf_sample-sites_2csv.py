@@ -37,7 +37,7 @@ def vcf_ChrX_csv():
 		missing.append(record_str.count("./."))
 		
 	#making dataframe from dictionary
-	dictionary = {"#CHROM": chrom, "#POS": pos, "Major Allele Count": major, "Minor Allele Count": minor, "Missing Sample Count": missing}
+	dictionary = {"#CHROM": chrom, "#POS": pos, "Major_Allele_Count": major, "Minor_Allele_Count": minor, "Missing_Sample_Count": missing}
 	
 	df = pd.DataFrame(dictionary)
 	

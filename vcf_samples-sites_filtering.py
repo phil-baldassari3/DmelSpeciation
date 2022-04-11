@@ -6,26 +6,17 @@ import pandas as pd
 from multiprocessing import Process
 
 def filtrationX():
-    print("finding quality sites and filtering maf 5% for ChrX")
+    print("filtering out singletons in ChrX")
 
     #open dataframe
     df = pd.read_csv("vcf_ChrX_samples-sites.csv")
 
-    #estimating maf and sample coverage
-    df["Total Allele"] = df["Major Allele Count"] + df["Minor Allele Count"]
-
-    df["maf"] = df["Minor Allele Count"]/df["Total Allele"]
-
-    df["Sample_Coverage"] = df["Total Allele"]/(df["Total Allele"] + df["Missing Sample Count"])
-
-    #remvoing sites with >45% coverage
-    df = df[df.Sample_Coverage >=0.45]
-
-    #maf 5%
-    df = df[df.maf >=0.05]
+    #remove singletons
+    df = df[df.Major_Allele_Count !=1]
+    df = df[df.Minor_Allele_Count !=1]
 
     #making filtration file
-    df = df.drop(['Major Allele Count', 'Minor Allele Count', 'Missing Sample Count', 'Total Allele', 'maf', 'Sample_Coverage'], axis=1)
+    df = df.drop(['Major_Allele_Count', 'Minor_Allele_Count', 'Missing_Sample_Count'], axis=1)
 
     df.to_csv('vcf_ChrX_sites-filtration.txt', sep="\t", index=False)
 
@@ -33,26 +24,17 @@ def filtrationX():
 
 
 def filtration2L():
-    print("finding quality sites and filtering maf 5% for Chr2L")
+    print("filtering out singletons in Chr2L")
 
     #open dataframe
     df = pd.read_csv("vcf_Chr2L_samples-sites.csv")
 
-    #estimating maf and sample coverage
-    df["Total Allele"] = df["Major Allele Count"] + df["Minor Allele Count"]
-
-    df["maf"] = df["Minor Allele Count"]/df["Total Allele"]
-
-    df["Sample_Coverage"] = df["Total Allele"]/(df["Total Allele"] + df["Missing Sample Count"])
-
-    #remvoing sites with >45% coverage
-    df = df[df.Sample_Coverage >=0.45]
-
-    #maf 5%
-    df = df[df.maf >=0.05]
+    #remove singletons
+    df = df[df.Major_Allele_Count !=1]
+    df = df[df.Minor_Allele_Count !=1]
 
     #making filtration file
-    df = df.drop(['Major Allele Count', 'Minor Allele Count', 'Missing Sample Count', 'Total Allele', 'maf', 'Sample_Coverage'], axis=1)
+    df = df.drop(['Major_Allele_Count', 'Minor_Allele_Count', 'Missing_Sample_Count'], axis=1)
 
     df.to_csv('vcf_Chr2L_sites-filtration.txt', sep="\t", index=False)
 
@@ -60,26 +42,17 @@ def filtration2L():
 
 
 def filtration2R():
-    print("finding quality sites and filtering maf 5% for Chr2R")
+    print("filtering out singletons in Chr2R")
 
     #open dataframe
     df = pd.read_csv("vcf_Chr2R_samples-sites.csv")
 
-    #estimating maf and sample coverage
-    df["Total Allele"] = df["Major Allele Count"] + df["Minor Allele Count"]
-
-    df["maf"] = df["Minor Allele Count"]/df["Total Allele"]
-
-    df["Sample_Coverage"] = df["Total Allele"]/(df["Total Allele"] + df["Missing Sample Count"])
-
-    #remvoing sites with >45% coverage
-    df = df[df.Sample_Coverage >=0.45]
-
-    #maf 5%
-    df = df[df.maf >=0.05]
+    #remove singletons
+    df = df[df.Major_Allele_Count !=1]
+    df = df[df.Minor_Allele_Count !=1]
 
     #making filtration file
-    df = df.drop(['Major Allele Count', 'Minor Allele Count', 'Missing Sample Count', 'Total Allele', 'maf', 'Sample_Coverage'], axis=1)
+    df = df.drop(['Major_Allele_Count', 'Minor_Allele_Count', 'Missing_Sample_Count'], axis=1)
 
     df.to_csv('vcf_Chr2R_sites-filtration.txt', sep="\t", index=False)
 
@@ -87,26 +60,17 @@ def filtration2R():
 
 
 def filtration3L():
-    print("finding quality sites and filtering maf 5% for Chr3L")
+    print("ffiltering out singletons in Chr3L")
 
     #open dataframe
     df = pd.read_csv("vcf_Chr3L_samples-sites.csv")
 
-    #estimating maf and sample coverage
-    df["Total Allele"] = df["Major Allele Count"] + df["Minor Allele Count"]
-
-    df["maf"] = df["Minor Allele Count"]/df["Total Allele"]
-
-    df["Sample_Coverage"] = df["Total Allele"]/(df["Total Allele"] + df["Missing Sample Count"])
-
-    #remvoing sites with >45% coverage
-    df = df[df.Sample_Coverage >=0.45]
-
-    #maf 5%
-    df = df[df.maf >=0.05]
+    #remove singletons
+    df = df[df.Major_Allele_Count !=1]
+    df = df[df.Minor_Allele_Count !=1]
 
     #making filtration file
-    df = df.drop(['Major Allele Count', 'Minor Allele Count', 'Missing Sample Count', 'Total Allele', 'maf', 'Sample_Coverage'], axis=1)
+    df = df.drop(['Major_Allele_Count', 'Minor_Allele_Count', 'Missing_Sample_Count'], axis=1)
 
     df.to_csv('vcf_Chr3L_sites-filtration.txt', sep="\t", index=False)
 
@@ -114,26 +78,17 @@ def filtration3L():
 
 
 def filtration3R():
-    print("finding quality sites and filtering maf 5% for Chr3R")
+    print("filtering out singletons in Chr3R")
 
     #open dataframe
     df = pd.read_csv("vcf_Chr3R_samples-sites.csv")
 
-    #estimating maf and sample coverage
-    df["Total Allele"] = df["Major Allele Count"] + df["Minor Allele Count"]
-
-    df["maf"] = df["Minor Allele Count"]/df["Total Allele"]
-
-    df["Sample_Coverage"] = df["Total Allele"]/(df["Total Allele"] + df["Missing Sample Count"])
-
-    #remvoing sites with >45% coverage
-    df = df[df.Sample_Coverage >=0.45]
-
-    #maf 5%
-    df = df[df.maf >=0.05]
+    #remove singletons
+    df = df[df.Major_Allele_Count !=1]
+    df = df[df.Minor_Allele_Count !=1]
 
     #making filtration file
-    df = df.drop(['Major Allele Count', 'Minor Allele Count', 'Missing Sample Count', 'Total Allele', 'maf', 'Sample_Coverage'], axis=1)
+    df = df.drop(['Major_Allele_Count', 'Minor_Allele_Count', 'Missing_Sample_Count'], axis=1)
 
     df.to_csv('vcf_Chr3R_sites-filtration.txt', sep="\t", index=False)
 
