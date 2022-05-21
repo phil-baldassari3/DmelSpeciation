@@ -77,11 +77,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         FR_row = row_list[0:87]
-        FR_row.append('X')
-        no_N_FR_row = FR_row.remove('N')
+        no_N_FR_row = [value for value in FR_row if value != 'N']
         random_FR_row = random.sample(no_N_FR_row, len(no_N_FR_row))
-        random_FR_row.append('Y')
-        random_FR_row.remove('X')
         downsample_FR = random_FR_row[0:FR_n]
 
         #sample size
@@ -105,11 +102,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         RAL_row = row_list[87:292]
-        RAL_row.append('X')
-        no_N_RAL_row = RAL_row.remove('N')
+        no_N_RAL_row = [value for value in RAL_row if value != 'N']
         random_RAL_row = random.sample(no_N_RAL_row, len(no_N_RAL_row))
-        random_RAL_row.append('Y')
-        random_RAL_row.remove('X')
         downsample_RAL = random_RAL_row[0:RAL_n]
 
         #sample size
@@ -133,11 +127,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         SAfr_row = row_list[292:405]
-        SAfr_row.append('X')
-        no_N_SAfr_row = SAfr_row.remove('N')
+        no_N_SAfr_row = [value for value in SAfr_row if value != 'N']
         random_SAfr_row = random.sample(no_N_SAfr_row, len(no_N_SAfr_row))
-        random_SAfr_row.append('Y')
-        random_SAfr_row.remove('X')
         downsample_SAfr = random_SAfr_row[0:SAfr_n]
 
         #sample size
@@ -161,11 +152,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         ZI_row = row_list[409:605]
-        ZI_row.append('X')
-        no_N_ZI_row = ZI_row.remove('N')
+        no_N_ZI_row = [value for value in ZI_row if value != 'N']
         random_ZI_row = random.sample(no_N_ZI_row, len(no_N_ZI_row))
-        random_ZI_row.append('Y')
-        random_ZI_row.remove('X')
         downsample_ZI = random_ZI_row[0:ZI_n]
 
         #sample size
@@ -189,11 +177,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         ZH_row = row_list[405:409]
-        ZH_row.append('X')
-        no_N_ZH_row = ZH_row.remove('N')
+        no_N_ZH_row = [value for value in ZH_row if value != 'N']
         random_ZH_row = random.sample(no_N_ZH_row, len(no_N_ZH_row))
-        random_ZH_row.append('Y')
-        random_ZH_row.remove('X')
         downsample_ZH = random_ZH_row[0:ZH_n]
 
         #sample size
@@ -217,11 +202,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         ZW_row = row_list[610:619]
-        ZW_row.append('X')
-        no_N_ZW_row = ZW_row.remove('N')
+        no_N_ZW_row = [value for value in ZW_row if value != 'N']
         random_ZW_row = random.sample(no_N_ZW_row, len(no_N_ZW_row))
-        random_ZW_row.append('Y')
-        random_ZW_row.remove('X')
         downsample_ZW = random_ZW_row[0:ZW_n]
 
         #sample size
@@ -245,11 +227,8 @@ def snp_csv_downsample(infile):
 
         #list downsampling
         ZS_row = row_list[605:610]
-        ZS_row.append('X')
-        no_N_ZS_row = ZS_row.remove('N')
+        no_N_ZS_row = [value for value in ZS_row if value != 'N']
         random_ZS_row = random.sample(no_N_ZS_row, len(no_N_ZS_row))
-        random_ZS_row.append('Y')
-        random_ZS_row.remove('X')
         downsample_ZS = random_ZS_row[0:ZS_n]
 
         #sample size
