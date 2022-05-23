@@ -68,8 +68,22 @@ def snp_csv_downsample(infile):
     #loop through rows
     for row in df.itertuples():
 
-        #tuple to list
+        #tuple to list and counts
         row_list = list(row)
+
+        Acount = row_list.count("A") 
+        Tcount = row_list.count("T")
+        Ccount = row_list.count("C")
+        Gcount = row_list.count("G")
+
+        if Acount >= Tcount and Acount >= Ccount and Acount >= Gcount:
+            major_allele = "A"
+        elif Tcount >= Acount and Tcount >= Ccount and Tcount >= Gcount:
+            major_allele = "T"
+        elif Ccount >= Acount and Ccount >= Tcount and Ccount >= Gcount:
+            major_allele = "C"
+        elif Gcount >= Acount and Gcount >= Tcount and Gcount >= Ccount:
+            major_allele = "G"
 
         ###list for each population
 
@@ -84,15 +98,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_FR = len(downsample_FR)
 
-        #count alleles, maf
-        Acount_FR = downsample_FR.count("A")
-        Tcount_FR = downsample_FR.count("T")
-        Ccount_FR = downsample_FR.count("C")
-        Gcount_FR = downsample_FR.count("G")
-
-        count_list = [Acount_FR, Tcount_FR, Ccount_FR, Gcount_FR]
-
-        freq_FR = 1 - (max(count_list) / bpcount_FR)
+        #maf
+        if bpcount_FR == 0:
+            freq_FR = np.nan
+        else:
+            freq_FR = 1 - (downsample_FR.count(major_allele) / bpcount_FR)
 
         #appending
         n_FR.append(bpcount_FR)
@@ -109,15 +119,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_RAL = len(downsample_RAL)
 
-        #count alleles, maf
-        Acount_RAL = downsample_RAL.count("A")
-        Tcount_RAL = downsample_RAL.count("T")
-        Ccount_RAL = downsample_RAL.count("C")
-        Gcount_RAL = downsample_RAL.count("G")
-
-        count_list = [Acount_RAL, Tcount_RAL, Ccount_RAL, Gcount_RAL]
-
-        freq_RAL = 1 - (max(count_list) / bpcount_RAL)
+        #maf
+        if bpcount_RAL == 0:
+            freq_RAL = np.nan
+        else:
+            freq_RAL = 1 - (downsample_RAL.count(major_allele) / bpcount_RAL)
 
         #appending
         n_RAL.append(bpcount_RAL)
@@ -134,15 +140,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_SAfr = len(downsample_SAfr)
 
-        #count alleles, maf
-        Acount_SAfr = downsample_SAfr.count("A")
-        Tcount_SAfr = downsample_SAfr.count("T")
-        Ccount_SAfr = downsample_SAfr.count("C")
-        Gcount_SAfr = downsample_SAfr.count("G")
-
-        count_list = [Acount_SAfr, Tcount_SAfr, Ccount_SAfr, Gcount_SAfr]
-
-        freq_SAfr = 1 - (max(count_list) / bpcount_SAfr)
+        #maf
+        if bpcount_SAfr == 0:
+            freq_SAfr = np.nan
+        else:
+            freq_SAfr = 1 - (downsample_SAfr.count(major_allele) / bpcount_SAfr)
 
         #appending
         n_SAfr.append(bpcount_SAfr)
@@ -159,15 +161,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_ZI = len(downsample_ZI)
 
-        #count alleles, maf
-        Acount_ZI = downsample_ZI.count("A")
-        Tcount_ZI = downsample_ZI.count("T")
-        Ccount_ZI = downsample_ZI.count("C")
-        Gcount_ZI = downsample_ZI.count("G")
-
-        count_list = [Acount_ZI, Tcount_ZI, Ccount_ZI, Gcount_ZI]
-
-        freq_ZI = 1 - (max(count_list) / bpcount_ZI)
+        #maf
+        if bpcount_ZI == 0:
+            freq_ZI = np.nan
+        else:
+            freq_ZI = 1 - (downsample_ZI.count(major_allele) / bpcount_ZI)
 
         #appending
         n_ZI.append(bpcount_ZI)
@@ -184,15 +182,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_ZH = len(downsample_ZH)
 
-        #count alleles, maf
-        Acount_ZH = downsample_ZH.count("A")
-        Tcount_ZH = downsample_ZH.count("T")
-        Ccount_ZH = downsample_ZH.count("C")
-        Gcount_ZH = downsample_ZH.count("G")
-
-        count_list = [Acount_ZH, Tcount_ZH, Ccount_ZH, Gcount_ZH]
-
-        freq_ZH = 1 - (max(count_list) / bpcount_ZH)
+        #maf
+        if bpcount_ZH == 0:
+            freq_ZH = np.nan
+        else:
+            freq_ZH = 1 - (downsample_ZH.count(major_allele) / bpcount_ZH)
 
         #appending
         n_ZH.append(bpcount_ZH)
@@ -209,15 +203,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_ZW = len(downsample_ZW)
 
-        #count alleles, maf
-        Acount_ZW = downsample_ZW.count("A")
-        Tcount_ZW = downsample_ZW.count("T")
-        Ccount_ZW = downsample_ZW.count("C")
-        Gcount_ZW = downsample_ZW.count("G")
-
-        count_list = [Acount_ZW, Tcount_ZW, Ccount_ZW, Gcount_ZW]
-
-        freq_ZW = 1 - (max(count_list) / bpcount_ZW)
+        #maf
+        if bpcount_ZW == 0:
+            freq_ZW = np.nan
+        else:
+            freq_ZW = 1 - (downsample_ZW.count(major_allele) / bpcount_ZW)
 
         #appending
         n_ZW.append(bpcount_ZW)
@@ -234,15 +224,11 @@ def snp_csv_downsample(infile):
         #sample size
         bpcount_ZS = len(downsample_ZS)
 
-        #count alleles, maf
-        Acount_ZS = downsample_ZS.count("A")
-        Tcount_ZS = downsample_ZS.count("T")
-        Ccount_ZS = downsample_ZS.count("C")
-        Gcount_ZS = downsample_ZS.count("G")
-
-        count_list = [Acount_ZS, Tcount_ZS, Ccount_ZS, Gcount_ZS]
-
-        freq_ZS = 1 - (max(count_list) / bpcount_ZS)
+        #maf
+        if bpcount_ZS == 0:
+            freq_ZS = np.nan
+        else:
+            freq_ZS = 1 - (downsample_ZS.count(major_allele) / bpcount_ZS)
 
         #appending
         n_ZS.append(bpcount_ZS)
