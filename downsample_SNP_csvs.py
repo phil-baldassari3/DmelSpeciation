@@ -36,6 +36,9 @@ ZS_n = 4
 def snp_csv_downsample(infile):
 
     print('starting process for ' + infile)
+
+    #set Chrom
+    chrom = 'Chr'
     
     #lists
     n_FR = []
@@ -56,7 +59,7 @@ def snp_csv_downsample(infile):
     #open dataframe
     loci = pd.read_csv(infile)
     #locus dataframe
-    loci = loci.drop(loci.columns.difference(['Locus']), axis=1, inplace=True)
+    loci.drop(loci.columns.difference(['Locus']), axis=1, inplace=True)
 
     #open dataframe
     df = pd.read_csv(infile)
@@ -241,6 +244,16 @@ def snp_csv_downsample(infile):
 
     #merge dataframes
     n_freq_df = pd.merge(loci, data_df, left_index=True, right_index=True)
+
+    #adding chrom column
+    n_freq_df.insert(0, 'Chrom', chrom)
+
+    #zim composite populations
+    n_freq_df['n_ZH_ZW'] = n_freq_df['n_ZH'] + n_freq_df['n_ZW']
+    n_freq_df['maf_ZH_ZW'] = ((n_freq_df['maf_ZH'] * n_freq_df['n_ZH']) + (n_freq_df['maf_ZW'] * n_freq_df['n_ZW'])) / n_freq_df['n_ZH_ZW']
+    n_freq_df['n_zim'] = n_freq_df['n_ZH'] + n_freq_df['n_ZW'] + n_freq_df['n_ZS']
+    n_freq_df['maf_zim'] = ((n_freq_df['maf_ZH'] * n_freq_df['n_ZH']) + (n_freq_df['maf_ZW'] * n_freq_df['n_ZW']) * (n_freq_df['maf_ZS'] * n_freq_df['n_ZS'])) / n_freq_df['n_zim']
+
 
     print('new dataframe made for ' + infile)
 
