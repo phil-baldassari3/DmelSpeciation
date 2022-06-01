@@ -63,8 +63,6 @@ def snp_csv_downsample(infile):
 
     #open dataframe
     df = pd.read_csv(infile)
-    #sequence dataframe
-    df = df.drop(['Locus', 'Acount', 'Tcount', 'Ccount', 'Gcount', 'bpcount', 'Aprop', 'Tprop', 'Cprop', 'Gprop', 'MajorAF'], axis=1)
 
     print('looping through rows and downsampling by population for ' + infile)
 
@@ -93,7 +91,7 @@ def snp_csv_downsample(infile):
         ##FR
 
         #list downsampling
-        FR_row = row_list[0:87]
+        FR_row = row_list[1:88]
         no_N_FR_row = [value for value in FR_row if value != 'N']
         random_FR_row = random.sample(no_N_FR_row, len(no_N_FR_row))
         downsample_FR = random_FR_row[0:FR_n]
@@ -114,7 +112,7 @@ def snp_csv_downsample(infile):
         ##RAL
 
         #list downsampling
-        RAL_row = row_list[87:292]
+        RAL_row = row_list[88:293]
         no_N_RAL_row = [value for value in RAL_row if value != 'N']
         random_RAL_row = random.sample(no_N_RAL_row, len(no_N_RAL_row))
         downsample_RAL = random_RAL_row[0:RAL_n]
@@ -135,7 +133,7 @@ def snp_csv_downsample(infile):
         ##SAfr
 
         #list downsampling
-        SAfr_row = row_list[292:405]
+        SAfr_row = row_list[293:406]
         no_N_SAfr_row = [value for value in SAfr_row if value != 'N']
         random_SAfr_row = random.sample(no_N_SAfr_row, len(no_N_SAfr_row))
         downsample_SAfr = random_SAfr_row[0:SAfr_n]
@@ -156,7 +154,7 @@ def snp_csv_downsample(infile):
         ##ZI
 
         #list downsampling
-        ZI_row = row_list[409:605]
+        ZI_row = row_list[410:606]
         no_N_ZI_row = [value for value in ZI_row if value != 'N']
         random_ZI_row = random.sample(no_N_ZI_row, len(no_N_ZI_row))
         downsample_ZI = random_ZI_row[0:ZI_n]
@@ -177,7 +175,7 @@ def snp_csv_downsample(infile):
         ##ZH
 
         #list downsampling
-        ZH_row = row_list[405:409]
+        ZH_row = row_list[406:410]
         no_N_ZH_row = [value for value in ZH_row if value != 'N']
         random_ZH_row = random.sample(no_N_ZH_row, len(no_N_ZH_row))
         downsample_ZH = random_ZH_row[0:ZH_n]
@@ -198,7 +196,7 @@ def snp_csv_downsample(infile):
         ##ZW
 
         #list downsampling
-        ZW_row = row_list[610:619]
+        ZW_row = row_list[611:620]
         no_N_ZW_row = [value for value in ZW_row if value != 'N']
         random_ZW_row = random.sample(no_N_ZW_row, len(no_N_ZW_row))
         downsample_ZW = random_ZW_row[0:ZW_n]
@@ -219,7 +217,7 @@ def snp_csv_downsample(infile):
         ##ZS
 
         #list downsampling
-        ZS_row = row_list[605:610]
+        ZS_row = row_list[606:611]
         no_N_ZS_row = [value for value in ZS_row if value != 'N']
         random_ZS_row = random.sample(no_N_ZS_row, len(no_N_ZS_row))
         downsample_ZS = random_ZS_row[0:ZS_n]
