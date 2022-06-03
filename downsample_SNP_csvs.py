@@ -67,7 +67,7 @@ def snp_csv_downsample(infile):
     print('looping through rows and downsampling by population for ' + infile)
 
     #finding the major allele
-    conditions  = [(df[Acount] >= df[Tcount]) & (df[Acount] >= df[Ccount]) & (df[Acount] >= df[Gcount]), (df[Tcount] >= df[Acount]) & (df[Tcount] >= df[Ccount]) & (df[Tcount] >= df[Gcount]), (df[Ccount] >= df[Acount]) & (df[Ccount] >= df[Tcount]) & (df[Ccount] >= df[Gcount]), (df[Gcount] >= df[Acount]) & (df[Gcount] >= df[Tcount]) & (df[Gcount] >= df[Ccount]),]
+    conditions  = [(df['Acount'] >= df['Tcount']) & (df['Acount'] >= df['Ccount']) & (df['Acount'] >= df['Gcount']), (df['Tcount'] >= df['Acount']) & (df['Tcount'] >= df['Ccount']) & (df['Tcount'] >= df['Gcount']), (df['Ccount'] >= df['Acount']) & (df['Ccount'] >= df['Tcount']) & (df['Ccount'] >= df['Gcount']), (df['Gcount'] >= df['Acount']) & (df['Gcount'] >= df['Tcount']) & (df['Gcount'] >= df['Ccount'])]
     choices     = ['adenine', 'thymine', 'cytosine', 'guanine']
     
     df["Major_allele"] = np.select(conditions, choices, default=np.nan)
@@ -91,18 +91,8 @@ def snp_csv_downsample(infile):
         elif 'guanine' in FR_row_list:
             major_allele = "G"
 
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
-
         #list downsampling
-        no_N_FR_row = [value for value in FR_row_list if value != 'N']
+        no_N_FR_row = [value for value in FR_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]  # new_list = [value for value in list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_FR_row = random.sample(no_N_FR_row, len(no_N_FR_row))
         downsample_FR = random_FR_row[0:FR_n]
 
@@ -135,19 +125,9 @@ def snp_csv_downsample(infile):
             major_allele = "C"
         elif 'guanine' in RAL_row_list:
             major_allele = "G"
-
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
         
         #list downsampling
-        no_N_RAL_row = [value for value in RAL_row_list if value != 'N']
+        no_N_RAL_row = [value for value in RAL_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_RAL_row = random.sample(no_N_RAL_row, len(no_N_RAL_row))
         downsample_RAL = random_RAL_row[0:RAL_n]
 
@@ -180,19 +160,9 @@ def snp_csv_downsample(infile):
             major_allele = "C"
         elif 'guanine' in SAfr_row_list:
             major_allele = "G"
-
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
         
         #list downsampling
-        no_N_SAfr_row = [value for value in SAfr_row_list if value != 'N']
+        no_N_SAfr_row = [value for value in SAfr_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_SAfr_row = random.sample(no_N_SAfr_row, len(no_N_SAfr_row))
         downsample_SAfr = random_SAfr_row[0:SAfr_n]
 
@@ -226,18 +196,8 @@ def snp_csv_downsample(infile):
         elif 'guanine' in ZI_row_list:
             major_allele = "G"
 
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
-
         #list downsampling
-        no_N_ZI_row = [value for value in ZI_row_list if value != 'N']
+        no_N_ZI_row = [value for value in ZI_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_ZI_row = random.sample(no_N_ZI_row, len(no_N_ZI_row))
         downsample_ZI = random_ZI_row[0:ZI_n]
 
@@ -271,18 +231,8 @@ def snp_csv_downsample(infile):
         elif 'guanine' in ZH_row_list:
             major_allele = "G"
 
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
-
         #list downsampling
-        no_N_ZH_row = [value for value in ZH_row_list if value != 'N']
+        no_N_ZH_row = [value for value in ZH_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_ZH_row = random.sample(no_N_ZH_row, len(no_N_ZH_row))
         downsample_ZH = random_ZH_row[0:ZH_n]
 
@@ -316,18 +266,8 @@ def snp_csv_downsample(infile):
         elif 'guanine' in ZW_row_list:
             major_allele = "G"
 
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
-
         #list downsampling
-        no_N_ZW_row = [value for value in ZW_row_list if value != 'N']
+        no_N_ZW_row = [value for value in ZW_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_ZW_row = random.sample(no_N_ZW_row, len(no_N_ZW_row))
         downsample_ZW = random_ZW_row[0:ZW_n]
 
@@ -361,18 +301,8 @@ def snp_csv_downsample(infile):
         elif 'guanine' in ZS_row_list:
             major_allele = "G"
 
-        #removing the Major allele from list
-        if major_allele == "A":
-            FR_row_list.remove('adenine')
-        elif major_allele == "T":
-            FR_row_list.remove('thymine')
-        elif major_allele == "C":
-            FR_row_list.remove('cytosine')
-        elif major_allele == "G":
-            FR_row_list.remove('guanine')
-
         #list downsampling
-        no_N_ZS_row = [value for value in ZS_row_list if value != 'N']
+        no_N_ZS_row = [value for value in ZS_row_list if (value == 'A') | (value == 'T') | (value =='C') | (value =='G')]
         random_ZS_row = random.sample(no_N_ZS_row, len(no_N_ZS_row))
         downsample_ZS = random_ZS_row[0:ZS_n]
 
