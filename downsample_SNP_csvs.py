@@ -26,9 +26,9 @@ print(file_list)
 
 #defining downsampled n for each pop
 FR_n = 20
-RAL_n = 100
+RAL_n = 10
 SAfr_n = 20
-ZI_n = 100
+ZI_n = 10
 ZH_n = 3
 ZW_n = 4
 ZS_n = 4
@@ -98,7 +98,7 @@ def snp_csv_downsample(infile):
         bpcount_FR_avg = []
         freq_FR_avg = []
 
-        for i in range(1000):
+        for i in range(10):
         
             random_FR_row = random.sample(no_N_FR_row, len(no_N_FR_row))
             downsample_FR = random_FR_row[0:FR_n]
@@ -113,15 +113,15 @@ def snp_csv_downsample(infile):
                 freq_FR = 1 - (downsample_FR.count(major_allele) / bpcount_FR)
 
             #appending
-            random_FR_row.append(bpcount_FR)
-            downsample_FR.append(freq_FR)
+            bpcount_FR_avg.append(bpcount_FR)
+            freq_FR_avg.append(freq_FR)
 
         #appending
         n_FR.append(mean(bpcount_FR_avg))
         maf_FR.append(mean(freq_FR_avg))
 
     ##RAL
-    RAL_df = df.filter(["RAL-100", "RAL-101", "RAL-105", "RAL-109", "RAL-129", "RAL-136", "RAL-138", "RAL-142", "RAL-149", "RAL-153", "RAL-158", "RAL-161", "RAL-176", "RAL-177", "RAL-181", "RAL-189", "RAL-195", "RAL-208", "RAL-217", "RAL-21", "RAL-223", "RAL-227", "RAL-228", "RAL-229", "RAL-233", "RAL-235", "RAL-237", "RAL-239", "RAL-256", "RAL-26", "RAL-280", "RAL-287", "RAL-28", "RAL-301", "RAL-303", "RAL-304", "RAL-306", "RAL-307", "RAL-309", "RAL-310", "RAL-313", "RAL-315", "RAL-317", "RAL-318", "RAL-319", "RAL-31", "RAL-320", "RAL-321", "RAL-324", "RAL-325", "RAL-32", "RAL-332", "RAL-335", "RAL-336", "RAL-338", "RAL-340", "RAL-348", "RAL-350", "RAL-352", "RAL-354", "RAL-355", "RAL-356", "RAL-357", "RAL-358", "RAL-359", "RAL-360", "RAL-361", "RAL-362", "RAL-365", "RAL-367", "RAL-370", "RAL-371", "RAL-373", "RAL-374", "RAL-375", "RAL-377", "RAL-379", "RAL-380", "RAL-381", "RAL-382", "RAL-383", "RAL-385", "RAL-386", "RAL-38", "RAL-390", "RAL-391", "RAL-392", "RAL-395", "RAL-397", "RAL-399", "RAL-405", "RAL-406", "RAL-409", "RAL-40", "RAL-41", "RAL-426", "RAL-427", "RAL-42", "RAL-437", "RAL-439", "RAL-440", "RAL-441", "RAL-443", "RAL-45", "RAL-461", "RAL-486", "RAL-48", "RAL-491", "RAL-492", "RAL-49", "RAL-502", "RAL-505", "RAL-508", "RAL-509", "RAL-513", "RAL-517", "RAL-528", "RAL-530", "RAL-531", "RAL-535", "RAL-551", "RAL-555", "RAL-559", "RAL-563", "RAL-566", "RAL-57", "RAL-584", "RAL-589", "RAL-595", "RAL-596", "RAL-59", "RAL-627", "RAL-630", "RAL-634", "RAL-639", "RAL-642", "RAL-646", "RAL-69", "RAL-703", "RAL-705", "RAL-707", "RAL-712", "RAL-714", "RAL-716", "RAL-721", "RAL-727", "RAL-730", "RAL-732", "RAL-737", "RAL-738", "RAL-73", "RAL-748", "RAL-757", "RAL-75", "RAL-761", "RAL-765", "RAL-774", "RAL-776", "RAL-783", "RAL-786", "RAL-787", "RAL-790", "RAL-796", "RAL-799", "RAL-801", "RAL-802", "RAL-804", "RAL-805", "RAL-808", "RAL-810", "RAL-812", "RAL-818", "RAL-819", "RAL-820", "RAL-821", "RAL-822", "RAL-832", "RAL-837", "RAL-83", "RAL-843", "RAL-849", "RAL-850", "RAL-852", "RAL-853", "RAL-855", "RAL-857", "RAL-859", "RAL-85", "RAL-861", "RAL-879", "RAL-882", "RAL-884", "RAL-887", "RAL-88", "RAL-890", "RAL-892", "RAL-894", "RAL-897", "RAL-900", "RAL-907", "RAL-908", "RAL-911", "RAL-913", "RAL-91", "RAL-93" ,"Major_allele"], axis=1)
+    RAL_df = df.filter(["RAL-10", "RAL-101", "RAL-105", "RAL-109", "RAL-129", "RAL-136", "RAL-138", "RAL-142", "RAL-149", "RAL-153", "RAL-158", "RAL-161", "RAL-176", "RAL-177", "RAL-181", "RAL-189", "RAL-195", "RAL-208", "RAL-217", "RAL-21", "RAL-223", "RAL-227", "RAL-228", "RAL-229", "RAL-233", "RAL-235", "RAL-237", "RAL-239", "RAL-256", "RAL-26", "RAL-280", "RAL-287", "RAL-28", "RAL-301", "RAL-303", "RAL-304", "RAL-306", "RAL-307", "RAL-309", "RAL-310", "RAL-313", "RAL-315", "RAL-317", "RAL-318", "RAL-319", "RAL-31", "RAL-320", "RAL-321", "RAL-324", "RAL-325", "RAL-32", "RAL-332", "RAL-335", "RAL-336", "RAL-338", "RAL-340", "RAL-348", "RAL-350", "RAL-352", "RAL-354", "RAL-355", "RAL-356", "RAL-357", "RAL-358", "RAL-359", "RAL-360", "RAL-361", "RAL-362", "RAL-365", "RAL-367", "RAL-370", "RAL-371", "RAL-373", "RAL-374", "RAL-375", "RAL-377", "RAL-379", "RAL-380", "RAL-381", "RAL-382", "RAL-383", "RAL-385", "RAL-386", "RAL-38", "RAL-390", "RAL-391", "RAL-392", "RAL-395", "RAL-397", "RAL-399", "RAL-405", "RAL-406", "RAL-409", "RAL-40", "RAL-41", "RAL-426", "RAL-427", "RAL-42", "RAL-437", "RAL-439", "RAL-440", "RAL-441", "RAL-443", "RAL-45", "RAL-461", "RAL-486", "RAL-48", "RAL-491", "RAL-492", "RAL-49", "RAL-502", "RAL-505", "RAL-508", "RAL-509", "RAL-513", "RAL-517", "RAL-528", "RAL-530", "RAL-531", "RAL-535", "RAL-551", "RAL-555", "RAL-559", "RAL-563", "RAL-566", "RAL-57", "RAL-584", "RAL-589", "RAL-595", "RAL-596", "RAL-59", "RAL-627", "RAL-630", "RAL-634", "RAL-639", "RAL-642", "RAL-646", "RAL-69", "RAL-703", "RAL-705", "RAL-707", "RAL-712", "RAL-714", "RAL-716", "RAL-721", "RAL-727", "RAL-730", "RAL-732", "RAL-737", "RAL-738", "RAL-73", "RAL-748", "RAL-757", "RAL-75", "RAL-761", "RAL-765", "RAL-774", "RAL-776", "RAL-783", "RAL-786", "RAL-787", "RAL-790", "RAL-796", "RAL-799", "RAL-801", "RAL-802", "RAL-804", "RAL-805", "RAL-808", "RAL-810", "RAL-812", "RAL-818", "RAL-819", "RAL-820", "RAL-821", "RAL-822", "RAL-832", "RAL-837", "RAL-83", "RAL-843", "RAL-849", "RAL-850", "RAL-852", "RAL-853", "RAL-855", "RAL-857", "RAL-859", "RAL-85", "RAL-861", "RAL-879", "RAL-882", "RAL-884", "RAL-887", "RAL-88", "RAL-890", "RAL-892", "RAL-894", "RAL-897", "RAL-900", "RAL-907", "RAL-908", "RAL-911", "RAL-913", "RAL-91", "RAL-93" ,"Major_allele"], axis=1)
 
     for row in RAL_df.itertuples():
 
@@ -143,7 +143,7 @@ def snp_csv_downsample(infile):
         bpcount_RAL_avg = []
         freq_RAL_avg = []
 
-        for i in range(1000):
+        for i in range(10):
         
             random_RAL_row = random.sample(no_N_RAL_row, len(no_N_RAL_row))
             downsample_RAL = random_RAL_row[0:RAL_n]
@@ -158,8 +158,8 @@ def snp_csv_downsample(infile):
                 freq_RAL = 1 - (downsample_RAL.count(major_allele) / bpcount_RAL)
 
             #appending
-            random_RAL_row.append(bpcount_RAL)
-            downsample_RAL.append(freq_RAL)
+            bpcount_RAL_avg.append(bpcount_RAL)
+            freq_RAL_avg.append(freq_RAL)
 
         #appending
         n_RAL.append(mean(bpcount_RAL_avg))
@@ -189,7 +189,7 @@ def snp_csv_downsample(infile):
         bpcount_SAfr_avg = []
         freq_SAfr_avg = []
 
-        for i in range(1000):
+        for i in range(10):
         
             random_SAfr_row = random.sample(no_N_SAfr_row, len(no_N_SAfr_row))
             downsample_SAfr = random_SAfr_row[0:SAfr_n]
@@ -204,8 +204,8 @@ def snp_csv_downsample(infile):
                 freq_SAfr = 1 - (downsample_SAfr.count(major_allele) / bpcount_SAfr)
 
             #appending
-            random_SAfr_row.append(bpcount_SAfr)
-            downsample_SAfr.append(freq_SAfr)
+            bpcount_SAfr_avg.append(bpcount_SAfr)
+            freq_SAfr_avg.append(freq_SAfr)
 
         #appending
         n_SAfr.append(mean(bpcount_SAfr_avg))
@@ -234,7 +234,7 @@ def snp_csv_downsample(infile):
         bpcount_ZI_avg = []
         freq_ZI_avg = []
 
-        for i in range(1000):
+        for i in range(10):
         
             random_ZI_row = random.sample(no_N_ZI_row, len(no_N_ZI_row))
             downsample_ZI = random_ZI_row[0:ZI_n]
@@ -249,8 +249,8 @@ def snp_csv_downsample(infile):
                 freq_ZI = 1 - (downsample_ZI.count(major_allele) / bpcount_ZI)
 
             #appending
-            random_ZI_row.append(bpcount_ZI)
-            downsample_ZI.append(freq_ZI)
+            bpcount_ZI_avg.append(bpcount_ZI)
+            freq_ZI_avg.append(freq_ZI)
 
         #appending
         n_ZI.append(mean(bpcount_ZI_avg))
@@ -294,8 +294,8 @@ def snp_csv_downsample(infile):
                 freq_ZH = 1 - (downsample_ZH.count(major_allele) / bpcount_ZH)
 
             #appending
-            random_ZH_row.append(bpcount_ZH)
-            downsample_ZH.append(freq_ZH)
+            bpcount_ZH_avg.append(bpcount_ZH)
+            freq_ZH_avg.append(freq_ZH)
 
         #appending
         n_ZH.append(mean(bpcount_ZH_avg))
@@ -324,7 +324,7 @@ def snp_csv_downsample(infile):
         bpcount_ZW_avg = []
         freq_ZW_avg = []
 
-        for i in range(100):
+        for i in range(10):
         
             random_ZW_row = random.sample(no_N_ZW_row, len(no_N_ZW_row))
             downsample_ZW = random_ZW_row[0:ZW_n]
@@ -339,8 +339,8 @@ def snp_csv_downsample(infile):
                 freq_ZW = 1 - (downsample_ZW.count(major_allele) / bpcount_ZW)
 
             #appending
-            random_ZW_row.append(bpcount_ZW)
-            downsample_ZW.append(freq_ZW)
+            bpcount_ZW_avg.append(bpcount_ZW)
+            freq_ZW_avg.append(freq_ZW)
 
         #appending
         n_ZW.append(mean(bpcount_ZW_avg))
@@ -384,8 +384,8 @@ def snp_csv_downsample(infile):
                 freq_ZS = 1 - (downsample_ZS.count(major_allele) / bpcount_ZS)
 
             #appending
-            random_ZS_row.append(bpcount_ZS)
-            downsample_ZS.append(freq_ZS)
+            bpcount_ZS_avg.append(bpcount_ZS)
+            freq_ZS_avg.append(freq_ZS)
 
         #appending
         n_ZS.append(mean(bpcount_ZS_avg))
