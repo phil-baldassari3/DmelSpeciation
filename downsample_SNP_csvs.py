@@ -26,9 +26,9 @@ print(file_list)
 
 #defining downsampled n for each pop
 FR_n = 20
-RAL_n = 10
+RAL_n = 100
 SAfr_n = 20
-ZI_n = 10
+ZI_n = 100
 ZH_n = 3
 ZW_n = 4
 ZS_n = 4
