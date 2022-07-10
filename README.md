@@ -57,15 +57,18 @@ Bash script to filter out and overwrite SNP csvs without singletons and triallel
 SNPcsv_downsampling.sh --->
 Bash script to randomly downsample the SNP csvs into csvs that print the chromosomes, positions, minor allele frequencies, and downsampled sample sizes by population. Script uses downsample_SNP_csvs.py.
 
--------> downsample_SNP_csvs.py ---> Script randomly downsamples the SNP csvs into csvs that print the chromosomes, positions, minor allele frequencies, and downsampled sample sizes by population. Random downsampling is performed 10 times per population and the frequencies are averages across each iteration. This script needs to be placed in each directory where downsampling is needed. The downsampled sample sizes can be set at the beginning of the script. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before SNPcsv_downsampling.sh is done!
+-------> downsample_SNP_csvs.py ---> Script randomly downsamples the SNP csvs into csvs that print the chromosomes, positions, minor allele frequencies, and downsampled sample sizes by population. Random downsampling is performed 10 times per population and the frequencies are averages across each iteration. This script needs to be placed in each directory where downsampling is needed. The downsampled sample sizes can be set at the beginning of the script. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before SNPcsv_downsampling.sh is run!
 
 Fst Analysis:
 
 pairwise_fst_from_seq.R --->
 Script to estimate pairwise Fst between populations. Only sites with exactly the number of samples as the set sample size are kept. Fst is estimated using the Hudson 1992 estimator from Bhatia 2013. csvs are output.
 
-fst_gene_find.R -->
+fst_gene_find.R --->
 Script to take the top 1% of sites with the highest average Fst between multiple pairwise comparisons.  Outputs a smaller version of the Fst csvs with only the top 1% of sites.
+
+SNP_gene_mapper.py --->
+Script that takes in flybase Dmel point coordinates and maps those sites to gene maps provided by flybase. These coordinates should be in flybase format in in text files separated by line breaks. csvs with gene lists in FBgn and gene symbols are output. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before SNP_gene_mapper.py is run!
 
 pairwise_fst_from_vcf.R --->
 Script to estimate pairwise Fst between populations. Only sites with exactly the number of samples as the set sample size are kept. Fst is estimated using the Hudson 1992 estimator from Bhatia 2013. csvs are output.
