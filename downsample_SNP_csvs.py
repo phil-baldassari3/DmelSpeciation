@@ -406,7 +406,7 @@ def snp_csv_downsample(infile):
     n_freq_df['n_ZH_ZW'] = n_freq_df['n_ZH'] + n_freq_df['n_ZW']
     n_freq_df['maf_ZH_ZW'] = ((n_freq_df['maf_ZH'] * n_freq_df['n_ZH']) + (n_freq_df['maf_ZW'] * n_freq_df['n_ZW'])) / n_freq_df['n_ZH_ZW']
     n_freq_df['n_zim'] = n_freq_df['n_ZH'] + n_freq_df['n_ZW'] + n_freq_df['n_ZS']
-    n_freq_df['maf_zim'] = ((n_freq_df['maf_ZH'] * n_freq_df['n_ZH']) + (n_freq_df['maf_ZW'] * n_freq_df['n_ZW']) * (n_freq_df['maf_ZS'] * n_freq_df['n_ZS'])) / n_freq_df['n_zim']
+    n_freq_df['maf_zim'] = ((n_freq_df['maf_ZH'] * n_freq_df['n_ZH']) + (n_freq_df['maf_ZW'] * n_freq_df['n_ZW']) + (n_freq_df['maf_ZS'] * n_freq_df['n_ZS'])) / n_freq_df['n_zim']
 
 
     print('new dataframe made for ' + infile)
