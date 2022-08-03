@@ -67,6 +67,13 @@ Script to estimate pairwise Fst between populations. Only sites with exactly the
 fst_gene_find.R --->
 Script to take the top 1% of sites with the highest average Fst between multiple pairwise comparisons.  Outputs a smaller version of the Fst csvs with only the top 1% of sites.
 
+r5_to_r6_coordinate_converter.sh --->
+Script to take flybase coordinates from the fst_gene_find.R csvs and convert them from r5 to r6 using the perl script provided by flybase (dmel_r5_to_r6_converter.pl).  It used the python scripts coordinate_scraper_r5.py and coordinate_scraper_r6.py which must be prepared for multiprocessing pool. The bash script pauses to allow for this.
+
+-------> coordinate_scraper_r5.py ---> Script to scrape r5 coordinates from the csvs and save them as text files that can be ran through dmel_r5_to_r6_converter.pl to be converted to r6 coordinates. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This can be done when prompted by r5_to_r6_coordinate_converter.sh
+
+-------> coordinate_scraper_r6.py ---> Script to scrape r6 coordinates from the conversion files from dmel_r5_to_r6_converter.pl and save them to text files. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This can be done when prompted by r5_to_r6_coordinate_converter.sh
+
 SNP_gene_mapper.py --->
 Script that takes in flybase Dmel point coordinates and maps those sites to gene maps provided by flybase. These coordinates should be in flybase format in in text files separated by line breaks. csvs with gene lists in FBgn and gene symbols are output. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before SNP_gene_mapper.py is run!
 
