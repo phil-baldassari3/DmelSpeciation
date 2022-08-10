@@ -77,6 +77,12 @@ Script to take flybase coordinates from the fst_gene_find.R csvs and convert the
 SNP_gene_mapper.py --->
 Script that takes in flybase Dmel point coordinates and maps those sites to gene maps provided by flybase. These coordinates should be in flybase format in in text files separated by line breaks. csvs with gene lists in FBgn and gene symbols are output. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before SNP_gene_mapper.py is run!
 
+null_genes_df_consolidator.py --->
+This script merges the null sites dataframes with the gene hits dataframes. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before null_genes_df_consolidator.py is done.
+
+null_GO_annotator.py --->
+This script uses GO annotation lists of specific GO terms and annotates the genes from the null dataframes. This script is specifically marking neurogenesis, mating behavior, male mating behavior, and female mating behavior genes. This script uses the Pool from the python module, multiprocessing. Thus, a list of input files needs to be mapped to the function. Use the commented out block at the beginning of the script to print a list of input files which can be copied into the mapping list. This needs to be done before null_GO_annotator.py is done.
+
 pairwise_fst_from_vcf.R --->
 Script to estimate pairwise Fst between populations. Only sites with exactly the number of samples as the set sample size are kept. Fst is estimated using the Hudson 1992 estimator from Bhatia 2013. csvs are output.
 
