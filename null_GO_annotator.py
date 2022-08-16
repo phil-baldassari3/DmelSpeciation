@@ -107,25 +107,25 @@ def GO_annotator(infile):
         if gene in FB_neurogenesis_GO:
             GO_neurogenesis_FB.append('Neurogenesis')
         else:
-            GO_neurogenesis_FB.append('')
+            GO_neurogenesis_FB.append('None')
         
 
         if gene in FB_mating_behavior_GO:
             GO_mating_behavior_FB.append('Mating_behavior')
         else:
-            GO_mating_behavior_FB.append('')
+            GO_mating_behavior_FB.append('None')
         
 
         if gene in FB_male_mating_behavior_GO:
             GO_male_mating_behavior_FB.append('Male_mating_behavior')
         else:
-            GO_male_mating_behavior_FB.append('')
+            GO_male_mating_behavior_FB.append('None')
         
 
         if gene in FB_female_mating_behavior_GO:
             GO_female_mating_behavior_FB.append('Female_mating_behavior')
         else:
-            GO_female_mating_behavior_FB.append('')
+            GO_female_mating_behavior_FB.append('None')
         
 
 
@@ -133,25 +133,25 @@ def GO_annotator(infile):
         if gene in FM_neurogenesis_GO:
             GO_neurogenesis_FM.append('Neurogenesis')
         else:
-            GO_neurogenesis_FM.append('')
+            GO_neurogenesis_FM.append('None')
         
 
         if gene in FM_mating_behavior_GO:
             GO_mating_behavior_FM.append('Mating_behavior')
         else:
-            GO_mating_behavior_FM.append('')
+            GO_mating_behavior_FM.append('None')
         
 
         if gene in FM_male_mating_behavior_GO:
             GO_male_mating_behavior_FM.append('Male_mating_behavior')
         else:
-            GO_male_mating_behavior_FM.append('')
+            GO_male_mating_behavior_FM.append('None')
         
 
         if gene in FM_female_mating_behavior_GO:
             GO_female_mating_behavior_FM.append('Female_mating_behavior')
         else:
-            GO_female_mating_behavior_FM.append('')
+            GO_female_mating_behavior_FM.append('None')
 
     #making dataframe
     dictionary = {'FB_GO:0022008' : GO_neurogenesis_FB, 'FM_GO:0022008' : GO_neurogenesis_FM, 'FB_GO:0007617' : GO_mating_behavior_FB, 'FM_GO:0007617' : GO_mating_behavior_FM, 'FB_GO:0060179' : GO_male_mating_behavior_FB, 'FM_GO:0060179' : GO_male_mating_behavior_FM, 'FB_GO:0060180' : GO_female_mating_behavior_FB, 'FM_GO:0060180' : GO_female_mating_behavior_FM}
