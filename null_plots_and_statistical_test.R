@@ -1420,12 +1420,6 @@ sd_null_ZS_ZH_ZW_autosome_Flymine_female_mating_behavior_genes <- sd(null_ZS_ZH_
 
 
 
-
-
-
-
-
-
 #################################################################################################################################
 mean_null_ZS_RAL_ZI_ChrX_num_of_gene_sites
 sd_null_ZS_RAL_ZI_ChrX_num_of_gene_sites
@@ -2786,6 +2780,2372 @@ sd_null_ZS_ZH_ZW_autosome_Flymine_female_mating_behavior_genes
 
 #################################################################################################################################
 
+#top 1% counts
+top0.01_ZS_RAL_ZI_ChrX_gene_sites <- 11433
+top0.01_ZS_RAL_ZI_Chr2L_gene_sites <- 11004
+top0.01_ZS_RAL_ZI_Chr2R_gene_sites <- 9204
+top0.01_ZS_RAL_ZI_Chr3L_gene_sites <- 10049
+top0.01_ZS_RAL_ZI_Chr3R_gene_sites <- 11344
+top0.01_ZS_RAL_ZI_autosome_gene_sites <- 41534
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_gene_sites <- 11446
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_gene_sites <- 10964
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_gene_sites <- 9111
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_gene_sites <- 10051
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_gene_sites <- 11156
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_gene_sites <- 41235
+top0.01_Zim_RAL_ZI_ChrX_gene_sites <- 12190
+top0.01_Zim_RAL_ZI_Chr2L_gene_sites <- 11432
+top0.01_Zim_RAL_ZI_Chr2R_gene_sites <- 9205
+top0.01_Zim_RAL_ZI_Chr3L_gene_sites <- 1
+top0.01_Zim_RAL_ZI_Chr3R_gene_sites <- 41
+top0.01_Zim_RAL_ZI_autosome_gene_sites <- 20648
+top0.01_ZH_RAL_ZI_ChrX_gene_sites <- 11721
+top0.01_ZH_RAL_ZI_Chr2R_gene_sites <- 9006
+top0.01_ZH_RAL_ZI_Chr3L_gene_sites <- 1
+top0.01_ZH_RAL_ZI_Chr3R_gene_sites <- 6
+top0.01_ZH_RAL_ZI_autosome_gene_sites <- 9015
+top0.01_ZW_RAL_ZI_ChrX_gene_sites <- 11884
+top0.01_ZW_RAL_ZI_Chr2L_gene_sites <- 10775
+top0.01_ZW_RAL_ZI_Chr2R_gene_sites <- 8962
+top0.01_ZW_RAL_ZI_Chr3L_gene_sites <- 1
+top0.01_ZW_RAL_ZI_Chr3R_gene_sites <- 8
+top0.01_ZW_RAL_ZI_autosome_gene_sites <- 19732
+top0.01_ZS_ZH_ZW_ChrX_gene_sites <- 11458
+top0.01_ZS_ZH_ZW_Chr2L_gene_sites <- 9
+top0.01_ZS_ZH_ZW_Chr2R_gene_sites <- 8554
+top0.01_ZS_ZH_ZW_Chr3L_gene_sites <- 2
+top0.01_ZS_ZH_ZW_Chr3R_gene_sites <- 6
+top0.01_ZS_ZH_ZW_autosome_gene_sites <- 8577
+  
+
+top0.01_ZS_RAL_ZI_ChrX_unique_genes <- 1203
+top0.01_ZS_RAL_ZI_Chr2L_unique_genes <- 1514
+top0.01_ZS_RAL_ZI_Chr2R_unique_genes <- 1505
+top0.01_ZS_RAL_ZI_Chr3L_unique_genes <- 1372
+top0.01_ZS_RAL_ZI_Chr3R_unique_genes <- 1721
+top0.01_ZS_RAL_ZI_autosome_unique_genes <- 6113
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_unique_genes <- 1214
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_unique_genes <- 1487
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_unique_genes <- 1475
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_unique_genes <- 1363
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_unique_genes <- 1725
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_unique_genes <- 6050
+top0.01_Zim_RAL_ZI_ChrX_unique_genes <- 1183
+top0.01_Zim_RAL_ZI_Chr2L_unique_genes <- 1492
+top0.01_Zim_RAL_ZI_Chr2R_unique_genes <- 1469
+top0.01_Zim_RAL_ZI_Chr3L_unique_genes <- 1
+top0.01_Zim_RAL_ZI_Chr3R_unique_genes <- 8
+top0.01_Zim_RAL_ZI_autosome_unique_genes <- 2897
+top0.01_ZH_RAL_ZI_ChrX_unique_genes <- 1183
+top0.01_ZH_RAL_ZI_Chr2R_unique_genes <- 1360
+top0.01_ZH_RAL_ZI_Chr3L_unique_genes <- 1
+top0.01_ZH_RAL_ZI_Chr3R_unique_genes <- 5
+top0.01_ZH_RAL_ZI_autosome_unique_genes <- 1361
+top0.01_ZW_RAL_ZI_ChrX_unique_genes <- 1180
+top0.01_ZW_RAL_ZI_Chr2L_unique_genes <- 1478
+top0.01_ZW_RAL_ZI_Chr2R_unique_genes <- 1458
+top0.01_ZW_RAL_ZI_Chr3L_unique_genes <- 1
+top0.01_ZW_RAL_ZI_Chr3R_unique_genes <- 4
+top0.01_ZW_RAL_ZI_autosome_unique_genes <- 2861
+top0.01_ZS_ZH_ZW_ChrX_unique_genes <- 1253
+top0.01_ZS_ZH_ZW_Chr2L_unique_genes <- 3
+top0.01_ZS_ZH_ZW_Chr2R_unique_genes <- 1423
+top0.01_ZS_ZH_ZW_Chr3L_unique_genes <- 1
+top0.01_ZS_ZH_ZW_Chr3R_unique_genes <- 5
+top0.01_ZS_ZH_ZW_autosome_unique_genes <- 1423
+
+
+
+top0.01_ZS_RAL_ZI_ChrX_FB_neurogenesis_sites <- 1778
+top0.01_ZS_RAL_ZI_ChrX_FM_neurogenesis_sites <- 1630
+top0.01_ZS_RAL_ZI_Chr2L_FB_neurogenesis_sites <- 2212
+top0.01_ZS_RAL_ZI_Chr2L_FM_neurogenesis_sites <- 2174
+top0.01_ZS_RAL_ZI_Chr2R_FB_neurogenesis_sites <- 1707
+top0.01_ZS_RAL_ZI_Chr2R_FM_neurogenesis_sites <- 1609
+top0.01_ZS_RAL_ZI_Chr3L_FB_neurogenesis_sites <- 2140
+top0.01_ZS_RAL_ZI_Chr3L_FM_neurogenesis_sites <- 2083
+top0.01_ZS_RAL_ZI_Chr3R_FB_neurogenesis_sites <- 2243
+top0.01_ZS_RAL_ZI_Chr3R_FM_neurogenesis_sites <- 2015
+top0.01_ZS_RAL_ZI_autosome_FB_neurogenesis_sites <- 8265
+top0.01_ZS_RAL_ZI_autosome_FM_neurogenesis_sites <- 7827
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_neurogenesis_sites <- 1782
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_neurogenesis_sites <- 1619
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_neurogenesis_sites <- 2189
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_neurogenesis_sites <- 2154
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_neurogenesis_sites <- 1700
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_neurogenesis_sites <- 1618
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_neurogenesis_sites <- 2101
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_neurogenesis_sites <- 2043
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_neurogenesis_sites <- 2193
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_neurogenesis_sites <- 2009
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_neurogenesis_sites <- 8184
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_neurogenesis_sites <- 7809
+top0.01_Zim_RAL_ZI_ChrX_FB_neurogenesis_sites <- 1926
+top0.01_Zim_RAL_ZI_ChrX_FM_neurogenesis_sites <- 1780
+top0.01_Zim_RAL_ZI_Chr2L_FB_neurogenesis_sites <- 2408
+top0.01_Zim_RAL_ZI_Chr2L_FM_neurogenesis_sites <- 2372
+top0.01_Zim_RAL_ZI_Chr2R_FB_neurogenesis_sites <- 1671
+top0.01_Zim_RAL_ZI_Chr2R_FM_neurogenesis_sites <- 1579
+top0.01_Zim_RAL_ZI_Chr3L_FB_neurogenesis_sites <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_neurogenesis_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_neurogenesis_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_neurogenesis_sites <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_neurogenesis_sites <- 4144
+top0.01_Zim_RAL_ZI_autosome_FM_neurogenesis_sites <- 4037
+top0.01_ZH_RAL_ZI_ChrX_FB_neurogenesis_sites <- 1689
+top0.01_ZH_RAL_ZI_ChrX_FM_neurogenesis_sites <- 1538
+top0.01_ZH_RAL_ZI_Chr2R_FB_neurogenesis_sites <- 1676
+top0.01_ZH_RAL_ZI_Chr2R_FM_neurogenesis_sites <- 1584
+top0.01_ZH_RAL_ZI_Chr3L_FB_neurogenesis_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_neurogenesis_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_neurogenesis_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_neurogenesis_sites <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_neurogenesis_sites <- 1676
+top0.01_ZH_RAL_ZI_autosome_FM_neurogenesis_sites <- 1584
+top0.01_ZW_RAL_ZI_ChrX_FB_neurogenesis_sites <- 2139
+top0.01_ZW_RAL_ZI_ChrX_FM_neurogenesis_sites <- 2049
+top0.01_ZW_RAL_ZI_Chr2L_FB_neurogenesis_sites <- 2421
+top0.01_ZW_RAL_ZI_Chr2L_FM_neurogenesis_sites <- 2379
+top0.01_ZW_RAL_ZI_Chr2R_FB_neurogenesis_sites <- 1673
+top0.01_ZW_RAL_ZI_Chr2R_FM_neurogenesis_sites <- 1576
+top0.01_ZW_RAL_ZI_Chr3L_FB_neurogenesis_sites <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_neurogenesis_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_neurogenesis_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_neurogenesis_sites <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_neurogenesis_sites <- 4186
+top0.01_ZW_RAL_ZI_autosome_FM_neurogenesis_sites <- 4061
+top0.01_ZS_ZH_ZW_ChrX_FB_neurogenesis_sites <- 1860
+top0.01_ZS_ZH_ZW_ChrX_FM_neurogenesis_sites <- 1719
+top0.01_ZS_ZH_ZW_Chr2L_FB_neurogenesis_sites <- 5
+top0.01_ZS_ZH_ZW_Chr2L_FM_neurogenesis_sites <- 5
+top0.01_ZS_ZH_ZW_Chr2R_FB_neurogenesis_sites <- 1630
+top0.01_ZS_ZH_ZW_Chr2R_FM_neurogenesis_sites <- 1531
+top0.01_ZS_ZH_ZW_Chr3L_FB_neurogenesis_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_neurogenesis_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_neurogenesis_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_neurogenesis_sites <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_neurogenesis_sites <- 1630
+top0.01_ZS_ZH_ZW_autosome_FM_neurogenesis_sites <- 1531
+
+top0.01_ZS_RAL_ZI_ChrX_FB_mating_behavior_sites <- 495
+top0.01_ZS_RAL_ZI_ChrX_FM_mating_behavior_sites <- 495
+top0.01_ZS_RAL_ZI_Chr2L_FB_mating_behavior_sites <- 284
+top0.01_ZS_RAL_ZI_Chr2L_FM_mating_behavior_sites <- 264
+top0.01_ZS_RAL_ZI_Chr2R_FB_mating_behavior_sites <- 188
+top0.01_ZS_RAL_ZI_Chr2R_FM_mating_behavior_sites <- 185
+top0.01_ZS_RAL_ZI_Chr3L_FB_mating_behavior_sites <- 161
+top0.01_ZS_RAL_ZI_Chr3L_FM_mating_behavior_sites <- 117
+top0.01_ZS_RAL_ZI_Chr3R_FB_mating_behavior_sites <- 404
+top0.01_ZS_RAL_ZI_Chr3R_FM_mating_behavior_sites <- 392
+top0.01_ZS_RAL_ZI_autosome_FB_mating_behavior_sites <- 1023
+top0.01_ZS_RAL_ZI_autosome_FM_mating_behavior_sites <- 944
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_mating_behavior_sites <- 507
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_mating_behavior_sites <- 507
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_mating_behavior_sites <- 287
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_mating_behavior_sites <- 263
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_mating_behavior_sites <- 197
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_mating_behavior_sites <- 193
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_mating_behavior_sites <- 164
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_mating_behavior_sites <- 129
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_mating_behavior_sites <- 365
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_mating_behavior_sites <- 356
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_mating_behavior_sites <- 1000
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_mating_behavior_sites <- 924
+top0.01_Zim_RAL_ZI_ChrX_FB_mating_behavior_sites <- 580
+top0.01_Zim_RAL_ZI_ChrX_FM_mating_behavior_sites <- 580
+top0.01_Zim_RAL_ZI_Chr2L_FB_mating_behavior_sites <- 338
+top0.01_Zim_RAL_ZI_Chr2L_FM_mating_behavior_sites <- 322
+top0.01_Zim_RAL_ZI_Chr2R_FB_mating_behavior_sites <- 205
+top0.01_Zim_RAL_ZI_Chr2R_FM_mating_behavior_sites <- 204
+top0.01_Zim_RAL_ZI_Chr3L_FB_mating_behavior_sites <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_mating_behavior_sites <- 559
+top0.01_Zim_RAL_ZI_autosome_FM_mating_behavior_sites <- 539
+top0.01_ZH_RAL_ZI_ChrX_FB_mating_behavior_sites <- 501
+top0.01_ZH_RAL_ZI_ChrX_FM_mating_behavior_sites <- 501
+top0.01_ZH_RAL_ZI_Chr2R_FB_mating_behavior_sites <- 215
+top0.01_ZH_RAL_ZI_Chr2R_FM_mating_behavior_sites <- 213
+top0.01_ZH_RAL_ZI_Chr3L_FB_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_mating_behavior_sites <- 215
+top0.01_ZH_RAL_ZI_autosome_FM_mating_behavior_sites <- 213
+top0.01_ZW_RAL_ZI_ChrX_FB_mating_behavior_sites <- 681
+top0.01_ZW_RAL_ZI_ChrX_FM_mating_behavior_sites <- 681
+top0.01_ZW_RAL_ZI_Chr2L_FB_mating_behavior_sites <- 341
+top0.01_ZW_RAL_ZI_Chr2L_FM_mating_behavior_sites <- 324
+top0.01_ZW_RAL_ZI_Chr2R_FB_mating_behavior_sites <- 188
+top0.01_ZW_RAL_ZI_Chr2R_FM_mating_behavior_sites <- 187
+top0.01_ZW_RAL_ZI_Chr3L_FB_mating_behavior_sites <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_mating_behavior_sites <- 562
+top0.01_ZW_RAL_ZI_autosome_FM_mating_behavior_sites <- 539
+top0.01_ZS_ZH_ZW_ChrX_FB_mating_behavior_sites <- 548
+top0.01_ZS_ZH_ZW_ChrX_FM_mating_behavior_sites <- 548
+top0.01_ZS_ZH_ZW_Chr2L_FB_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr2L_FM_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr2R_FB_mating_behavior_sites <- 180
+top0.01_ZS_ZH_ZW_Chr2R_FM_mating_behavior_sites <- 175
+top0.01_ZS_ZH_ZW_Chr3L_FB_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_mating_behavior_sites <- 180
+top0.01_ZS_ZH_ZW_autosome_FM_mating_behavior_sites <- 175
+
+top0.01_ZS_RAL_ZI_ChrX_FB_male_mating_behavior_sites <- 128
+top0.01_ZS_RAL_ZI_ChrX_FM_male_mating_behavior_sites <- 128
+top0.01_ZS_RAL_ZI_Chr2L_FB_male_mating_behavior_sites <- 225
+top0.01_ZS_RAL_ZI_Chr2L_FM_male_mating_behavior_sites <- 225
+top0.01_ZS_RAL_ZI_Chr2R_FB_male_mating_behavior_sites <- 65
+top0.01_ZS_RAL_ZI_Chr2R_FM_male_mating_behavior_sites <- 62
+top0.01_ZS_RAL_ZI_Chr3L_FB_male_mating_behavior_sites <- 7
+top0.01_ZS_RAL_ZI_Chr3L_FM_male_mating_behavior_sites <- 7
+top0.01_ZS_RAL_ZI_Chr3R_FB_male_mating_behavior_sites <- 306
+top0.01_ZS_RAL_ZI_Chr3R_FM_male_mating_behavior_sites <- 306
+top0.01_ZS_RAL_ZI_autosome_FB_male_mating_behavior_sites <- 585
+top0.01_ZS_RAL_ZI_autosome_FM_male_mating_behavior_sites <- 582
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_male_mating_behavior_sites <- 130
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_male_mating_behavior_sites <- 130
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_male_mating_behavior_sites <- 208
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_male_mating_behavior_sites <- 208
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_male_mating_behavior_sites <- 76
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_male_mating_behavior_sites <- 72
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_male_mating_behavior_sites <- 4
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_male_mating_behavior_sites <- 4
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_male_mating_behavior_sites <- 270
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_male_mating_behavior_sites <- 270
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_male_mating_behavior_sites <- 549
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_male_mating_behavior_sites <- 545
+top0.01_Zim_RAL_ZI_ChrX_FB_male_mating_behavior_sites <- 176
+top0.01_Zim_RAL_ZI_ChrX_FM_male_mating_behavior_sites <- 176
+top0.01_Zim_RAL_ZI_Chr2L_FB_male_mating_behavior_sites <- 254
+top0.01_Zim_RAL_ZI_Chr2L_FM_male_mating_behavior_sites <- 254
+top0.01_Zim_RAL_ZI_Chr2R_FB_male_mating_behavior_sites <- 89
+top0.01_Zim_RAL_ZI_Chr2R_FM_male_mating_behavior_sites <- 89
+top0.01_Zim_RAL_ZI_Chr3L_FB_male_mating_behavior_sites <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_male_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_male_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_male_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_male_mating_behavior_sites <- 375
+top0.01_Zim_RAL_ZI_autosome_FM_male_mating_behavior_sites <- 375
+top0.01_ZH_RAL_ZI_ChrX_FB_male_mating_behavior_sites <- 148
+top0.01_ZH_RAL_ZI_ChrX_FM_male_mating_behavior_sites <- 148
+top0.01_ZH_RAL_ZI_Chr2R_FB_male_mating_behavior_sites <- 94
+top0.01_ZH_RAL_ZI_Chr2R_FM_male_mating_behavior_sites <- 93
+top0.01_ZH_RAL_ZI_Chr3L_FB_male_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_male_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_male_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_male_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_male_mating_behavior_sites <- 94
+top0.01_ZH_RAL_ZI_autosome_FM_male_mating_behavior_sites <- 93
+top0.01_ZW_RAL_ZI_ChrX_FB_male_mating_behavior_sites <- 186
+top0.01_ZW_RAL_ZI_ChrX_FM_male_mating_behavior_sites <- 186
+top0.01_ZW_RAL_ZI_Chr2L_FB_male_mating_behavior_sites <- 262
+top0.01_ZW_RAL_ZI_Chr2L_FM_male_mating_behavior_sites <- 262
+top0.01_ZW_RAL_ZI_Chr2R_FB_male_mating_behavior_sites <- 103
+top0.01_ZW_RAL_ZI_Chr2R_FM_male_mating_behavior_sites <- 102
+top0.01_ZW_RAL_ZI_Chr3L_FB_male_mating_behavior_sites <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_male_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_male_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_male_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_male_mating_behavior_sites <- 404
+top0.01_ZW_RAL_ZI_autosome_FM_male_mating_behavior_sites <- 404
+top0.01_ZS_ZH_ZW_ChrX_FB_male_mating_behavior_sites <- 113
+top0.01_ZS_ZH_ZW_ChrX_FM_male_mating_behavior_sites <- 113
+top0.01_ZS_ZH_ZW_Chr2L_FB_male_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr2L_FM_male_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr2R_FB_male_mating_behavior_sites <- 84
+top0.01_ZS_ZH_ZW_Chr2R_FM_male_mating_behavior_sites <- 79
+top0.01_ZS_ZH_ZW_Chr3L_FB_male_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_male_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_male_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_male_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_male_mating_behavior_sites <- 84
+top0.01_ZS_ZH_ZW_autosome_FM_male_mating_behavior_sites <- 79
+
+top0.01_ZS_RAL_ZI_ChrX_FB_female_mating_behavior_sites <- 31
+top0.01_ZS_RAL_ZI_ChrX_FM_female_mating_behavior_sites <- 31
+top0.01_ZS_RAL_ZI_Chr2L_FB_female_mating_behavior_sites <- 12
+top0.01_ZS_RAL_ZI_Chr2L_FM_female_mating_behavior_sites <- 12
+top0.01_ZS_RAL_ZI_Chr2R_FB_female_mating_behavior_sites <- 129
+top0.01_ZS_RAL_ZI_Chr2R_FM_female_mating_behavior_sites <- 129
+top0.01_ZS_RAL_ZI_Chr3L_FB_female_mating_behavior_sites <- 109
+top0.01_ZS_RAL_ZI_Chr3L_FM_female_mating_behavior_sites <- 109
+top0.01_ZS_RAL_ZI_Chr3R_FB_female_mating_behavior_sites <- 110
+top0.01_ZS_RAL_ZI_Chr3R_FM_female_mating_behavior_sites <- 110
+top0.01_ZS_RAL_ZI_autosome_FB_female_mating_behavior_sites <- 371
+top0.01_ZS_RAL_ZI_autosome_FM_female_mating_behavior_sites <- 371
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_female_mating_behavior_sites <- 29
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_female_mating_behavior_sites <- 29
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_female_mating_behavior_sites <- 13
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_female_mating_behavior_sites <- 13
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_female_mating_behavior_sites <- 128
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_female_mating_behavior_sites <- 128
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_female_mating_behavior_sites <- 124
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_female_mating_behavior_sites <- 124
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_female_mating_behavior_sites <- 101
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_female_mating_behavior_sites <- 101
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_female_mating_behavior_sites <- 378
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_female_mating_behavior_sites <- 378
+top0.01_Zim_RAL_ZI_ChrX_FB_female_mating_behavior_sites <- 54
+top0.01_Zim_RAL_ZI_ChrX_FM_female_mating_behavior_sites <- 54
+top0.01_Zim_RAL_ZI_Chr2L_FB_female_mating_behavior_sites <- 5
+top0.01_Zim_RAL_ZI_Chr2L_FM_female_mating_behavior_sites <- 5
+top0.01_Zim_RAL_ZI_Chr2R_FB_female_mating_behavior_sites <- 128
+top0.01_Zim_RAL_ZI_Chr2R_FM_female_mating_behavior_sites <- 128
+top0.01_Zim_RAL_ZI_Chr3L_FB_female_mating_behavior_sites <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_female_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_female_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_female_mating_behavior_sites <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_female_mating_behavior_sites <- 102
+top0.01_Zim_RAL_ZI_autosome_FM_female_mating_behavior_sites <- 102
+top0.01_ZH_RAL_ZI_ChrX_FB_female_mating_behavior_sites <- 96
+top0.01_ZH_RAL_ZI_ChrX_FM_female_mating_behavior_sites <- 96
+top0.01_ZH_RAL_ZI_Chr2R_FB_female_mating_behavior_sites <- 133
+top0.01_ZH_RAL_ZI_Chr2R_FM_female_mating_behavior_sites <- 133
+top0.01_ZH_RAL_ZI_Chr3L_FB_female_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_female_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_female_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_female_mating_behavior_sites <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_female_mating_behavior_sites <- 133
+top0.01_ZH_RAL_ZI_autosome_FM_female_mating_behavior_sites <- 133
+top0.01_ZW_RAL_ZI_ChrX_FB_female_mating_behavior_sites <- 58
+top0.01_ZW_RAL_ZI_ChrX_FM_female_mating_behavior_sites <- 58
+top0.01_ZW_RAL_ZI_Chr2L_FB_female_mating_behavior_sites <- 13
+top0.01_ZW_RAL_ZI_Chr2L_FM_female_mating_behavior_sites <- 13
+top0.01_ZW_RAL_ZI_Chr2R_FB_female_mating_behavior_sites <- 100
+top0.01_ZW_RAL_ZI_Chr2R_FM_female_mating_behavior_sites <- 100
+top0.01_ZW_RAL_ZI_Chr3L_FB_female_mating_behavior_sites <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_female_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_female_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_female_mating_behavior_sites <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_female_mating_behavior_sites <- 89
+top0.01_ZW_RAL_ZI_autosome_FM_female_mating_behavior_sites <- 89
+top0.01_ZS_ZH_ZW_ChrX_FB_female_mating_behavior_sites <- 38
+top0.01_ZS_ZH_ZW_ChrX_FM_female_mating_behavior_sites <- 38
+top0.01_ZS_ZH_ZW_Chr2L_FB_female_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr2L_FM_female_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr2R_FB_female_mating_behavior_sites <- 96
+top0.01_ZS_ZH_ZW_Chr2R_FM_female_mating_behavior_sites <- 96
+top0.01_ZS_ZH_ZW_Chr3L_FB_female_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_female_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_female_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_female_mating_behavior_sites <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_female_mating_behavior_sites <- 96
+top0.01_ZS_ZH_ZW_autosome_FM_female_mating_behavior_sites <- 96
+
+
+
+
+
+
+
+top0.01_ZS_RAL_ZI_ChrX_FB_neurogenesis_genes <- 101
+top0.01_ZS_RAL_ZI_ChrX_FM_neurogenesis_genes <- 92
+top0.01_ZS_RAL_ZI_Chr2L_FB_neurogenesis_genes <- 129
+top0.01_ZS_RAL_ZI_Chr2L_FM_neurogenesis_genes <- 120
+top0.01_ZS_RAL_ZI_Chr2R_FB_neurogenesis_genes <- 143
+top0.01_ZS_RAL_ZI_Chr2R_FM_neurogenesis_genes <- 130
+top0.01_ZS_RAL_ZI_Chr3L_FB_neurogenesis_genes <- 122
+top0.01_ZS_RAL_ZI_Chr3L_FM_neurogenesis_genes <- 117
+top0.01_ZS_RAL_ZI_Chr3R_FB_neurogenesis_genes <- 156
+top0.01_ZS_RAL_ZI_Chr3R_FM_neurogenesis_genes <- 145
+top0.01_ZS_RAL_ZI_autosome_FB_neurogenesis_genes <- 557
+top0.01_ZS_RAL_ZI_autosome_FM_neurogenesis_genes <- 518
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_neurogenesis_genes <- 100
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_neurogenesis_genes <- 91
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_neurogenesis_genes <- 128
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_neurogenesis_genes <- 120
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_neurogenesis_genes <- 138
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_neurogenesis_genes <- 128
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_neurogenesis_genes <- 125
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_neurogenesis_genes <- 119
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_neurogenesis_genes <- 156
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_neurogenesis_genes <- 145
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_neurogenesis_genes <- 553
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_neurogenesis_genes <- 518
+top0.01_Zim_RAL_ZI_ChrX_FB_neurogenesis_genes <- 100
+top0.01_Zim_RAL_ZI_ChrX_FM_neurogenesis_genes <- 94
+top0.01_Zim_RAL_ZI_Chr2L_FB_neurogenesis_genes <- 129
+top0.01_Zim_RAL_ZI_Chr2L_FM_neurogenesis_genes <- 120
+top0.01_Zim_RAL_ZI_Chr2R_FB_neurogenesis_genes <- 141
+top0.01_Zim_RAL_ZI_Chr2R_FM_neurogenesis_genes <- 131
+top0.01_Zim_RAL_ZI_Chr3L_FB_neurogenesis_genes <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_neurogenesis_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_neurogenesis_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_neurogenesis_genes <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_neurogenesis_genes <- 263
+top0.01_Zim_RAL_ZI_autosome_FM_neurogenesis_genes <- 244
+top0.01_ZH_RAL_ZI_ChrX_FB_neurogenesis_genes <- 105
+top0.01_ZH_RAL_ZI_ChrX_FM_neurogenesis_genes <- 99
+top0.01_ZH_RAL_ZI_Chr2R_FB_neurogenesis_genes <- 125
+top0.01_ZH_RAL_ZI_Chr2R_FM_neurogenesis_genes <- 114
+top0.01_ZH_RAL_ZI_Chr3L_FB_neurogenesis_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_neurogenesis_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_neurogenesis_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_neurogenesis_genes <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_neurogenesis_genes <- 125
+top0.01_ZH_RAL_ZI_autosome_FM_neurogenesis_genes <- 114
+top0.01_ZW_RAL_ZI_ChrX_FB_neurogenesis_genes <- 99
+top0.01_ZW_RAL_ZI_ChrX_FM_neurogenesis_genes <- 92
+top0.01_ZW_RAL_ZI_Chr2L_FB_neurogenesis_genes <- 130
+top0.01_ZW_RAL_ZI_Chr2L_FM_neurogenesis_genes <- 122
+top0.01_ZW_RAL_ZI_Chr2R_FB_neurogenesis_genes <- 136
+top0.01_ZW_RAL_ZI_Chr2R_FM_neurogenesis_genes <- 125
+top0.01_ZW_RAL_ZI_Chr3L_FB_neurogenesis_genes <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_neurogenesis_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_neurogenesis_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_neurogenesis_genes <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_neurogenesis_genes <- 256
+top0.01_ZW_RAL_ZI_autosome_FM_neurogenesis_genes <- 240
+top0.01_ZS_ZH_ZW_ChrX_FB_neurogenesis_genes <- 106
+top0.01_ZS_ZH_ZW_ChrX_FM_neurogenesis_genes <- 96
+top0.01_ZS_ZH_ZW_Chr2L_FB_neurogenesis_genes <- 2
+top0.01_ZS_ZH_ZW_Chr2L_FM_neurogenesis_genes <- 2
+top0.01_ZS_ZH_ZW_Chr2R_FB_neurogenesis_genes <- 127
+top0.01_ZS_ZH_ZW_Chr2R_FM_neurogenesis_genes <- 116
+top0.01_ZS_ZH_ZW_Chr3L_FB_neurogenesis_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_neurogenesis_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_neurogenesis_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_neurogenesis_genes <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_neurogenesis_genes <- 127
+top0.01_ZS_ZH_ZW_autosome_FM_neurogenesis_genes <- 116
+
+top0.01_ZS_RAL_ZI_ChrX_FB_mating_behavior_genes <- 15
+top0.01_ZS_RAL_ZI_ChrX_FM_mating_behavior_genes <- 15
+top0.01_ZS_RAL_ZI_Chr2L_FB_mating_behavior_genes <- 15
+top0.01_ZS_RAL_ZI_Chr2L_FM_mating_behavior_genes <- 12
+top0.01_ZS_RAL_ZI_Chr2R_FB_mating_behavior_genes <- 13
+top0.01_ZS_RAL_ZI_Chr2R_FM_mating_behavior_genes <- 12
+top0.01_ZS_RAL_ZI_Chr3L_FB_mating_behavior_genes <- 8
+top0.01_ZS_RAL_ZI_Chr3L_FM_mating_behavior_genes <- 6
+top0.01_ZS_RAL_ZI_Chr3R_FB_mating_behavior_genes <- 26
+top0.01_ZS_RAL_ZI_Chr3R_FM_mating_behavior_genes <- 22
+top0.01_ZS_RAL_ZI_autosome_FB_mating_behavior_genes <- 62
+top0.01_ZS_RAL_ZI_autosome_FM_mating_behavior_genes <- 53
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_mating_behavior_genes <- 15
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_mating_behavior_genes <- 15
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_mating_behavior_genes <- 14
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_mating_behavior_genes <- 12
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_mating_behavior_genes <- 13
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_mating_behavior_genes <- 12
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_mating_behavior_genes <- 8
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_mating_behavior_genes <- 25
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_mating_behavior_genes <- 21
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_mating_behavior_genes <- 60
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_mating_behavior_genes <- 52
+top0.01_Zim_RAL_ZI_ChrX_FB_mating_behavior_genes <- 15
+top0.01_Zim_RAL_ZI_ChrX_FM_mating_behavior_genes <- 15
+top0.01_Zim_RAL_ZI_Chr2L_FB_mating_behavior_genes <- 14
+top0.01_Zim_RAL_ZI_Chr2L_FM_mating_behavior_genes <- 11
+top0.01_Zim_RAL_ZI_Chr2R_FB_mating_behavior_genes <- 15
+top0.01_Zim_RAL_ZI_Chr2R_FM_mating_behavior_genes <- 14
+top0.01_Zim_RAL_ZI_Chr3L_FB_mating_behavior_genes <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_mating_behavior_genes <- 27
+top0.01_Zim_RAL_ZI_autosome_FM_mating_behavior_genes <- 23
+top0.01_ZH_RAL_ZI_ChrX_FB_mating_behavior_genes <- 15
+top0.01_ZH_RAL_ZI_ChrX_FM_mating_behavior_genes <- 15
+top0.01_ZH_RAL_ZI_Chr2R_FB_mating_behavior_genes <- 13
+top0.01_ZH_RAL_ZI_Chr2R_FM_mating_behavior_genes <- 11
+top0.01_ZH_RAL_ZI_Chr3L_FB_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_mating_behavior_genes <- 13
+top0.01_ZH_RAL_ZI_autosome_FM_mating_behavior_genes <- 11
+top0.01_ZW_RAL_ZI_ChrX_FB_mating_behavior_genes <- 16
+top0.01_ZW_RAL_ZI_ChrX_FM_mating_behavior_genes <- 16
+top0.01_ZW_RAL_ZI_Chr2L_FB_mating_behavior_genes <- 13
+top0.01_ZW_RAL_ZI_Chr2L_FM_mating_behavior_genes <- 10
+top0.01_ZW_RAL_ZI_Chr2R_FB_mating_behavior_genes <- 15
+top0.01_ZW_RAL_ZI_Chr2R_FM_mating_behavior_genes <- 14
+top0.01_ZW_RAL_ZI_Chr3L_FB_mating_behavior_genes <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_mating_behavior_genes <- 26
+top0.01_ZW_RAL_ZI_autosome_FM_mating_behavior_genes <- 23
+top0.01_ZS_ZH_ZW_ChrX_FB_mating_behavior_genes <- 17
+top0.01_ZS_ZH_ZW_ChrX_FM_mating_behavior_genes <- 17
+top0.01_ZS_ZH_ZW_Chr2L_FB_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr2L_FM_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr2R_FB_mating_behavior_genes <- 13
+top0.01_ZS_ZH_ZW_Chr2R_FM_mating_behavior_genes <- 12
+top0.01_ZS_ZH_ZW_Chr3L_FB_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_mating_behavior_genes <- 13
+top0.01_ZS_ZH_ZW_autosome_FM_mating_behavior_genes <- 12
+
+top0.01_ZS_RAL_ZI_ChrX_FB_male_mating_behavior_genes <- 10
+top0.01_ZS_RAL_ZI_ChrX_FM_male_mating_behavior_genes <- 10
+top0.01_ZS_RAL_ZI_Chr2L_FB_male_mating_behavior_genes <- 9
+top0.01_ZS_RAL_ZI_Chr2L_FM_male_mating_behavior_genes <- 9
+top0.01_ZS_RAL_ZI_Chr2R_FB_male_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_Chr2R_FM_male_mating_behavior_genes <- 6
+top0.01_ZS_RAL_ZI_Chr3L_FB_male_mating_behavior_genes <- 2
+top0.01_ZS_RAL_ZI_Chr3L_FM_male_mating_behavior_genes <- 2
+top0.01_ZS_RAL_ZI_Chr3R_FB_male_mating_behavior_genes <- 14
+top0.01_ZS_RAL_ZI_Chr3R_FM_male_mating_behavior_genes <- 14
+top0.01_ZS_RAL_ZI_autosome_FB_male_mating_behavior_genes <- 33
+top0.01_ZS_RAL_ZI_autosome_FM_male_mating_behavior_genes <- 32
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_male_mating_behavior_genes <- 10
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_male_mating_behavior_genes <- 10
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_male_mating_behavior_genes <- 9
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_male_mating_behavior_genes <- 9
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_male_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_male_mating_behavior_genes <- 6
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_male_mating_behavior_genes <- 2
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_male_mating_behavior_genes <- 2
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_male_mating_behavior_genes <- 14
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_male_mating_behavior_genes <- 14
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_male_mating_behavior_genes <- 32
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_male_mating_behavior_genes <- 31
+top0.01_Zim_RAL_ZI_ChrX_FB_male_mating_behavior_genes <- 10
+top0.01_Zim_RAL_ZI_ChrX_FM_male_mating_behavior_genes <- 10
+top0.01_Zim_RAL_ZI_Chr2L_FB_male_mating_behavior_genes <- 8
+top0.01_Zim_RAL_ZI_Chr2L_FM_male_mating_behavior_genes <- 8
+top0.01_Zim_RAL_ZI_Chr2R_FB_male_mating_behavior_genes <- 9
+top0.01_Zim_RAL_ZI_Chr2R_FM_male_mating_behavior_genes <- 9
+top0.01_Zim_RAL_ZI_Chr3L_FB_male_mating_behavior_genes <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_male_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_male_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_male_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_male_mating_behavior_genes <- 15
+top0.01_Zim_RAL_ZI_autosome_FM_male_mating_behavior_genes <- 15
+top0.01_ZH_RAL_ZI_ChrX_FB_male_mating_behavior_genes <- 9
+top0.01_ZH_RAL_ZI_ChrX_FM_male_mating_behavior_genes <- 9
+top0.01_ZH_RAL_ZI_Chr2R_FB_male_mating_behavior_genes <- 9
+top0.01_ZH_RAL_ZI_Chr2R_FM_male_mating_behavior_genes <- 8
+top0.01_ZH_RAL_ZI_Chr3L_FB_male_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_male_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_male_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_male_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_male_mating_behavior_genes <- 9
+top0.01_ZH_RAL_ZI_autosome_FM_male_mating_behavior_genes <- 8
+top0.01_ZW_RAL_ZI_ChrX_FB_male_mating_behavior_genes <- 11
+top0.01_ZW_RAL_ZI_ChrX_FM_male_mating_behavior_genes <- 11
+top0.01_ZW_RAL_ZI_Chr2L_FB_male_mating_behavior_genes <- 8
+top0.01_ZW_RAL_ZI_Chr2L_FM_male_mating_behavior_genes <- 8
+top0.01_ZW_RAL_ZI_Chr2R_FB_male_mating_behavior_genes <- 8
+top0.01_ZW_RAL_ZI_Chr2R_FM_male_mating_behavior_genes <- 7
+top0.01_ZW_RAL_ZI_Chr3L_FB_male_mating_behavior_genes <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_male_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_male_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_male_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_male_mating_behavior_genes <- 15
+top0.01_ZW_RAL_ZI_autosome_FM_male_mating_behavior_genes <- 15
+top0.01_ZS_ZH_ZW_ChrX_FB_male_mating_behavior_genes <- 11
+top0.01_ZS_ZH_ZW_ChrX_FM_male_mating_behavior_genes <- 11
+top0.01_ZS_ZH_ZW_Chr2L_FB_male_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr2L_FM_male_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr2R_FB_male_mating_behavior_genes <- 8
+top0.01_ZS_ZH_ZW_Chr2R_FM_male_mating_behavior_genes <- 7
+top0.01_ZS_ZH_ZW_Chr3L_FB_male_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_male_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_male_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_male_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_male_mating_behavior_genes <- 8
+top0.01_ZS_ZH_ZW_autosome_FM_male_mating_behavior_genes <- 7
+
+top0.01_ZS_RAL_ZI_ChrX_FB_female_mating_behavior_genes <- 3
+top0.01_ZS_RAL_ZI_ChrX_FM_female_mating_behavior_genes <- 3
+top0.01_ZS_RAL_ZI_Chr2L_FB_female_mating_behavior_genes <- 1
+top0.01_ZS_RAL_ZI_Chr2L_FM_female_mating_behavior_genes <- 1
+top0.01_ZS_RAL_ZI_Chr2R_FB_female_mating_behavior_genes <- 5
+top0.01_ZS_RAL_ZI_Chr2R_FM_female_mating_behavior_genes <- 5
+top0.01_ZS_RAL_ZI_Chr3L_FB_female_mating_behavior_genes <- 3
+top0.01_ZS_RAL_ZI_Chr3L_FM_female_mating_behavior_genes <- 3
+top0.01_ZS_RAL_ZI_Chr3R_FB_female_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_Chr3R_FM_female_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_autosome_FB_female_mating_behavior_genes <- 16
+top0.01_ZS_RAL_ZI_autosome_FM_female_mating_behavior_genes <- 16
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_female_mating_behavior_genes <- 3
+top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_female_mating_behavior_genes <- 3
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_female_mating_behavior_genes <- 1
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_female_mating_behavior_genes <- 1
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_female_mating_behavior_genes <- 5
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_female_mating_behavior_genes <- 5
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_female_mating_behavior_genes <- 4
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_female_mating_behavior_genes <- 4
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_female_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_female_mating_behavior_genes <- 7
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_female_mating_behavior_genes <- 17
+top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_female_mating_behavior_genes <- 17
+top0.01_Zim_RAL_ZI_ChrX_FB_female_mating_behavior_genes <- 3
+top0.01_Zim_RAL_ZI_ChrX_FM_female_mating_behavior_genes <- 3
+top0.01_Zim_RAL_ZI_Chr2L_FB_female_mating_behavior_genes <- 1
+top0.01_Zim_RAL_ZI_Chr2L_FM_female_mating_behavior_genes <- 1
+top0.01_Zim_RAL_ZI_Chr2R_FB_female_mating_behavior_genes <- 4
+top0.01_Zim_RAL_ZI_Chr2R_FM_female_mating_behavior_genes <- 4
+top0.01_Zim_RAL_ZI_Chr3L_FB_female_mating_behavior_genes <- 1
+top0.01_Zim_RAL_ZI_Chr3L_FM_female_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FB_female_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_Chr3R_FM_female_mating_behavior_genes <- 0
+top0.01_Zim_RAL_ZI_autosome_FB_female_mating_behavior_genes <- 5
+top0.01_Zim_RAL_ZI_autosome_FM_female_mating_behavior_genes <- 5
+top0.01_ZH_RAL_ZI_ChrX_FB_female_mating_behavior_genes <- 4
+top0.01_ZH_RAL_ZI_ChrX_FM_female_mating_behavior_genes <- 4
+top0.01_ZH_RAL_ZI_Chr2R_FB_female_mating_behavior_genes <- 5
+top0.01_ZH_RAL_ZI_Chr2R_FM_female_mating_behavior_genes <- 5
+top0.01_ZH_RAL_ZI_Chr3L_FB_female_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3L_FM_female_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FB_female_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_Chr3R_FM_female_mating_behavior_genes <- 0
+top0.01_ZH_RAL_ZI_autosome_FB_female_mating_behavior_genes <- 5
+top0.01_ZH_RAL_ZI_autosome_FM_female_mating_behavior_genes <- 5
+top0.01_ZW_RAL_ZI_ChrX_FB_female_mating_behavior_genes <- 3
+top0.01_ZW_RAL_ZI_ChrX_FM_female_mating_behavior_genes <- 3
+top0.01_ZW_RAL_ZI_Chr2L_FB_female_mating_behavior_genes <- 1
+top0.01_ZW_RAL_ZI_Chr2L_FM_female_mating_behavior_genes <- 1
+top0.01_ZW_RAL_ZI_Chr2R_FB_female_mating_behavior_genes <- 6
+top0.01_ZW_RAL_ZI_Chr2R_FM_female_mating_behavior_genes <- 6
+top0.01_ZW_RAL_ZI_Chr3L_FB_female_mating_behavior_genes <- 1
+top0.01_ZW_RAL_ZI_Chr3L_FM_female_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FB_female_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_Chr3R_FM_female_mating_behavior_genes <- 0
+top0.01_ZW_RAL_ZI_autosome_FB_female_mating_behavior_genes <- 7
+top0.01_ZW_RAL_ZI_autosome_FM_female_mating_behavior_genes <- 7
+top0.01_ZS_ZH_ZW_ChrX_FB_female_mating_behavior_genes <- 3
+top0.01_ZS_ZH_ZW_ChrX_FM_female_mating_behavior_genes <- 3
+top0.01_ZS_ZH_ZW_Chr2L_FB_female_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr2L_FM_female_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr2R_FB_female_mating_behavior_genes <- 5
+top0.01_ZS_ZH_ZW_Chr2R_FM_female_mating_behavior_genes <- 5
+top0.01_ZS_ZH_ZW_Chr3L_FB_female_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3L_FM_female_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FB_female_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_Chr3R_FM_female_mating_behavior_genes <- 0
+top0.01_ZS_ZH_ZW_autosome_FB_female_mating_behavior_genes <- 5
+top0.01_ZS_ZH_ZW_autosome_FM_female_mating_behavior_genes <- 5
+
+
+
+#making data frames
+ZS_RAL_ZI <- data.frame(Chrom_GOterm = c("ChrX_gene_count", "ChrX_unique_genes", 
+                                         "ChrX_FB_neurogenesis_persite", "ChrX_FM_neurogenesis_persite", 
+                                         "ChrX_FB_mating_behavior_persite", "ChrX_FM_mating_behavior_persite",
+                                         "ChrX_FB_male_mating_behavior_persite", "ChrX_FM_male_mating_behavior_persite", 
+                                         "ChrX_FB_female_mating_behavior_persite", "ChrX_FM_female_mating_behavior_persite",
+                                         
+                                         "ChrX_FB_neurogenesis_pergene", "ChrX_FM_neurogenesis_pergene", 
+                                         "ChrX_FB_mating_behavior_pergene", "ChrX_FM_mating_behavior_pergene",
+                                         "ChrX_FB_male_mating_behavior_pergene", "ChrX_FM_male_mating_behavior_pergene", 
+                                         "ChrX_FB_female_mating_behavior_pergene", "ChrX_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr2L_gene_count", "Chr2L_unique_genes", 
+                                         "Chr2L_FB_neurogenesis_persite", "Chr2L_FM_neurogenesis_persite", 
+                                         "Chr2L_FB_mating_behavior_persite", "Chr2L_FM_mating_behavior_persite",
+                                         "Chr2L_FB_male_mating_behavior_persite", "Chr2L_FM_male_mating_behavior_persite", 
+                                         "Chr2L_FB_female_mating_behavior_persite", "Chr2L_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr2L_FB_neurogenesis_pergene", "Chr2L_FM_neurogenesis_pergene", 
+                                         "Chr2L_FB_mating_behavior_pergene", "Chr2L_FM_mating_behavior_pergene",
+                                         "Chr2L_FB_male_mating_behavior_pergene", "Chr2L_FM_male_mating_behavior_pergene", 
+                                         "Chr2L_FB_female_mating_behavior_pergene", "Chr2L_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr2R_gene_count", "Chr2R_unique_genes", 
+                                         "Chr2R_FB_neurogenesis_persite", "Chr2R_FM_neurogenesis_persite", 
+                                         "Chr2R_FB_mating_behavior_persite", "Chr2R_FM_mating_behavior_persite",
+                                         "Chr2R_FB_male_mating_behavior_persite", "Chr2R_FM_male_mating_behavior_persite", 
+                                         "Chr2R_FB_female_mating_behavior_persite", "Chr2R_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr2R_FB_neurogenesis_pergene", "Chr2R_FM_neurogenesis_pergene", 
+                                         "Chr2R_FB_mating_behavior_pergene", "Chr2R_FM_mating_behavior_pergene",
+                                         "Chr2R_FB_male_mating_behavior_pergene", "Chr2R_FM_male_mating_behavior_pergene", 
+                                         "Chr2R_FB_female_mating_behavior_pergene", "Chr2R_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr3L_gene_count", "Chr3L_unique_genes", 
+                                         "Chr3L_FB_neurogenesis_persite", "Chr3L_FM_neurogenesis_persite", 
+                                         "Chr3L_FB_mating_behavior_persite", "Chr3L_FM_mating_behavior_persite",
+                                         "Chr3L_FB_male_mating_behavior_persite", "Chr3L_FM_male_mating_behavior_persite", 
+                                         "Chr3L_FB_female_mating_behavior_persite", "Chr3L_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr3L_FB_neurogenesis_pergene", "Chr3L_FM_neurogenesis_pergene", 
+                                         "Chr3L_FB_mating_behavior_pergene", "Chr3L_FM_mating_behavior_pergene",
+                                         "Chr3L_FB_male_mating_behavior_pergene", "Chr3L_FM_male_mating_behavior_pergene", 
+                                         "Chr3L_FB_female_mating_behavior_pergene", "Chr3L_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr3R_gene_count", "Chr3R_unique_genes", 
+                                         "Chr3R_FB_neurogenesis_persite", "Chr3R_FM_neurogenesis_persite", 
+                                         "Chr3R_FB_mating_behavior_persite", "Chr3R_FM_mating_behavior_persite",
+                                         "Chr3R_FB_male_mating_behavior_persite", "Chr3R_FM_male_mating_behavior_persite", 
+                                         "Chr3R_FB_female_mating_behavior_persite", "Chr3R_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr3R_FB_neurogenesis_pergene", "Chr3R_FM_neurogenesis_pergene", 
+                                         "Chr3R_FB_mating_behavior_pergene", "Chr3R_FM_mating_behavior_pergene",
+                                         "Chr3R_FB_male_mating_behavior_pergene", "Chr3R_FM_male_mating_behavior_pergene", 
+                                         "Chr3R_FB_female_mating_behavior_pergene", "Chr3R_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Autosome_gene_count", "Autosome_unique_genes", 
+                                         "Autosome_FB_neurogenesis_persite", "Autosome_FM_neurogenesis_persite", 
+                                         "Autosome_FB_mating_behavior_persite", "Autosome_FM_mating_behavior_persite",
+                                         "Autosome_FB_male_mating_behavior_persite", "Autosome_FM_male_mating_behavior_persite", 
+                                         "Autosome_FB_female_mating_behavior_persite", "Autosome_FM_female_mating_behavior_persite",
+                                         
+                                         "Autosome_FB_neurogenesis_pergene", "Autosome_FM_neurogenesis_pergene", 
+                                         "Autosome_FB_mating_behavior_pergene", "Autosome_FM_mating_behavior_pergene",
+                                         "Autosome_FB_male_mating_behavior_pergene", "Autosome_FM_male_mating_behavior_pergene", 
+                                         "Autosome_FB_female_mating_behavior_pergene", "Autosome_FM_female_mating_behavior_pergene"),
+                        
+                        top_1_percent = c(top0.01_ZS_RAL_ZI_ChrX_gene_sites, top0.01_ZS_RAL_ZI_ChrX_unique_genes,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_ChrX_FM_neurogenesis_sites,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_ChrX_FM_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_ChrX_FM_male_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_ChrX_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_ChrX_FM_neurogenesis_genes,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_ChrX_FM_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_ChrX_FM_male_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_ChrX_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_ChrX_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr2L_gene_sites, top0.01_ZS_RAL_ZI_Chr2L_unique_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_Chr2L_FM_neurogenesis_sites,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr2L_FM_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr2L_FM_male_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr2L_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_Chr2L_FM_neurogenesis_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr2L_FM_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr2L_FM_male_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2L_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr2L_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr2R_gene_sites, top0.01_ZS_RAL_ZI_Chr2R_unique_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_Chr2R_FM_neurogenesis_sites,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr2R_FM_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr2R_FM_male_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr2R_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_Chr2R_FM_neurogenesis_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr2R_FM_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr2R_FM_male_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr2R_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr2R_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr3L_gene_sites, top0.01_ZS_RAL_ZI_Chr3L_unique_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_Chr3L_FM_neurogenesis_sites,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr3L_FM_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr3L_FM_male_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr3L_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_Chr3L_FM_neurogenesis_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr3L_FM_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr3L_FM_male_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3L_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr3L_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr3R_gene_sites, top0.01_ZS_RAL_ZI_Chr3R_unique_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_Chr3R_FM_neurogenesis_sites,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr3R_FM_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr3R_FM_male_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_Chr3R_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_Chr3R_FM_neurogenesis_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr3R_FM_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr3R_FM_male_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_Chr3R_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_Chr3R_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZS_RAL_ZI_autosome_gene_sites, top0.01_ZS_RAL_ZI_autosome_unique_genes,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_autosome_FM_neurogenesis_sites,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_autosome_FM_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_autosome_FM_male_mating_behavior_sites,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_autosome_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZS_RAL_ZI_autosome_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_autosome_FM_neurogenesis_genes,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_autosome_FM_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_autosome_FM_male_mating_behavior_genes,
+                                          top0.01_ZS_RAL_ZI_autosome_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_autosome_FM_female_mating_behavior_genes),
+                        
+                        
+                        null_mean = c(mean_null_ZS_RAL_ZI_ChrX_num_of_gene_sites, mean_null_ZS_RAL_ZI_ChrX_num_of_unique_genes,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr2L_num_of_gene_sites, mean_null_ZS_RAL_ZI_Chr2L_num_of_unique_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_Chr2L_Flymine_neurogenesis_sites,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr2L_Flymine_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr2L_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr2L_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_Chr2L_Flymine_neurogenesis_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr2L_Flymine_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr2L_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2L_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr2L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr2R_num_of_gene_sites, mean_null_ZS_RAL_ZI_Chr2R_num_of_unique_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr3L_num_of_gene_sites, mean_null_ZS_RAL_ZI_Chr3L_num_of_unique_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr3R_num_of_gene_sites, mean_null_ZS_RAL_ZI_Chr3R_num_of_unique_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZS_RAL_ZI_autosome_num_of_gene_sites, mean_null_ZS_RAL_ZI_autosome_num_of_unique_genes,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZS_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_autosome_Flymine_female_mating_behavior_genes),
+                        
+                        
+                        null_sd = c(sd_null_ZS_RAL_ZI_ChrX_num_of_gene_sites, sd_null_ZS_RAL_ZI_ChrX_num_of_unique_genes,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                      
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr2L_num_of_gene_sites, sd_null_ZS_RAL_ZI_Chr2L_num_of_unique_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_Chr2L_Flymine_neurogenesis_sites,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr2L_Flymine_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr2L_Flymine_male_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr2L_Flymine_female_mating_behavior_sites,
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_Chr2L_Flymine_neurogenesis_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr2L_Flymine_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr2L_Flymine_male_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2L_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr2L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr2R_num_of_gene_sites, sd_null_ZS_RAL_ZI_Chr2R_num_of_unique_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr3L_num_of_gene_sites, sd_null_ZS_RAL_ZI_Chr3L_num_of_unique_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr3R_num_of_gene_sites, sd_null_ZS_RAL_ZI_Chr3R_num_of_unique_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                      
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      sd_null_ZS_RAL_ZI_autosome_num_of_gene_sites, sd_null_ZS_RAL_ZI_autosome_num_of_unique_genes,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                      
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                      sd_null_ZS_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_autosome_Flymine_female_mating_behavior_genes))
+
+ZS_RAL_ZI_FR_SAfr <- data.frame(Chrom_GOterm = c("ChrX_gene_count", "ChrX_unique_genes", 
+                                                 "ChrX_FB_neurogenesis_persite", "ChrX_FM_neurogenesis_persite", 
+                                                 "ChrX_FB_mating_behavior_persite", "ChrX_FM_mating_behavior_persite",
+                                                 "ChrX_FB_male_mating_behavior_persite", "ChrX_FM_male_mating_behavior_persite", 
+                                                 "ChrX_FB_female_mating_behavior_persite", "ChrX_FM_female_mating_behavior_persite",
+                                                 
+                                                 "ChrX_FB_neurogenesis_pergene", "ChrX_FM_neurogenesis_pergene", 
+                                                 "ChrX_FB_mating_behavior_pergene", "ChrX_FM_mating_behavior_pergene",
+                                                 "ChrX_FB_male_mating_behavior_pergene", "ChrX_FM_male_mating_behavior_pergene", 
+                                                 "ChrX_FB_female_mating_behavior_pergene", "ChrX_FM_female_mating_behavior_pergene",
+                                                 
+                                                 
+                                                 "Chr2L_gene_count", "Chr2L_unique_genes", 
+                                                 "Chr2L_FB_neurogenesis_persite", "Chr2L_FM_neurogenesis_persite", 
+                                                 "Chr2L_FB_mating_behavior_persite", "Chr2L_FM_mating_behavior_persite",
+                                                 "Chr2L_FB_male_mating_behavior_persite", "Chr2L_FM_male_mating_behavior_persite", 
+                                                 "Chr2L_FB_female_mating_behavior_persite", "Chr2L_FM_female_mating_behavior_persite",
+                                                 
+                                                 "Chr2L_FB_neurogenesis_pergene", "Chr2L_FM_neurogenesis_pergene", 
+                                                 "Chr2L_FB_mating_behavior_pergene", "Chr2L_FM_mating_behavior_pergene",
+                                                 "Chr2L_FB_male_mating_behavior_pergene", "Chr2L_FM_male_mating_behavior_pergene", 
+                                                 "Chr2L_FB_female_mating_behavior_pergene", "Chr2L_FM_female_mating_behavior_pergene",
+                                                 
+                                                 
+                                                 "Chr2R_gene_count", "Chr2R_unique_genes", 
+                                                 "Chr2R_FB_neurogenesis_persite", "Chr2R_FM_neurogenesis_persite", 
+                                                 "Chr2R_FB_mating_behavior_persite", "Chr2R_FM_mating_behavior_persite",
+                                                 "Chr2R_FB_male_mating_behavior_persite", "Chr2R_FM_male_mating_behavior_persite", 
+                                                 "Chr2R_FB_female_mating_behavior_persite", "Chr2R_FM_female_mating_behavior_persite",
+                                                 
+                                                 "Chr2R_FB_neurogenesis_pergene", "Chr2R_FM_neurogenesis_pergene", 
+                                                 "Chr2R_FB_mating_behavior_pergene", "Chr2R_FM_mating_behavior_pergene",
+                                                 "Chr2R_FB_male_mating_behavior_pergene", "Chr2R_FM_male_mating_behavior_pergene", 
+                                                 "Chr2R_FB_female_mating_behavior_pergene", "Chr2R_FM_female_mating_behavior_pergene",
+                                                 
+                                                 
+                                                 "Chr3L_gene_count", "Chr3L_unique_genes", 
+                                                 "Chr3L_FB_neurogenesis_persite", "Chr3L_FM_neurogenesis_persite", 
+                                                 "Chr3L_FB_mating_behavior_persite", "Chr3L_FM_mating_behavior_persite",
+                                                 "Chr3L_FB_male_mating_behavior_persite", "Chr3L_FM_male_mating_behavior_persite", 
+                                                 "Chr3L_FB_female_mating_behavior_persite", "Chr3L_FM_female_mating_behavior_persite",
+                                                 
+                                                 "Chr3L_FB_neurogenesis_pergene", "Chr3L_FM_neurogenesis_pergene", 
+                                                 "Chr3L_FB_mating_behavior_pergene", "Chr3L_FM_mating_behavior_pergene",
+                                                 "Chr3L_FB_male_mating_behavior_pergene", "Chr3L_FM_male_mating_behavior_pergene", 
+                                                 "Chr3L_FB_female_mating_behavior_pergene", "Chr3L_FM_female_mating_behavior_pergene",
+                                                 
+                                                 
+                                                 "Chr3R_gene_count", "Chr3R_unique_genes", 
+                                                 "Chr3R_FB_neurogenesis_persite", "Chr3R_FM_neurogenesis_persite", 
+                                                 "Chr3R_FB_mating_behavior_persite", "Chr3R_FM_mating_behavior_persite",
+                                                 "Chr3R_FB_male_mating_behavior_persite", "Chr3R_FM_male_mating_behavior_persite", 
+                                                 "Chr3R_FB_female_mating_behavior_persite", "Chr3R_FM_female_mating_behavior_persite",
+                                                 
+                                                 "Chr3R_FB_neurogenesis_pergene", "Chr3R_FM_neurogenesis_pergene", 
+                                                 "Chr3R_FB_mating_behavior_pergene", "Chr3R_FM_mating_behavior_pergene",
+                                                 "Chr3R_FB_male_mating_behavior_pergene", "Chr3R_FM_male_mating_behavior_pergene", 
+                                                 "Chr3R_FB_female_mating_behavior_pergene", "Chr3R_FM_female_mating_behavior_pergene",
+                                                 
+                                                 
+                                                 "Autosome_gene_count", "Autosome_unique_genes", 
+                                                 "Autosome_FB_neurogenesis_persite", "Autosome_FM_neurogenesis_persite", 
+                                                 "Autosome_FB_mating_behavior_persite", "Autosome_FM_mating_behavior_persite",
+                                                 "Autosome_FB_male_mating_behavior_persite", "Autosome_FM_male_mating_behavior_persite", 
+                                                 "Autosome_FB_female_mating_behavior_persite", "Autosome_FM_female_mating_behavior_persite",
+                                                 
+                                                 "Autosome_FB_neurogenesis_pergene", "Autosome_FM_neurogenesis_pergene", 
+                                                 "Autosome_FB_mating_behavior_pergene", "Autosome_FM_mating_behavior_pergene",
+                                                 "Autosome_FB_male_mating_behavior_pergene", "Autosome_FM_male_mating_behavior_pergene", 
+                                                 "Autosome_FB_female_mating_behavior_pergene", "Autosome_FM_female_mating_behavior_pergene"),
+                                
+                                top_1_percent = c(top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_gene_sites, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_unique_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_neurogenesis_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_male_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_female_mating_behavior_sites,
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_neurogenesis_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_male_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_ChrX_FM_female_mating_behavior_genes,
+                                                  
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_gene_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_unique_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_neurogenesis_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_male_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_female_mating_behavior_sites,
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_neurogenesis_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_male_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2L_FM_female_mating_behavior_genes,
+                                                  
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_gene_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_unique_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_neurogenesis_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_male_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_female_mating_behavior_sites,
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_neurogenesis_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_male_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr2R_FM_female_mating_behavior_genes,
+                                                  
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_gene_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_unique_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_neurogenesis_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_male_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_female_mating_behavior_sites,
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_neurogenesis_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_male_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3L_FM_female_mating_behavior_genes,
+                                                  
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_gene_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_unique_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_neurogenesis_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_male_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_female_mating_behavior_sites,
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_neurogenesis_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_male_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_Chr3R_FM_female_mating_behavior_genes,
+                                                  
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_gene_sites, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_unique_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_neurogenesis_sites, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_neurogenesis_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_male_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_male_mating_behavior_sites,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_female_mating_behavior_sites, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_female_mating_behavior_sites,
+                                                  
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_neurogenesis_genes, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_neurogenesis_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_male_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_male_mating_behavior_genes,
+                                                  top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FB_female_mating_behavior_genes, top0.01_ZS_RAL_ZI_FR_SAfr_autosome_FM_female_mating_behavior_genes),
+                                
+                                
+                                null_mean = c(mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_num_of_gene_sites, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_num_of_unique_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_neurogenesis_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_male_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_female_mating_behavior_sites,
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_neurogenesis_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_male_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_female_mating_behavior_genes,
+                                              
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_num_of_gene_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_num_of_unique_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_neurogenesis_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_male_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_female_mating_behavior_sites,
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_neurogenesis_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_male_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_female_mating_behavior_genes,
+                                              
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_num_of_gene_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_num_of_unique_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_neurogenesis_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_male_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_female_mating_behavior_sites,
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_neurogenesis_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_male_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_female_mating_behavior_genes,
+                                              
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_num_of_gene_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_num_of_unique_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_neurogenesis_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_male_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_female_mating_behavior_sites,
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_neurogenesis_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_male_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_female_mating_behavior_genes,
+                                              
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_num_of_gene_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_num_of_unique_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_neurogenesis_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_male_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_female_mating_behavior_sites,
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_neurogenesis_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_male_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_female_mating_behavior_genes,
+                                              
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_num_of_gene_sites, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_num_of_unique_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_neurogenesis_sites, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_neurogenesis_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_male_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_male_mating_behavior_sites,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_female_mating_behavior_sites, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_female_mating_behavior_sites,
+                                              
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_neurogenesis_genes, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_neurogenesis_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_male_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_male_mating_behavior_genes,
+                                              mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_female_mating_behavior_genes, mean_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_female_mating_behavior_genes),
+                                
+                                
+                                null_sd = c(sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_num_of_gene_sites, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_num_of_unique_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_neurogenesis_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_male_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_female_mating_behavior_sites,
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_neurogenesis_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_male_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_ChrX_Flymine_female_mating_behavior_genes,
+                                            
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_num_of_gene_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_num_of_unique_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_neurogenesis_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_male_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_female_mating_behavior_sites,
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_neurogenesis_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_male_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2L_Flymine_female_mating_behavior_genes,
+                                            
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_num_of_gene_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_num_of_unique_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_neurogenesis_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_male_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_female_mating_behavior_sites,
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_neurogenesis_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_male_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr2R_Flymine_female_mating_behavior_genes,
+                                            
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_num_of_gene_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_num_of_unique_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_neurogenesis_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_male_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_female_mating_behavior_sites,
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_neurogenesis_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_male_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3L_Flymine_female_mating_behavior_genes,
+                                            
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_num_of_gene_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_num_of_unique_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_neurogenesis_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_male_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_female_mating_behavior_sites,
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_neurogenesis_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_male_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_Chr3R_Flymine_female_mating_behavior_genes,
+                                            
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_num_of_gene_sites, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_num_of_unique_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_neurogenesis_sites, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_neurogenesis_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_male_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_male_mating_behavior_sites,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_female_mating_behavior_sites, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_female_mating_behavior_sites,
+                                            
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_neurogenesis_genes, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_neurogenesis_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_male_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_male_mating_behavior_genes,
+                                            sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flybase_female_mating_behavior_genes, sd_null_ZS_RAL_ZI_FR_SAfr_autosome_Flymine_female_mating_behavior_genes))
+
+Zim_RAL_ZI <- data.frame(Chrom_GOterm = c("ChrX_gene_count", "ChrX_unique_genes", 
+                                          "ChrX_FB_neurogenesis_persite", "ChrX_FM_neurogenesis_persite", 
+                                          "ChrX_FB_mating_behavior_persite", "ChrX_FM_mating_behavior_persite",
+                                          "ChrX_FB_male_mating_behavior_persite", "ChrX_FM_male_mating_behavior_persite", 
+                                          "ChrX_FB_female_mating_behavior_persite", "ChrX_FM_female_mating_behavior_persite",
+                                          
+                                          "ChrX_FB_neurogenesis_pergene", "ChrX_FM_neurogenesis_pergene", 
+                                          "ChrX_FB_mating_behavior_pergene", "ChrX_FM_mating_behavior_pergene",
+                                          "ChrX_FB_male_mating_behavior_pergene", "ChrX_FM_male_mating_behavior_pergene", 
+                                          "ChrX_FB_female_mating_behavior_pergene", "ChrX_FM_female_mating_behavior_pergene",
+                                          
+                                          
+                                          "Chr2L_gene_count", "Chr2L_unique_genes", 
+                                          "Chr2L_FB_neurogenesis_persite", "Chr2L_FM_neurogenesis_persite", 
+                                          "Chr2L_FB_mating_behavior_persite", "Chr2L_FM_mating_behavior_persite",
+                                          "Chr2L_FB_male_mating_behavior_persite", "Chr2L_FM_male_mating_behavior_persite", 
+                                          "Chr2L_FB_female_mating_behavior_persite", "Chr2L_FM_female_mating_behavior_persite",
+                                          
+                                          "Chr2L_FB_neurogenesis_pergene", "Chr2L_FM_neurogenesis_pergene", 
+                                          "Chr2L_FB_mating_behavior_pergene", "Chr2L_FM_mating_behavior_pergene",
+                                          "Chr2L_FB_male_mating_behavior_pergene", "Chr2L_FM_male_mating_behavior_pergene", 
+                                          "Chr2L_FB_female_mating_behavior_pergene", "Chr2L_FM_female_mating_behavior_pergene",
+                                          
+                                          
+                                          "Chr2R_gene_count", "Chr2R_unique_genes", 
+                                          "Chr2R_FB_neurogenesis_persite", "Chr2R_FM_neurogenesis_persite", 
+                                          "Chr2R_FB_mating_behavior_persite", "Chr2R_FM_mating_behavior_persite",
+                                          "Chr2R_FB_male_mating_behavior_persite", "Chr2R_FM_male_mating_behavior_persite", 
+                                          "Chr2R_FB_female_mating_behavior_persite", "Chr2R_FM_female_mating_behavior_persite",
+                                          
+                                          "Chr2R_FB_neurogenesis_pergene", "Chr2R_FM_neurogenesis_pergene", 
+                                          "Chr2R_FB_mating_behavior_pergene", "Chr2R_FM_mating_behavior_pergene",
+                                          "Chr2R_FB_male_mating_behavior_pergene", "Chr2R_FM_male_mating_behavior_pergene", 
+                                          "Chr2R_FB_female_mating_behavior_pergene", "Chr2R_FM_female_mating_behavior_pergene",
+                                          
+                                          
+                                          "Chr3L_gene_count", "Chr3L_unique_genes", 
+                                          "Chr3L_FB_neurogenesis_persite", "Chr3L_FM_neurogenesis_persite", 
+                                          "Chr3L_FB_mating_behavior_persite", "Chr3L_FM_mating_behavior_persite",
+                                          "Chr3L_FB_male_mating_behavior_persite", "Chr3L_FM_male_mating_behavior_persite", 
+                                          "Chr3L_FB_female_mating_behavior_persite", "Chr3L_FM_female_mating_behavior_persite",
+                                          
+                                          "Chr3L_FB_neurogenesis_pergene", "Chr3L_FM_neurogenesis_pergene", 
+                                          "Chr3L_FB_mating_behavior_pergene", "Chr3L_FM_mating_behavior_pergene",
+                                          "Chr3L_FB_male_mating_behavior_pergene", "Chr3L_FM_male_mating_behavior_pergene", 
+                                          "Chr3L_FB_female_mating_behavior_pergene", "Chr3L_FM_female_mating_behavior_pergene",
+                                          
+                                          
+                                          "Chr3R_gene_count", "Chr3R_unique_genes", 
+                                          "Chr3R_FB_neurogenesis_persite", "Chr3R_FM_neurogenesis_persite", 
+                                          "Chr3R_FB_mating_behavior_persite", "Chr3R_FM_mating_behavior_persite",
+                                          "Chr3R_FB_male_mating_behavior_persite", "Chr3R_FM_male_mating_behavior_persite", 
+                                          "Chr3R_FB_female_mating_behavior_persite", "Chr3R_FM_female_mating_behavior_persite",
+                                          
+                                          "Chr3R_FB_neurogenesis_pergene", "Chr3R_FM_neurogenesis_pergene", 
+                                          "Chr3R_FB_mating_behavior_pergene", "Chr3R_FM_mating_behavior_pergene",
+                                          "Chr3R_FB_male_mating_behavior_pergene", "Chr3R_FM_male_mating_behavior_pergene", 
+                                          "Chr3R_FB_female_mating_behavior_pergene", "Chr3R_FM_female_mating_behavior_pergene",
+                                          
+                                          
+                                          "Autosome_gene_count", "Autosome_unique_genes", 
+                                          "Autosome_FB_neurogenesis_persite", "Autosome_FM_neurogenesis_persite", 
+                                          "Autosome_FB_mating_behavior_persite", "Autosome_FM_mating_behavior_persite",
+                                          "Autosome_FB_male_mating_behavior_persite", "Autosome_FM_male_mating_behavior_persite", 
+                                          "Autosome_FB_female_mating_behavior_persite", "Autosome_FM_female_mating_behavior_persite",
+                                          
+                                          "Autosome_FB_neurogenesis_pergene", "Autosome_FM_neurogenesis_pergene", 
+                                          "Autosome_FB_mating_behavior_pergene", "Autosome_FM_mating_behavior_pergene",
+                                          "Autosome_FB_male_mating_behavior_pergene", "Autosome_FM_male_mating_behavior_pergene", 
+                                          "Autosome_FB_female_mating_behavior_pergene", "Autosome_FM_female_mating_behavior_pergene"),
+                         
+                         
+                         top_1_percent = c(top0.01_Zim_RAL_ZI_ChrX_gene_sites, top0.01_Zim_RAL_ZI_ChrX_unique_genes,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_neurogenesis_sites, top0.01_Zim_RAL_ZI_ChrX_FM_neurogenesis_sites,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_mating_behavior_sites, top0.01_Zim_RAL_ZI_ChrX_FM_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_male_mating_behavior_sites, top0.01_Zim_RAL_ZI_ChrX_FM_male_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_female_mating_behavior_sites, top0.01_Zim_RAL_ZI_ChrX_FM_female_mating_behavior_sites,
+                                           
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_neurogenesis_genes, top0.01_Zim_RAL_ZI_ChrX_FM_neurogenesis_genes,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_mating_behavior_genes, top0.01_Zim_RAL_ZI_ChrX_FM_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_male_mating_behavior_genes, top0.01_Zim_RAL_ZI_ChrX_FM_male_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_ChrX_FB_female_mating_behavior_genes, top0.01_Zim_RAL_ZI_ChrX_FM_female_mating_behavior_genes,
+                                           
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr2L_gene_sites, top0.01_Zim_RAL_ZI_Chr2L_unique_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_neurogenesis_sites, top0.01_Zim_RAL_ZI_Chr2L_FM_neurogenesis_sites,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr2L_FM_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_male_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr2L_FM_male_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_female_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr2L_FM_female_mating_behavior_sites,
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_neurogenesis_genes, top0.01_Zim_RAL_ZI_Chr2L_FM_neurogenesis_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr2L_FM_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_male_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr2L_FM_male_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2L_FB_female_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr2L_FM_female_mating_behavior_genes,
+                                           
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr2R_gene_sites, top0.01_Zim_RAL_ZI_Chr2R_unique_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_neurogenesis_sites, top0.01_Zim_RAL_ZI_Chr2R_FM_neurogenesis_sites,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr2R_FM_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_male_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr2R_FM_male_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_female_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr2R_FM_female_mating_behavior_sites,
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_neurogenesis_genes, top0.01_Zim_RAL_ZI_Chr2R_FM_neurogenesis_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr2R_FM_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_male_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr2R_FM_male_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr2R_FB_female_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr2R_FM_female_mating_behavior_genes,
+                                           
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr3L_gene_sites, top0.01_Zim_RAL_ZI_Chr3L_unique_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_neurogenesis_sites, top0.01_Zim_RAL_ZI_Chr3L_FM_neurogenesis_sites,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr3L_FM_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_male_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr3L_FM_male_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_female_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr3L_FM_female_mating_behavior_sites,
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_neurogenesis_genes, top0.01_Zim_RAL_ZI_Chr3L_FM_neurogenesis_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr3L_FM_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_male_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr3L_FM_male_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3L_FB_female_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr3L_FM_female_mating_behavior_genes,
+                                           
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr3R_gene_sites, top0.01_Zim_RAL_ZI_Chr3R_unique_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_neurogenesis_sites, top0.01_Zim_RAL_ZI_Chr3R_FM_neurogenesis_sites,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr3R_FM_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_male_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr3R_FM_male_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_female_mating_behavior_sites, top0.01_Zim_RAL_ZI_Chr3R_FM_female_mating_behavior_sites,
+                                           
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_neurogenesis_genes, top0.01_Zim_RAL_ZI_Chr3R_FM_neurogenesis_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr3R_FM_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_male_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr3R_FM_male_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_Chr3R_FB_female_mating_behavior_genes, top0.01_Zim_RAL_ZI_Chr3R_FM_female_mating_behavior_genes,
+                                           
+                                           
+                                           top0.01_Zim_RAL_ZI_autosome_gene_sites, top0.01_Zim_RAL_ZI_autosome_unique_genes,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_neurogenesis_sites, top0.01_Zim_RAL_ZI_autosome_FM_neurogenesis_sites,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_mating_behavior_sites, top0.01_Zim_RAL_ZI_autosome_FM_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_male_mating_behavior_sites, top0.01_Zim_RAL_ZI_autosome_FM_male_mating_behavior_sites,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_female_mating_behavior_sites, top0.01_Zim_RAL_ZI_autosome_FM_female_mating_behavior_sites,
+                                           
+                                           top0.01_Zim_RAL_ZI_autosome_FB_neurogenesis_genes, top0.01_Zim_RAL_ZI_autosome_FM_neurogenesis_genes,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_mating_behavior_genes, top0.01_Zim_RAL_ZI_autosome_FM_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_male_mating_behavior_genes, top0.01_Zim_RAL_ZI_autosome_FM_male_mating_behavior_genes,
+                                           top0.01_Zim_RAL_ZI_autosome_FB_female_mating_behavior_genes, top0.01_Zim_RAL_ZI_autosome_FM_female_mating_behavior_genes),
+                         
+                         
+                         null_mean = c(mean_null_Zim_RAL_ZI_ChrX_num_of_gene_sites, mean_null_Zim_RAL_ZI_ChrX_num_of_unique_genes,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_neurogenesis_sites, mean_null_Zim_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_mating_behavior_sites, mean_null_Zim_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, mean_null_Zim_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, mean_null_Zim_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                       
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_neurogenesis_genes, mean_null_Zim_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_mating_behavior_genes, mean_null_Zim_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, mean_null_Zim_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, mean_null_Zim_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                       
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr2L_num_of_gene_sites, mean_null_Zim_RAL_ZI_Chr2L_num_of_unique_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_neurogenesis_sites, mean_null_Zim_RAL_ZI_Chr2L_Flymine_neurogenesis_sites,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr2L_Flymine_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_male_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr2L_Flymine_male_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_female_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr2L_Flymine_female_mating_behavior_sites,
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_neurogenesis_genes, mean_null_Zim_RAL_ZI_Chr2L_Flymine_neurogenesis_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr2L_Flymine_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_male_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr2L_Flymine_male_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2L_Flybase_female_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr2L_Flymine_female_mating_behavior_genes,
+                                       
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr2R_num_of_gene_sites, mean_null_Zim_RAL_ZI_Chr2R_num_of_unique_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, mean_null_Zim_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, mean_null_Zim_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                       
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr3L_num_of_gene_sites, mean_null_Zim_RAL_ZI_Chr3L_num_of_unique_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, mean_null_Zim_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, mean_null_Zim_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                       
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr3R_num_of_gene_sites, mean_null_Zim_RAL_ZI_Chr3R_num_of_unique_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, mean_null_Zim_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, mean_null_Zim_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                       
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, mean_null_Zim_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, mean_null_Zim_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                       
+                                       
+                                       mean_null_Zim_RAL_ZI_autosome_num_of_gene_sites, mean_null_Zim_RAL_ZI_autosome_num_of_unique_genes,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_neurogenesis_sites, mean_null_Zim_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_mating_behavior_sites, mean_null_Zim_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, mean_null_Zim_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, mean_null_Zim_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                       
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_neurogenesis_genes, mean_null_Zim_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_mating_behavior_genes, mean_null_Zim_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, mean_null_Zim_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                       mean_null_Zim_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, mean_null_Zim_RAL_ZI_autosome_Flymine_female_mating_behavior_genes),
+                         
+                         
+                         null_sd = c(sd_null_Zim_RAL_ZI_ChrX_num_of_gene_sites, sd_null_Zim_RAL_ZI_ChrX_num_of_unique_genes,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_neurogenesis_sites, sd_null_Zim_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_mating_behavior_sites, sd_null_Zim_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, sd_null_Zim_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, sd_null_Zim_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                     
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_neurogenesis_genes, sd_null_Zim_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_mating_behavior_genes, sd_null_Zim_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, sd_null_Zim_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, sd_null_Zim_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr2L_num_of_gene_sites, sd_null_Zim_RAL_ZI_Chr2L_num_of_unique_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_neurogenesis_sites, sd_null_Zim_RAL_ZI_Chr2L_Flymine_neurogenesis_sites,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr2L_Flymine_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_male_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr2L_Flymine_male_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_female_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr2L_Flymine_female_mating_behavior_sites,
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_neurogenesis_genes, sd_null_Zim_RAL_ZI_Chr2L_Flymine_neurogenesis_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr2L_Flymine_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_male_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr2L_Flymine_male_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2L_Flybase_female_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr2L_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr2R_num_of_gene_sites, sd_null_Zim_RAL_ZI_Chr2R_num_of_unique_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, sd_null_Zim_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, sd_null_Zim_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr3L_num_of_gene_sites, sd_null_Zim_RAL_ZI_Chr3L_num_of_unique_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, sd_null_Zim_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, sd_null_Zim_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr3R_num_of_gene_sites, sd_null_Zim_RAL_ZI_Chr3R_num_of_unique_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, sd_null_Zim_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, sd_null_Zim_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                     
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, sd_null_Zim_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, sd_null_Zim_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     sd_null_Zim_RAL_ZI_autosome_num_of_gene_sites, sd_null_Zim_RAL_ZI_autosome_num_of_unique_genes,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_neurogenesis_sites, sd_null_Zim_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_mating_behavior_sites, sd_null_Zim_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, sd_null_Zim_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, sd_null_Zim_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                     
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_neurogenesis_genes, sd_null_Zim_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_mating_behavior_genes, sd_null_Zim_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, sd_null_Zim_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                     sd_null_Zim_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, sd_null_Zim_RAL_ZI_autosome_Flymine_female_mating_behavior_genes))
+
+ZH_RAL_ZI <- data.frame(Chrom_GOterm = c("ChrX_gene_count", "ChrX_unique_genes", 
+                                         "ChrX_FB_neurogenesis_persite", "ChrX_FM_neurogenesis_persite", 
+                                         "ChrX_FB_mating_behavior_persite", "ChrX_FM_mating_behavior_persite",
+                                         "ChrX_FB_male_mating_behavior_persite", "ChrX_FM_male_mating_behavior_persite", 
+                                         "ChrX_FB_female_mating_behavior_persite", "ChrX_FM_female_mating_behavior_persite",
+                                         
+                                         "ChrX_FB_neurogenesis_pergene", "ChrX_FM_neurogenesis_pergene", 
+                                         "ChrX_FB_mating_behavior_pergene", "ChrX_FM_mating_behavior_pergene",
+                                         "ChrX_FB_male_mating_behavior_pergene", "ChrX_FM_male_mating_behavior_pergene", 
+                                         "ChrX_FB_female_mating_behavior_pergene", "ChrX_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr2R_gene_count", "Chr2R_unique_genes", 
+                                         "Chr2R_FB_neurogenesis_persite", "Chr2R_FM_neurogenesis_persite", 
+                                         "Chr2R_FB_mating_behavior_persite", "Chr2R_FM_mating_behavior_persite",
+                                         "Chr2R_FB_male_mating_behavior_persite", "Chr2R_FM_male_mating_behavior_persite", 
+                                         "Chr2R_FB_female_mating_behavior_persite", "Chr2R_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr2R_FB_neurogenesis_pergene", "Chr2R_FM_neurogenesis_pergene", 
+                                         "Chr2R_FB_mating_behavior_pergene", "Chr2R_FM_mating_behavior_pergene",
+                                         "Chr2R_FB_male_mating_behavior_pergene", "Chr2R_FM_male_mating_behavior_pergene", 
+                                         "Chr2R_FB_female_mating_behavior_pergene", "Chr2R_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr3L_gene_count", "Chr3L_unique_genes", 
+                                         "Chr3L_FB_neurogenesis_persite", "Chr3L_FM_neurogenesis_persite", 
+                                         "Chr3L_FB_mating_behavior_persite", "Chr3L_FM_mating_behavior_persite",
+                                         "Chr3L_FB_male_mating_behavior_persite", "Chr3L_FM_male_mating_behavior_persite", 
+                                         "Chr3L_FB_female_mating_behavior_persite", "Chr3L_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr3L_FB_neurogenesis_pergene", "Chr3L_FM_neurogenesis_pergene", 
+                                         "Chr3L_FB_mating_behavior_pergene", "Chr3L_FM_mating_behavior_pergene",
+                                         "Chr3L_FB_male_mating_behavior_pergene", "Chr3L_FM_male_mating_behavior_pergene", 
+                                         "Chr3L_FB_female_mating_behavior_pergene", "Chr3L_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr3R_gene_count", "Chr3R_unique_genes", 
+                                         "Chr3R_FB_neurogenesis_persite", "Chr3R_FM_neurogenesis_persite", 
+                                         "Chr3R_FB_mating_behavior_persite", "Chr3R_FM_mating_behavior_persite",
+                                         "Chr3R_FB_male_mating_behavior_persite", "Chr3R_FM_male_mating_behavior_persite", 
+                                         "Chr3R_FB_female_mating_behavior_persite", "Chr3R_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr3R_FB_neurogenesis_pergene", "Chr3R_FM_neurogenesis_pergene", 
+                                         "Chr3R_FB_mating_behavior_pergene", "Chr3R_FM_mating_behavior_pergene",
+                                         "Chr3R_FB_male_mating_behavior_pergene", "Chr3R_FM_male_mating_behavior_pergene", 
+                                         "Chr3R_FB_female_mating_behavior_pergene", "Chr3R_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Autosome_gene_count", "Autosome_unique_genes", 
+                                         "Autosome_FB_neurogenesis_persite", "Autosome_FM_neurogenesis_persite", 
+                                         "Autosome_FB_mating_behavior_persite", "Autosome_FM_mating_behavior_persite",
+                                         "Autosome_FB_male_mating_behavior_persite", "Autosome_FM_male_mating_behavior_persite", 
+                                         "Autosome_FB_female_mating_behavior_persite", "Autosome_FM_female_mating_behavior_persite",
+                                         
+                                         "Autosome_FB_neurogenesis_pergene", "Autosome_FM_neurogenesis_pergene", 
+                                         "Autosome_FB_mating_behavior_pergene", "Autosome_FM_mating_behavior_pergene",
+                                         "Autosome_FB_male_mating_behavior_pergene", "Autosome_FM_male_mating_behavior_pergene", 
+                                         "Autosome_FB_female_mating_behavior_pergene", "Autosome_FM_female_mating_behavior_pergene"),
+                        
+                        
+                        top_1_percent = c(top0.01_ZH_RAL_ZI_ChrX_gene_sites, top0.01_ZH_RAL_ZI_ChrX_unique_genes,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_neurogenesis_sites, top0.01_ZH_RAL_ZI_ChrX_FM_neurogenesis_sites,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_mating_behavior_sites, top0.01_ZH_RAL_ZI_ChrX_FM_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_male_mating_behavior_sites, top0.01_ZH_RAL_ZI_ChrX_FM_male_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_female_mating_behavior_sites, top0.01_ZH_RAL_ZI_ChrX_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_neurogenesis_genes, top0.01_ZH_RAL_ZI_ChrX_FM_neurogenesis_genes,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_mating_behavior_genes, top0.01_ZH_RAL_ZI_ChrX_FM_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_male_mating_behavior_genes, top0.01_ZH_RAL_ZI_ChrX_FM_male_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_ChrX_FB_female_mating_behavior_genes, top0.01_ZH_RAL_ZI_ChrX_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZH_RAL_ZI_Chr2R_gene_sites, top0.01_ZH_RAL_ZI_Chr2R_unique_genes,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_neurogenesis_sites, top0.01_ZH_RAL_ZI_Chr2R_FM_neurogenesis_sites,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr2R_FM_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_male_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr2R_FM_male_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_female_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr2R_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_neurogenesis_genes, top0.01_ZH_RAL_ZI_Chr2R_FM_neurogenesis_genes,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr2R_FM_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_male_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr2R_FM_male_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_Chr2R_FB_female_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr2R_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZH_RAL_ZI_Chr3L_gene_sites, top0.01_ZH_RAL_ZI_Chr3L_unique_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_neurogenesis_sites, top0.01_ZH_RAL_ZI_Chr3L_FM_neurogenesis_sites,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr3L_FM_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_male_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr3L_FM_male_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_female_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr3L_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_neurogenesis_genes, top0.01_ZH_RAL_ZI_Chr3L_FM_neurogenesis_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr3L_FM_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_male_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr3L_FM_male_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3L_FB_female_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr3L_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZH_RAL_ZI_Chr3R_gene_sites, top0.01_ZH_RAL_ZI_Chr3R_unique_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_neurogenesis_sites, top0.01_ZH_RAL_ZI_Chr3R_FM_neurogenesis_sites,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr3R_FM_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_male_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr3R_FM_male_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_female_mating_behavior_sites, top0.01_ZH_RAL_ZI_Chr3R_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_neurogenesis_genes, top0.01_ZH_RAL_ZI_Chr3R_FM_neurogenesis_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr3R_FM_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_male_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr3R_FM_male_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_Chr3R_FB_female_mating_behavior_genes, top0.01_ZH_RAL_ZI_Chr3R_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZH_RAL_ZI_autosome_gene_sites, top0.01_ZH_RAL_ZI_autosome_unique_genes,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_neurogenesis_sites, top0.01_ZH_RAL_ZI_autosome_FM_neurogenesis_sites,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_mating_behavior_sites, top0.01_ZH_RAL_ZI_autosome_FM_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_male_mating_behavior_sites, top0.01_ZH_RAL_ZI_autosome_FM_male_mating_behavior_sites,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_female_mating_behavior_sites, top0.01_ZH_RAL_ZI_autosome_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZH_RAL_ZI_autosome_FB_neurogenesis_genes, top0.01_ZH_RAL_ZI_autosome_FM_neurogenesis_genes,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_mating_behavior_genes, top0.01_ZH_RAL_ZI_autosome_FM_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_male_mating_behavior_genes, top0.01_ZH_RAL_ZI_autosome_FM_male_mating_behavior_genes,
+                                          top0.01_ZH_RAL_ZI_autosome_FB_female_mating_behavior_genes, top0.01_ZH_RAL_ZI_autosome_FM_female_mating_behavior_genes),
+                        
+                        
+                        null_mean = c(mean_null_ZH_RAL_ZI_ChrX_num_of_gene_sites, mean_null_ZH_RAL_ZI_ChrX_num_of_unique_genes,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_neurogenesis_sites, mean_null_ZH_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_mating_behavior_sites, mean_null_ZH_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, mean_null_ZH_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, mean_null_ZH_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_neurogenesis_genes, mean_null_ZH_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_mating_behavior_genes, mean_null_ZH_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, mean_null_ZH_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, mean_null_ZH_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZH_RAL_ZI_Chr2R_num_of_gene_sites, mean_null_ZH_RAL_ZI_Chr2R_num_of_unique_genes,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, mean_null_ZH_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, mean_null_ZH_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZH_RAL_ZI_Chr3L_num_of_gene_sites, mean_null_ZH_RAL_ZI_Chr3L_num_of_unique_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, mean_null_ZH_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, mean_null_ZH_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZH_RAL_ZI_Chr3R_num_of_gene_sites, mean_null_ZH_RAL_ZI_Chr3R_num_of_unique_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, mean_null_ZH_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, mean_null_ZH_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, mean_null_ZH_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, mean_null_ZH_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZH_RAL_ZI_autosome_num_of_gene_sites, mean_null_ZH_RAL_ZI_autosome_num_of_unique_genes,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_neurogenesis_sites, mean_null_ZH_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_mating_behavior_sites, mean_null_ZH_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, mean_null_ZH_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, mean_null_ZH_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_neurogenesis_genes, mean_null_ZH_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_mating_behavior_genes, mean_null_ZH_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, mean_null_ZH_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZH_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, mean_null_ZH_RAL_ZI_autosome_Flymine_female_mating_behavior_genes),
+                        
+                        
+                        null_sd = c(sd_null_ZH_RAL_ZI_ChrX_num_of_gene_sites, sd_null_ZH_RAL_ZI_ChrX_num_of_unique_genes,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_neurogenesis_sites, sd_null_ZH_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_mating_behavior_sites, sd_null_ZH_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, sd_null_ZH_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, sd_null_ZH_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_neurogenesis_genes, sd_null_ZH_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_mating_behavior_genes, sd_null_ZH_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, sd_null_ZH_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, sd_null_ZH_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZH_RAL_ZI_Chr2R_num_of_gene_sites, sd_null_ZH_RAL_ZI_Chr2R_num_of_unique_genes,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, sd_null_ZH_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, sd_null_ZH_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZH_RAL_ZI_Chr3L_num_of_gene_sites, sd_null_ZH_RAL_ZI_Chr3L_num_of_unique_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, sd_null_ZH_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, sd_null_ZH_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZH_RAL_ZI_Chr3R_num_of_gene_sites, sd_null_ZH_RAL_ZI_Chr3R_num_of_unique_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, sd_null_ZH_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, sd_null_ZH_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, sd_null_ZH_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, sd_null_ZH_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZH_RAL_ZI_autosome_num_of_gene_sites, sd_null_ZH_RAL_ZI_autosome_num_of_unique_genes,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_neurogenesis_sites, sd_null_ZH_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_mating_behavior_sites, sd_null_ZH_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, sd_null_ZH_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, sd_null_ZH_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_neurogenesis_genes, sd_null_ZH_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_mating_behavior_genes, sd_null_ZH_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, sd_null_ZH_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZH_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, sd_null_ZH_RAL_ZI_autosome_Flymine_female_mating_behavior_genes))
+
+ZW_RAL_ZI <- data.frame(Chrom_GOterm = c("ChrX_gene_count", "ChrX_unique_genes", 
+                                         "ChrX_FB_neurogenesis_persite", "ChrX_FM_neurogenesis_persite", 
+                                         "ChrX_FB_mating_behavior_persite", "ChrX_FM_mating_behavior_persite",
+                                         "ChrX_FB_male_mating_behavior_persite", "ChrX_FM_male_mating_behavior_persite", 
+                                         "ChrX_FB_female_mating_behavior_persite", "ChrX_FM_female_mating_behavior_persite",
+                                         
+                                         "ChrX_FB_neurogenesis_pergene", "ChrX_FM_neurogenesis_pergene", 
+                                         "ChrX_FB_mating_behavior_pergene", "ChrX_FM_mating_behavior_pergene",
+                                         "ChrX_FB_male_mating_behavior_pergene", "ChrX_FM_male_mating_behavior_pergene", 
+                                         "ChrX_FB_female_mating_behavior_pergene", "ChrX_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr2L_gene_count", "Chr2L_unique_genes", 
+                                         "Chr2L_FB_neurogenesis_persite", "Chr2L_FM_neurogenesis_persite", 
+                                         "Chr2L_FB_mating_behavior_persite", "Chr2L_FM_mating_behavior_persite",
+                                         "Chr2L_FB_male_mating_behavior_persite", "Chr2L_FM_male_mating_behavior_persite", 
+                                         "Chr2L_FB_female_mating_behavior_persite", "Chr2L_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr2L_FB_neurogenesis_pergene", "Chr2L_FM_neurogenesis_pergene", 
+                                         "Chr2L_FB_mating_behavior_pergene", "Chr2L_FM_mating_behavior_pergene",
+                                         "Chr2L_FB_male_mating_behavior_pergene", "Chr2L_FM_male_mating_behavior_pergene", 
+                                         "Chr2L_FB_female_mating_behavior_pergene", "Chr2L_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr2R_gene_count", "Chr2R_unique_genes", 
+                                         "Chr2R_FB_neurogenesis_persite", "Chr2R_FM_neurogenesis_persite", 
+                                         "Chr2R_FB_mating_behavior_persite", "Chr2R_FM_mating_behavior_persite",
+                                         "Chr2R_FB_male_mating_behavior_persite", "Chr2R_FM_male_mating_behavior_persite", 
+                                         "Chr2R_FB_female_mating_behavior_persite", "Chr2R_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr2R_FB_neurogenesis_pergene", "Chr2R_FM_neurogenesis_pergene", 
+                                         "Chr2R_FB_mating_behavior_pergene", "Chr2R_FM_mating_behavior_pergene",
+                                         "Chr2R_FB_male_mating_behavior_pergene", "Chr2R_FM_male_mating_behavior_pergene", 
+                                         "Chr2R_FB_female_mating_behavior_pergene", "Chr2R_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr3L_gene_count", "Chr3L_unique_genes", 
+                                         "Chr3L_FB_neurogenesis_persite", "Chr3L_FM_neurogenesis_persite", 
+                                         "Chr3L_FB_mating_behavior_persite", "Chr3L_FM_mating_behavior_persite",
+                                         "Chr3L_FB_male_mating_behavior_persite", "Chr3L_FM_male_mating_behavior_persite", 
+                                         "Chr3L_FB_female_mating_behavior_persite", "Chr3L_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr3L_FB_neurogenesis_pergene", "Chr3L_FM_neurogenesis_pergene", 
+                                         "Chr3L_FB_mating_behavior_pergene", "Chr3L_FM_mating_behavior_pergene",
+                                         "Chr3L_FB_male_mating_behavior_pergene", "Chr3L_FM_male_mating_behavior_pergene", 
+                                         "Chr3L_FB_female_mating_behavior_pergene", "Chr3L_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Chr3R_gene_count", "Chr3R_unique_genes", 
+                                         "Chr3R_FB_neurogenesis_persite", "Chr3R_FM_neurogenesis_persite", 
+                                         "Chr3R_FB_mating_behavior_persite", "Chr3R_FM_mating_behavior_persite",
+                                         "Chr3R_FB_male_mating_behavior_persite", "Chr3R_FM_male_mating_behavior_persite", 
+                                         "Chr3R_FB_female_mating_behavior_persite", "Chr3R_FM_female_mating_behavior_persite",
+                                         
+                                         "Chr3R_FB_neurogenesis_pergene", "Chr3R_FM_neurogenesis_pergene", 
+                                         "Chr3R_FB_mating_behavior_pergene", "Chr3R_FM_mating_behavior_pergene",
+                                         "Chr3R_FB_male_mating_behavior_pergene", "Chr3R_FM_male_mating_behavior_pergene", 
+                                         "Chr3R_FB_female_mating_behavior_pergene", "Chr3R_FM_female_mating_behavior_pergene",
+                                         
+                                         
+                                         "Autosome_gene_count", "Autosome_unique_genes", 
+                                         "Autosome_FB_neurogenesis_persite", "Autosome_FM_neurogenesis_persite", 
+                                         "Autosome_FB_mating_behavior_persite", "Autosome_FM_mating_behavior_persite",
+                                         "Autosome_FB_male_mating_behavior_persite", "Autosome_FM_male_mating_behavior_persite", 
+                                         "Autosome_FB_female_mating_behavior_persite", "Autosome_FM_female_mating_behavior_persite",
+                                         
+                                         "Autosome_FB_neurogenesis_pergene", "Autosome_FM_neurogenesis_pergene", 
+                                         "Autosome_FB_mating_behavior_pergene", "Autosome_FM_mating_behavior_pergene",
+                                         "Autosome_FB_male_mating_behavior_pergene", "Autosome_FM_male_mating_behavior_pergene", 
+                                         "Autosome_FB_female_mating_behavior_pergene", "Autosome_FM_female_mating_behavior_pergene"),
+                        
+                        
+                        top_1_percent = c(top0.01_ZW_RAL_ZI_ChrX_gene_sites, top0.01_ZW_RAL_ZI_ChrX_unique_genes,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_neurogenesis_sites, top0.01_ZW_RAL_ZI_ChrX_FM_neurogenesis_sites,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_mating_behavior_sites, top0.01_ZW_RAL_ZI_ChrX_FM_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_male_mating_behavior_sites, top0.01_ZW_RAL_ZI_ChrX_FM_male_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_female_mating_behavior_sites, top0.01_ZW_RAL_ZI_ChrX_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_neurogenesis_genes, top0.01_ZW_RAL_ZI_ChrX_FM_neurogenesis_genes,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_mating_behavior_genes, top0.01_ZW_RAL_ZI_ChrX_FM_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_male_mating_behavior_genes, top0.01_ZW_RAL_ZI_ChrX_FM_male_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_ChrX_FB_female_mating_behavior_genes, top0.01_ZW_RAL_ZI_ChrX_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr2L_gene_sites, top0.01_ZW_RAL_ZI_Chr2L_unique_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_neurogenesis_sites, top0.01_ZW_RAL_ZI_Chr2L_FM_neurogenesis_sites,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr2L_FM_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_male_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr2L_FM_male_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_female_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr2L_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_neurogenesis_genes, top0.01_ZW_RAL_ZI_Chr2L_FM_neurogenesis_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr2L_FM_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_male_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr2L_FM_male_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2L_FB_female_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr2L_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr2R_gene_sites, top0.01_ZW_RAL_ZI_Chr2R_unique_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_neurogenesis_sites, top0.01_ZW_RAL_ZI_Chr2R_FM_neurogenesis_sites,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr2R_FM_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_male_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr2R_FM_male_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_female_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr2R_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_neurogenesis_genes, top0.01_ZW_RAL_ZI_Chr2R_FM_neurogenesis_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr2R_FM_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_male_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr2R_FM_male_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr2R_FB_female_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr2R_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr3L_gene_sites, top0.01_ZW_RAL_ZI_Chr3L_unique_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_neurogenesis_sites, top0.01_ZW_RAL_ZI_Chr3L_FM_neurogenesis_sites,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr3L_FM_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_male_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr3L_FM_male_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_female_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr3L_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_neurogenesis_genes, top0.01_ZW_RAL_ZI_Chr3L_FM_neurogenesis_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr3L_FM_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_male_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr3L_FM_male_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3L_FB_female_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr3L_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr3R_gene_sites, top0.01_ZW_RAL_ZI_Chr3R_unique_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_neurogenesis_sites, top0.01_ZW_RAL_ZI_Chr3R_FM_neurogenesis_sites,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr3R_FM_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_male_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr3R_FM_male_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_female_mating_behavior_sites, top0.01_ZW_RAL_ZI_Chr3R_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_neurogenesis_genes, top0.01_ZW_RAL_ZI_Chr3R_FM_neurogenesis_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr3R_FM_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_male_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr3R_FM_male_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_Chr3R_FB_female_mating_behavior_genes, top0.01_ZW_RAL_ZI_Chr3R_FM_female_mating_behavior_genes,
+                                          
+                                          
+                                          top0.01_ZW_RAL_ZI_autosome_gene_sites, top0.01_ZW_RAL_ZI_autosome_unique_genes,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_neurogenesis_sites, top0.01_ZW_RAL_ZI_autosome_FM_neurogenesis_sites,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_mating_behavior_sites, top0.01_ZW_RAL_ZI_autosome_FM_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_male_mating_behavior_sites, top0.01_ZW_RAL_ZI_autosome_FM_male_mating_behavior_sites,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_female_mating_behavior_sites, top0.01_ZW_RAL_ZI_autosome_FM_female_mating_behavior_sites,
+                                          
+                                          top0.01_ZW_RAL_ZI_autosome_FB_neurogenesis_genes, top0.01_ZW_RAL_ZI_autosome_FM_neurogenesis_genes,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_mating_behavior_genes, top0.01_ZW_RAL_ZI_autosome_FM_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_male_mating_behavior_genes, top0.01_ZW_RAL_ZI_autosome_FM_male_mating_behavior_genes,
+                                          top0.01_ZW_RAL_ZI_autosome_FB_female_mating_behavior_genes, top0.01_ZW_RAL_ZI_autosome_FM_female_mating_behavior_genes),
+                        
+                        
+                        null_mean = c(mean_null_ZW_RAL_ZI_ChrX_num_of_gene_sites, mean_null_ZW_RAL_ZI_ChrX_num_of_unique_genes,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_neurogenesis_sites, mean_null_ZW_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_mating_behavior_sites, mean_null_ZW_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, mean_null_ZW_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, mean_null_ZW_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_neurogenesis_genes, mean_null_ZW_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_mating_behavior_genes, mean_null_ZW_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, mean_null_ZW_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, mean_null_ZW_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr2L_num_of_gene_sites, mean_null_ZW_RAL_ZI_Chr2L_num_of_unique_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_neurogenesis_sites, mean_null_ZW_RAL_ZI_Chr2L_Flymine_neurogenesis_sites,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr2L_Flymine_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_male_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr2L_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_female_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr2L_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_neurogenesis_genes, mean_null_ZW_RAL_ZI_Chr2L_Flymine_neurogenesis_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr2L_Flymine_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_male_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr2L_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2L_Flybase_female_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr2L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr2R_num_of_gene_sites, mean_null_ZW_RAL_ZI_Chr2R_num_of_unique_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, mean_null_ZW_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, mean_null_ZW_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr3L_num_of_gene_sites, mean_null_ZW_RAL_ZI_Chr3L_num_of_unique_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, mean_null_ZW_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, mean_null_ZW_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr3R_num_of_gene_sites, mean_null_ZW_RAL_ZI_Chr3R_num_of_unique_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, mean_null_ZW_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, mean_null_ZW_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, mean_null_ZW_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, mean_null_ZW_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                      
+                                      
+                                      mean_null_ZW_RAL_ZI_autosome_num_of_gene_sites, mean_null_ZW_RAL_ZI_autosome_num_of_unique_genes,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_neurogenesis_sites, mean_null_ZW_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_mating_behavior_sites, mean_null_ZW_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, mean_null_ZW_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, mean_null_ZW_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                      
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_neurogenesis_genes, mean_null_ZW_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_mating_behavior_genes, mean_null_ZW_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, mean_null_ZW_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                      mean_null_ZW_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, mean_null_ZW_RAL_ZI_autosome_Flymine_female_mating_behavior_genes),
+                        
+                        
+                        null_sd = c(sd_null_ZW_RAL_ZI_ChrX_num_of_gene_sites, sd_null_ZW_RAL_ZI_ChrX_num_of_unique_genes,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_neurogenesis_sites, sd_null_ZW_RAL_ZI_ChrX_Flymine_neurogenesis_sites,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_mating_behavior_sites, sd_null_ZW_RAL_ZI_ChrX_Flymine_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_male_mating_behavior_sites, sd_null_ZW_RAL_ZI_ChrX_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_female_mating_behavior_sites, sd_null_ZW_RAL_ZI_ChrX_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_neurogenesis_genes, sd_null_ZW_RAL_ZI_ChrX_Flymine_neurogenesis_genes,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_mating_behavior_genes, sd_null_ZW_RAL_ZI_ChrX_Flymine_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_male_mating_behavior_genes, sd_null_ZW_RAL_ZI_ChrX_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_ChrX_Flybase_female_mating_behavior_genes, sd_null_ZW_RAL_ZI_ChrX_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr2L_num_of_gene_sites, sd_null_ZW_RAL_ZI_Chr2L_num_of_unique_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_neurogenesis_sites, sd_null_ZW_RAL_ZI_Chr2L_Flymine_neurogenesis_sites,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr2L_Flymine_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_male_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr2L_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_female_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr2L_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_neurogenesis_genes, sd_null_ZW_RAL_ZI_Chr2L_Flymine_neurogenesis_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr2L_Flymine_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_male_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr2L_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2L_Flybase_female_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr2L_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr2R_num_of_gene_sites, sd_null_ZW_RAL_ZI_Chr2R_num_of_unique_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_neurogenesis_sites, sd_null_ZW_RAL_ZI_Chr2R_Flymine_neurogenesis_sites,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr2R_Flymine_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_male_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr2R_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_female_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr2R_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_neurogenesis_genes, sd_null_ZW_RAL_ZI_Chr2R_Flymine_neurogenesis_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr2R_Flymine_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_male_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr2R_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr2R_Flybase_female_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr2R_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr3L_num_of_gene_sites, sd_null_ZW_RAL_ZI_Chr3L_num_of_unique_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_neurogenesis_sites, sd_null_ZW_RAL_ZI_Chr3L_Flymine_neurogenesis_sites,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr3L_Flymine_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_male_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr3L_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_female_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr3L_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_neurogenesis_genes, sd_null_ZW_RAL_ZI_Chr3L_Flymine_neurogenesis_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr3L_Flymine_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_male_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr3L_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3L_Flybase_female_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr3L_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr3R_num_of_gene_sites, sd_null_ZW_RAL_ZI_Chr3R_num_of_unique_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_neurogenesis_sites, sd_null_ZW_RAL_ZI_Chr3R_Flymine_neurogenesis_sites,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr3R_Flymine_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_male_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr3R_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_female_mating_behavior_sites, sd_null_ZW_RAL_ZI_Chr3R_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_neurogenesis_genes, sd_null_ZW_RAL_ZI_Chr3R_Flymine_neurogenesis_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr3R_Flymine_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_male_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr3R_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_Chr3R_Flybase_female_mating_behavior_genes, sd_null_ZW_RAL_ZI_Chr3R_Flymine_female_mating_behavior_genes,
+                                    
+                                    
+                                    sd_null_ZW_RAL_ZI_autosome_num_of_gene_sites, sd_null_ZW_RAL_ZI_autosome_num_of_unique_genes,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_neurogenesis_sites, sd_null_ZW_RAL_ZI_autosome_Flymine_neurogenesis_sites,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_mating_behavior_sites, sd_null_ZW_RAL_ZI_autosome_Flymine_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_male_mating_behavior_sites, sd_null_ZW_RAL_ZI_autosome_Flymine_male_mating_behavior_sites,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_female_mating_behavior_sites, sd_null_ZW_RAL_ZI_autosome_Flymine_female_mating_behavior_sites,
+                                    
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_neurogenesis_genes, sd_null_ZW_RAL_ZI_autosome_Flymine_neurogenesis_genes,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_mating_behavior_genes, sd_null_ZW_RAL_ZI_autosome_Flymine_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_male_mating_behavior_genes, sd_null_ZW_RAL_ZI_autosome_Flymine_male_mating_behavior_genes,
+                                    sd_null_ZW_RAL_ZI_autosome_Flybase_female_mating_behavior_genes, sd_null_ZW_RAL_ZI_autosome_Flymine_female_mating_behavior_genes))
+
+ZS_ZH_ZW <- data.frame(Chrom_GOterm = c("ChrX_gene_count", "ChrX_unique_genes", 
+                                        "ChrX_FB_neurogenesis_persite", "ChrX_FM_neurogenesis_persite", 
+                                        "ChrX_FB_mating_behavior_persite", "ChrX_FM_mating_behavior_persite",
+                                        "ChrX_FB_male_mating_behavior_persite", "ChrX_FM_male_mating_behavior_persite", 
+                                        "ChrX_FB_female_mating_behavior_persite", "ChrX_FM_female_mating_behavior_persite",
+                                        
+                                        "ChrX_FB_neurogenesis_pergene", "ChrX_FM_neurogenesis_pergene", 
+                                        "ChrX_FB_mating_behavior_pergene", "ChrX_FM_mating_behavior_pergene",
+                                        "ChrX_FB_male_mating_behavior_pergene", "ChrX_FM_male_mating_behavior_pergene", 
+                                        "ChrX_FB_female_mating_behavior_pergene", "ChrX_FM_female_mating_behavior_pergene",
+                                        
+                                        
+                                        "Chr2L_gene_count", "Chr2L_unique_genes", 
+                                        "Chr2L_FB_neurogenesis_persite", "Chr2L_FM_neurogenesis_persite", 
+                                        "Chr2L_FB_mating_behavior_persite", "Chr2L_FM_mating_behavior_persite",
+                                        "Chr2L_FB_male_mating_behavior_persite", "Chr2L_FM_male_mating_behavior_persite", 
+                                        "Chr2L_FB_female_mating_behavior_persite", "Chr2L_FM_female_mating_behavior_persite",
+                                        
+                                        "Chr2L_FB_neurogenesis_pergene", "Chr2L_FM_neurogenesis_pergene", 
+                                        "Chr2L_FB_mating_behavior_pergene", "Chr2L_FM_mating_behavior_pergene",
+                                        "Chr2L_FB_male_mating_behavior_pergene", "Chr2L_FM_male_mating_behavior_pergene", 
+                                        "Chr2L_FB_female_mating_behavior_pergene", "Chr2L_FM_female_mating_behavior_pergene",
+                                        
+                                        
+                                        "Chr2R_gene_count", "Chr2R_unique_genes", 
+                                        "Chr2R_FB_neurogenesis_persite", "Chr2R_FM_neurogenesis_persite", 
+                                        "Chr2R_FB_mating_behavior_persite", "Chr2R_FM_mating_behavior_persite",
+                                        "Chr2R_FB_male_mating_behavior_persite", "Chr2R_FM_male_mating_behavior_persite", 
+                                        "Chr2R_FB_female_mating_behavior_persite", "Chr2R_FM_female_mating_behavior_persite",
+                                        
+                                        "Chr2R_FB_neurogenesis_pergene", "Chr2R_FM_neurogenesis_pergene", 
+                                        "Chr2R_FB_mating_behavior_pergene", "Chr2R_FM_mating_behavior_pergene",
+                                        "Chr2R_FB_male_mating_behavior_pergene", "Chr2R_FM_male_mating_behavior_pergene", 
+                                        "Chr2R_FB_female_mating_behavior_pergene", "Chr2R_FM_female_mating_behavior_pergene",
+                                        
+                                        
+                                        "Chr3L_gene_count", "Chr3L_unique_genes", 
+                                        "Chr3L_FB_neurogenesis_persite", "Chr3L_FM_neurogenesis_persite", 
+                                        "Chr3L_FB_mating_behavior_persite", "Chr3L_FM_mating_behavior_persite",
+                                        "Chr3L_FB_male_mating_behavior_persite", "Chr3L_FM_male_mating_behavior_persite", 
+                                        "Chr3L_FB_female_mating_behavior_persite", "Chr3L_FM_female_mating_behavior_persite",
+                                        
+                                        "Chr3L_FB_neurogenesis_pergene", "Chr3L_FM_neurogenesis_pergene", 
+                                        "Chr3L_FB_mating_behavior_pergene", "Chr3L_FM_mating_behavior_pergene",
+                                        "Chr3L_FB_male_mating_behavior_pergene", "Chr3L_FM_male_mating_behavior_pergene", 
+                                        "Chr3L_FB_female_mating_behavior_pergene", "Chr3L_FM_female_mating_behavior_pergene",
+                                        
+                                        
+                                        "Chr3R_gene_count", "Chr3R_unique_genes", 
+                                        "Chr3R_FB_neurogenesis_persite", "Chr3R_FM_neurogenesis_persite", 
+                                        "Chr3R_FB_mating_behavior_persite", "Chr3R_FM_mating_behavior_persite",
+                                        "Chr3R_FB_male_mating_behavior_persite", "Chr3R_FM_male_mating_behavior_persite", 
+                                        "Chr3R_FB_female_mating_behavior_persite", "Chr3R_FM_female_mating_behavior_persite",
+                                        
+                                        "Chr3R_FB_neurogenesis_pergene", "Chr3R_FM_neurogenesis_pergene", 
+                                        "Chr3R_FB_mating_behavior_pergene", "Chr3R_FM_mating_behavior_pergene",
+                                        "Chr3R_FB_male_mating_behavior_pergene", "Chr3R_FM_male_mating_behavior_pergene", 
+                                        "Chr3R_FB_female_mating_behavior_pergene", "Chr3R_FM_female_mating_behavior_pergene",
+                                        
+                                        
+                                        "Autosome_gene_count", "Autosome_unique_genes", 
+                                        "Autosome_FB_neurogenesis_persite", "Autosome_FM_neurogenesis_persite", 
+                                        "Autosome_FB_mating_behavior_persite", "Autosome_FM_mating_behavior_persite",
+                                        "Autosome_FB_male_mating_behavior_persite", "Autosome_FM_male_mating_behavior_persite", 
+                                        "Autosome_FB_female_mating_behavior_persite", "Autosome_FM_female_mating_behavior_persite",
+                                        
+                                        "Autosome_FB_neurogenesis_pergene", "Autosome_FM_neurogenesis_pergene", 
+                                        "Autosome_FB_mating_behavior_pergene", "Autosome_FM_mating_behavior_pergene",
+                                        "Autosome_FB_male_mating_behavior_pergene", "Autosome_FM_male_mating_behavior_pergene", 
+                                        "Autosome_FB_female_mating_behavior_pergene", "Autosome_FM_female_mating_behavior_pergene"),
+                       
+                       
+                       top_1_percent = c(top0.01_ZS_ZH_ZW_ChrX_gene_sites, top0.01_ZS_ZH_ZW_ChrX_unique_genes,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_neurogenesis_sites, top0.01_ZS_ZH_ZW_ChrX_FM_neurogenesis_sites,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_mating_behavior_sites, top0.01_ZS_ZH_ZW_ChrX_FM_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_male_mating_behavior_sites, top0.01_ZS_ZH_ZW_ChrX_FM_male_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_female_mating_behavior_sites, top0.01_ZS_ZH_ZW_ChrX_FM_female_mating_behavior_sites,
+                                         
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_neurogenesis_genes, top0.01_ZS_ZH_ZW_ChrX_FM_neurogenesis_genes,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_mating_behavior_genes, top0.01_ZS_ZH_ZW_ChrX_FM_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_male_mating_behavior_genes, top0.01_ZS_ZH_ZW_ChrX_FM_male_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_ChrX_FB_female_mating_behavior_genes, top0.01_ZS_ZH_ZW_ChrX_FM_female_mating_behavior_genes,
+                                         
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr2L_gene_sites, top0.01_ZS_ZH_ZW_Chr2L_unique_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_neurogenesis_sites, top0.01_ZS_ZH_ZW_Chr2L_FM_neurogenesis_sites,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr2L_FM_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_male_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr2L_FM_male_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_female_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr2L_FM_female_mating_behavior_sites,
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_neurogenesis_genes, top0.01_ZS_ZH_ZW_Chr2L_FM_neurogenesis_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr2L_FM_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_male_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr2L_FM_male_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2L_FB_female_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr2L_FM_female_mating_behavior_genes,
+                                         
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr2R_gene_sites, top0.01_ZS_ZH_ZW_Chr2R_unique_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_neurogenesis_sites, top0.01_ZS_ZH_ZW_Chr2R_FM_neurogenesis_sites,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr2R_FM_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_male_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr2R_FM_male_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_female_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr2R_FM_female_mating_behavior_sites,
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_neurogenesis_genes, top0.01_ZS_ZH_ZW_Chr2R_FM_neurogenesis_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr2R_FM_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_male_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr2R_FM_male_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr2R_FB_female_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr2R_FM_female_mating_behavior_genes,
+                                         
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr3L_gene_sites, top0.01_ZS_ZH_ZW_Chr3L_unique_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_neurogenesis_sites, top0.01_ZS_ZH_ZW_Chr3L_FM_neurogenesis_sites,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr3L_FM_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_male_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr3L_FM_male_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_female_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr3L_FM_female_mating_behavior_sites,
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_neurogenesis_genes, top0.01_ZS_ZH_ZW_Chr3L_FM_neurogenesis_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr3L_FM_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_male_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr3L_FM_male_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3L_FB_female_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr3L_FM_female_mating_behavior_genes,
+                                         
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr3R_gene_sites, top0.01_ZS_ZH_ZW_Chr3R_unique_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_neurogenesis_sites, top0.01_ZS_ZH_ZW_Chr3R_FM_neurogenesis_sites,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr3R_FM_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_male_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr3R_FM_male_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_female_mating_behavior_sites, top0.01_ZS_ZH_ZW_Chr3R_FM_female_mating_behavior_sites,
+                                         
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_neurogenesis_genes, top0.01_ZS_ZH_ZW_Chr3R_FM_neurogenesis_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr3R_FM_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_male_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr3R_FM_male_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_Chr3R_FB_female_mating_behavior_genes, top0.01_ZS_ZH_ZW_Chr3R_FM_female_mating_behavior_genes,
+                                         
+                                         
+                                         top0.01_ZS_ZH_ZW_autosome_gene_sites, top0.01_ZS_ZH_ZW_autosome_unique_genes,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_neurogenesis_sites, top0.01_ZS_ZH_ZW_autosome_FM_neurogenesis_sites,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_mating_behavior_sites, top0.01_ZS_ZH_ZW_autosome_FM_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_male_mating_behavior_sites, top0.01_ZS_ZH_ZW_autosome_FM_male_mating_behavior_sites,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_female_mating_behavior_sites, top0.01_ZS_ZH_ZW_autosome_FM_female_mating_behavior_sites,
+                                         
+                                         top0.01_ZS_ZH_ZW_autosome_FB_neurogenesis_genes, top0.01_ZS_ZH_ZW_autosome_FM_neurogenesis_genes,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_mating_behavior_genes, top0.01_ZS_ZH_ZW_autosome_FM_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_male_mating_behavior_genes, top0.01_ZS_ZH_ZW_autosome_FM_male_mating_behavior_genes,
+                                         top0.01_ZS_ZH_ZW_autosome_FB_female_mating_behavior_genes, top0.01_ZS_ZH_ZW_autosome_FM_female_mating_behavior_genes),
+                       
+                       
+                       null_mean = c(mean_null_ZS_ZH_ZW_ChrX_num_of_gene_sites, mean_null_ZS_ZH_ZW_ChrX_num_of_unique_genes,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_neurogenesis_sites, mean_null_ZS_ZH_ZW_ChrX_Flymine_neurogenesis_sites,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_mating_behavior_sites, mean_null_ZS_ZH_ZW_ChrX_Flymine_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_male_mating_behavior_sites, mean_null_ZS_ZH_ZW_ChrX_Flymine_male_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_female_mating_behavior_sites, mean_null_ZS_ZH_ZW_ChrX_Flymine_female_mating_behavior_sites,
+                                     
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_neurogenesis_genes, mean_null_ZS_ZH_ZW_ChrX_Flymine_neurogenesis_genes,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_mating_behavior_genes, mean_null_ZS_ZH_ZW_ChrX_Flymine_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_male_mating_behavior_genes, mean_null_ZS_ZH_ZW_ChrX_Flymine_male_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_ChrX_Flybase_female_mating_behavior_genes, mean_null_ZS_ZH_ZW_ChrX_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr2L_num_of_gene_sites, mean_null_ZS_ZH_ZW_Chr2L_num_of_unique_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_neurogenesis_sites, mean_null_ZS_ZH_ZW_Chr2L_Flymine_neurogenesis_sites,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr2L_Flymine_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_male_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr2L_Flymine_male_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_female_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr2L_Flymine_female_mating_behavior_sites,
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_neurogenesis_genes, mean_null_ZS_ZH_ZW_Chr2L_Flymine_neurogenesis_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr2L_Flymine_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_male_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr2L_Flymine_male_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2L_Flybase_female_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr2L_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr2R_num_of_gene_sites, mean_null_ZS_ZH_ZW_Chr2R_num_of_unique_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_neurogenesis_sites, mean_null_ZS_ZH_ZW_Chr2R_Flymine_neurogenesis_sites,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr2R_Flymine_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_male_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr2R_Flymine_male_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_female_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr2R_Flymine_female_mating_behavior_sites,
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_neurogenesis_genes, mean_null_ZS_ZH_ZW_Chr2R_Flymine_neurogenesis_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr2R_Flymine_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_male_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr2R_Flymine_male_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr2R_Flybase_female_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr2R_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr3L_num_of_gene_sites, mean_null_ZS_ZH_ZW_Chr3L_num_of_unique_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_neurogenesis_sites, mean_null_ZS_ZH_ZW_Chr3L_Flymine_neurogenesis_sites,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr3L_Flymine_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_male_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr3L_Flymine_male_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_female_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr3L_Flymine_female_mating_behavior_sites,
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_neurogenesis_genes, mean_null_ZS_ZH_ZW_Chr3L_Flymine_neurogenesis_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr3L_Flymine_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_male_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr3L_Flymine_male_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3L_Flybase_female_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr3L_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr3R_num_of_gene_sites, mean_null_ZS_ZH_ZW_Chr3R_num_of_unique_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_neurogenesis_sites, mean_null_ZS_ZH_ZW_Chr3R_Flymine_neurogenesis_sites,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr3R_Flymine_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_male_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr3R_Flymine_male_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_female_mating_behavior_sites, mean_null_ZS_ZH_ZW_Chr3R_Flymine_female_mating_behavior_sites,
+                                     
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_neurogenesis_genes, mean_null_ZS_ZH_ZW_Chr3R_Flymine_neurogenesis_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr3R_Flymine_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_male_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr3R_Flymine_male_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_Chr3R_Flybase_female_mating_behavior_genes, mean_null_ZS_ZH_ZW_Chr3R_Flymine_female_mating_behavior_genes,
+                                     
+                                     
+                                     mean_null_ZS_ZH_ZW_autosome_num_of_gene_sites, mean_null_ZS_ZH_ZW_autosome_num_of_unique_genes,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_neurogenesis_sites, mean_null_ZS_ZH_ZW_autosome_Flymine_neurogenesis_sites,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_mating_behavior_sites, mean_null_ZS_ZH_ZW_autosome_Flymine_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_male_mating_behavior_sites, mean_null_ZS_ZH_ZW_autosome_Flymine_male_mating_behavior_sites,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_female_mating_behavior_sites, mean_null_ZS_ZH_ZW_autosome_Flymine_female_mating_behavior_sites,
+                                     
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_neurogenesis_genes, mean_null_ZS_ZH_ZW_autosome_Flymine_neurogenesis_genes,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_mating_behavior_genes, mean_null_ZS_ZH_ZW_autosome_Flymine_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_male_mating_behavior_genes, mean_null_ZS_ZH_ZW_autosome_Flymine_male_mating_behavior_genes,
+                                     mean_null_ZS_ZH_ZW_autosome_Flybase_female_mating_behavior_genes, mean_null_ZS_ZH_ZW_autosome_Flymine_female_mating_behavior_genes),
+                       
+                       
+                       null_sd = c(sd_null_ZS_ZH_ZW_ChrX_num_of_gene_sites, sd_null_ZS_ZH_ZW_ChrX_num_of_unique_genes,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_neurogenesis_sites, sd_null_ZS_ZH_ZW_ChrX_Flymine_neurogenesis_sites,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_mating_behavior_sites, sd_null_ZS_ZH_ZW_ChrX_Flymine_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_male_mating_behavior_sites, sd_null_ZS_ZH_ZW_ChrX_Flymine_male_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_female_mating_behavior_sites, sd_null_ZS_ZH_ZW_ChrX_Flymine_female_mating_behavior_sites,
+                                   
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_neurogenesis_genes, sd_null_ZS_ZH_ZW_ChrX_Flymine_neurogenesis_genes,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_mating_behavior_genes, sd_null_ZS_ZH_ZW_ChrX_Flymine_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_male_mating_behavior_genes, sd_null_ZS_ZH_ZW_ChrX_Flymine_male_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_ChrX_Flybase_female_mating_behavior_genes, sd_null_ZS_ZH_ZW_ChrX_Flymine_female_mating_behavior_genes,
+                                   
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr2L_num_of_gene_sites, sd_null_ZS_ZH_ZW_Chr2L_num_of_unique_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_neurogenesis_sites, sd_null_ZS_ZH_ZW_Chr2L_Flymine_neurogenesis_sites,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr2L_Flymine_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_male_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr2L_Flymine_male_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_female_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr2L_Flymine_female_mating_behavior_sites,
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_neurogenesis_genes, sd_null_ZS_ZH_ZW_Chr2L_Flymine_neurogenesis_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr2L_Flymine_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_male_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr2L_Flymine_male_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2L_Flybase_female_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr2L_Flymine_female_mating_behavior_genes,
+                                   
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr2R_num_of_gene_sites, sd_null_ZS_ZH_ZW_Chr2R_num_of_unique_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_neurogenesis_sites, sd_null_ZS_ZH_ZW_Chr2R_Flymine_neurogenesis_sites,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr2R_Flymine_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_male_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr2R_Flymine_male_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_female_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr2R_Flymine_female_mating_behavior_sites,
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_neurogenesis_genes, sd_null_ZS_ZH_ZW_Chr2R_Flymine_neurogenesis_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr2R_Flymine_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_male_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr2R_Flymine_male_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr2R_Flybase_female_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr2R_Flymine_female_mating_behavior_genes,
+                                   
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr3L_num_of_gene_sites, sd_null_ZS_ZH_ZW_Chr3L_num_of_unique_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_neurogenesis_sites, sd_null_ZS_ZH_ZW_Chr3L_Flymine_neurogenesis_sites,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr3L_Flymine_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_male_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr3L_Flymine_male_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_female_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr3L_Flymine_female_mating_behavior_sites,
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_neurogenesis_genes, sd_null_ZS_ZH_ZW_Chr3L_Flymine_neurogenesis_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr3L_Flymine_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_male_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr3L_Flymine_male_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3L_Flybase_female_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr3L_Flymine_female_mating_behavior_genes,
+                                   
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr3R_num_of_gene_sites, sd_null_ZS_ZH_ZW_Chr3R_num_of_unique_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_neurogenesis_sites, sd_null_ZS_ZH_ZW_Chr3R_Flymine_neurogenesis_sites,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr3R_Flymine_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_male_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr3R_Flymine_male_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_female_mating_behavior_sites, sd_null_ZS_ZH_ZW_Chr3R_Flymine_female_mating_behavior_sites,
+                                   
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_neurogenesis_genes, sd_null_ZS_ZH_ZW_Chr3R_Flymine_neurogenesis_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr3R_Flymine_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_male_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr3R_Flymine_male_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_Chr3R_Flybase_female_mating_behavior_genes, sd_null_ZS_ZH_ZW_Chr3R_Flymine_female_mating_behavior_genes,
+                                   
+                                   
+                                   sd_null_ZS_ZH_ZW_autosome_num_of_gene_sites, sd_null_ZS_ZH_ZW_autosome_num_of_unique_genes,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_neurogenesis_sites, sd_null_ZS_ZH_ZW_autosome_Flymine_neurogenesis_sites,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_mating_behavior_sites, sd_null_ZS_ZH_ZW_autosome_Flymine_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_male_mating_behavior_sites, sd_null_ZS_ZH_ZW_autosome_Flymine_male_mating_behavior_sites,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_female_mating_behavior_sites, sd_null_ZS_ZH_ZW_autosome_Flymine_female_mating_behavior_sites,
+                                   
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_neurogenesis_genes, sd_null_ZS_ZH_ZW_autosome_Flymine_neurogenesis_genes,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_mating_behavior_genes, sd_null_ZS_ZH_ZW_autosome_Flymine_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_male_mating_behavior_genes, sd_null_ZS_ZH_ZW_autosome_Flymine_male_mating_behavior_genes,
+                                   sd_null_ZS_ZH_ZW_autosome_Flybase_female_mating_behavior_genes, sd_null_ZS_ZH_ZW_autosome_Flymine_female_mating_behavior_genes))
+
+
+
+
+#Z scores and P values
+### H0: The number of {GO term sites/genes or gene sites/unique genes} at the top 1% of Fst sites is not greater than the number of {GO term sites/genes or gene sites/unique genes} in the null Fst<=0 ###
+### Ha: The number of {GO term sites/genes or gene sites/unique genes} at the top 1% of Fst sites is greater then the number of {GO term sites/genes or gene sites/unique genes} in the null Fst<=0 ###
+### Thus the z test is Right Tailed ###
+
+ZS_RAL_ZI <- ZS_RAL_ZI %>%
+  mutate(z = (top_1_percent - null_mean)/null_sd) %>%
+  mutate(p = pnorm(q=z, lower.tail=FALSE))
+
+ZS_RAL_ZI_FR_SAfr <- ZS_RAL_ZI_FR_SAfr %>%
+  mutate(z = (top_1_percent - null_mean)/null_sd) %>%
+  mutate(p = pnorm(q=z, lower.tail=FALSE))
+
+Zim_RAL_ZI <- Zim_RAL_ZI %>%
+  mutate(z = (top_1_percent - null_mean)/null_sd) %>%
+  mutate(p = pnorm(q=z, lower.tail=FALSE))
+
+ZH_RAL_ZI <- ZH_RAL_ZI %>%
+  mutate(z = (top_1_percent - null_mean)/null_sd) %>%
+  mutate(p = pnorm(q=z, lower.tail=FALSE))
+
+ZW_RAL_ZI <- ZW_RAL_ZI %>%
+  mutate(z = (top_1_percent - null_mean)/null_sd) %>%
+  mutate(p = pnorm(q=z, lower.tail=FALSE))
+
+ZS_ZH_ZW <- ZS_ZH_ZW %>%
+  mutate(z = (top_1_percent - null_mean)/null_sd) %>%
+  mutate(p = pnorm(q=z, lower.tail=FALSE))
+
+
+
+
+write.csv(ZS_RAL_ZI, file="p-values/ZS_RAL_ZI_pvalues.csv")
+write.csv(ZS_RAL_ZI_FR_SAfr, file="p-values/ZS_RAL_ZI_FR_SAfr_pvalues.csv")
+write.csv(Zim_RAL_ZI, file="p-values/Zim_RAL_ZI_pvalues.csv")
+write.csv(ZH_RAL_ZI, file="p-values/ZH_RAL_ZI_pvalues.csv")
+write.csv(ZW_RAL_ZI, file="p-values/ZW_RAL_ZI_pvalues.csv")
+write.csv(ZS_ZH_ZW, file="p-values/ZS_ZH_ZW_pvalues.csv")
 
 
 
