@@ -6,38 +6,40 @@ import numpy as np
 from multiprocessing import Pool
 
 #setting directory
-directory = "set"
+directory = "/Users/philipbaldassari/Desktop/zim-cos_gene_GO_ann"
 os.chdir(directory)
 
-'''
+
 #get list of txt list files for parallel pool mapping
 file_list = []
 
 for file in os.listdir(directory):
-    if file.endswith('.txt'):
+    if file.endswith('.txt') and 'r6' in str(file):
         file_list.append(file)
     else:
         continue
 
+print("\n########################################################################\n")
 print(file_list)
-'''
-
-#reading in Dmel gene maps
-ChrX_map = pd.read_csv('Dmel_genemap_ChrX.csv')
-Chr2L_map = pd.read_csv('Dmel_genemap_Chr2L.csv')
-Chr2R_map = pd.read_csv('Dmel_genemap_Chr2R.csv')
-Chr3L_map = pd.read_csv('Dmel_genemap_Chr3L.csv')
-Chr3R_map = pd.read_csv('Dmel_genemap_Chr3R.csv')
-
-print("Gene maps read. Starting gene mapping")
-
-wait = input("Press Enter to continue.")
+print("\n########################################################################\n")
 
 
 #gene mapper function
 def gene_mapper(infile):
 
+
+    #reading in Dmel gene maps
+    ChrX_map = pd.read_csv('Dmel_genemap_ChrX.csv')
+    Chr2L_map = pd.read_csv('Dmel_genemap_Chr2L.csv')
+    Chr2R_map = pd.read_csv('Dmel_genemap_Chr2R.csv')
+    Chr3L_map = pd.read_csv('Dmel_genemap_Chr3L.csv')
+    Chr3R_map = pd.read_csv('Dmel_genemap_Chr3R.csv')
+
+    print("Gene maps read. Starting gene mapping")
+
     print("starting the gene mapping on " + infile)
+
+
 
     #opening the coordinate file
     coordinate_file = open(infile, "r")
@@ -69,34 +71,44 @@ def gene_mapper(infile):
         elif '3R' in i:
             df = Chr3R_map
         else:
-            continue
+            print("Chromosome not found.")
+            break
         
-        #setting counter and dummy list
-        counter = 0
-        dummy_list = []
+        #setting temp lists
+        FBgn_list_temp = []
+        gene_symbol_temp = []
+
 
         #looping through gene maps
         for row in df.itertuples():
 
-            counter += 1
 
             #tuple to list
             row_list = list(row)
 
             if int(i.split(':')[1]) >= row_list[4] and int(i.split(':')[1]) <= row_list[5]:
-                FBgn_list.append(row_list[1])
-                gene_symbol_list.append(row_list[2])
-                print("Hit!")
-                break
+                FBgn_list_temp.append(row_list[1])
+                gene_symbol_temp.append(str(row_list[2]))
             else:
-                dummy_list.append(0)
-            
+                continue
+        
+        #temp lists to strings
+        FBgn_str = "; ".join(FBgn_list_temp)
+        gene_str = "; ".join(gene_symbol_temp)
+
         #checking if there is no hit
-        if counter == len(dummy_list):
+        if len(FBgn_str) == 0:
             FBgn_list.append('None')
             gene_symbol_list.append('None')
         else:
-            continue
+            FBgn_list.append(FBgn_str)
+            gene_symbol_list.append(gene_str)
+            print(gene_str)
+
+
+
+
+
 
     #making dataframe
     dictionary = {'FBgn' : FBgn_list, 'gene_symbol' : gene_symbol_list}
@@ -112,12 +124,11 @@ def gene_mapper(infile):
 
 
 #for parallele mapping
-txt_list = []
 
 #run in parallel
 def run_in_parallel():
-    pool = Pool(processes=8)
-    pool.map(gene_mapper, txt_list)
+    pool = Pool(processes=18)
+    pool.map(gene_mapper, file_list)
 
 
 if __name__ == '__main__':

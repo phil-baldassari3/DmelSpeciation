@@ -562,7 +562,7 @@ class loci_table():
 
             
 
-    def plot_dist_param(self, parameter):
+    def plot_dist_param(self, parameter, plotname):
         """
         This function plots the distribution of the paramer of your choosing in the table.
         This function takes 1 parameter:
@@ -592,7 +592,7 @@ class loci_table():
         kde = scipy.stats.gaussian_kde(param_a)
         plt.plot(kde_xs, kde.pdf(kde_xs), label="PDF")
 
-        plt.savefig(parameter + '.png', bbox_inches='tight')
+        plt.savefig(plotname + '.png', bbox_inches='tight')
 
         plt.clf()  
 

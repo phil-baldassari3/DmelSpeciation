@@ -4,7 +4,13 @@
 import os,sys
 import pandas as pd
 import numpy as np
+import time
 from multiprocessing import Pool
+
+
+start = time.time()
+
+
 
 #setting directory
 directory = "/Users/philipbaldassari/Desktop/zim-cos_Chr2L"
@@ -101,12 +107,23 @@ file_list = ['zim-cos_Chr2L_chunk_17_.fa', 'zim-cos_Chr2L_chunk_16_.fa', 'zim-co
 
 #run in parallel
 def run_in_parallel():
-    pool = Pool(processes=8)
+    pool = Pool(processes=10)
     pool.map(fasta2df, file_list)
 
 
 if __name__ == '__main__':
     run_in_parallel()
+
+
+
+
+end = time.time()
+
+
+
+
+
+print("\n\n\n\nRUNTIME:", (end-start), "s")
 
 
 
