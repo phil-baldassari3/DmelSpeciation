@@ -301,9 +301,14 @@ class loci_table():
         nullcounts: list of integers or floats that represent the counts of the genes of interest in the null set from the permutation
         returns: z score and p value"""
 
-        zscore = (topcount - mean(nullcounts)) / stdev(nullcounts)
+        #Note: this is a cheat for now to avoid division by zero error but this mean that the z test is meaningless
+        if stdev(nullcounts) == 0:
+            zscore = 1
+            pvalue = 1
 
-        pvalue = scipy.stats.norm.sf(zscore)
+        else:   
+            zscore = (topcount - mean(nullcounts)) / stdev(nullcounts)
+            pvalue = scipy.stats.norm.sf(zscore)
 
         return zscore, pvalue
 
@@ -576,7 +581,11 @@ class loci_table():
         #number of bins, Freedman–Diaconis
         q25, q75 = np.percentile(param_a, [25, 75])
         bin_width = 2 * (q75 - q25) * len(param_a) ** (-1/3)
-        bins = round((param_a.max() - param_a.min()) / bin_width)
+
+        try:
+            bins = round((param_a.max() - param_a.min()) / bin_width)
+        except OverflowError:
+            bins = 20
         
         
         
@@ -586,11 +595,17 @@ class loci_table():
         plt.xlabel(parameter)
         plt.title(parameter + " Distribution")
 
-        mn, mx = plt.xlim()
-        plt.xlim(mn, mx)
-        kde_xs = np.linspace(mn, mx, 300)
-        kde = scipy.stats.gaussian_kde(param_a)
-        plt.plot(kde_xs, kde.pdf(kde_xs), label="PDF")
+
+
+        try:
+            mn, mx = plt.xlim()
+            plt.xlim(mn, mx)
+            kde_xs = np.linspace(mn, mx, 300)
+            kde = scipy.stats.gaussian_kde(param_a)
+            plt.plot(kde_xs, kde.pdf(kde_xs), label="PDF")
+        except np.linalg.LinAlgError:
+            print("could not add pdf")
+
 
         plt.savefig(plotname + '.png', bbox_inches='tight')
 
@@ -622,31 +637,47 @@ class loci_table():
         #number of bins, Freedman–Diaconis
         q25, q75 = np.percentile(null, [25, 75])
         bin_width = 2 * (q75 - q25) * len(null) ** (-1/3)
-
+        
         if bin_width == 0:
             bins = 10
         else:
-            bins = round((null.max() - null.min()) / bin_width) 
+
+            try:
+                bins = round((null.max() - null.min()) / bin_width)
+
+            except OverflowError:
+                bins = 10
 
         
         
         #plotting
+        plt.figure(figsize=(8,4))
         plt.hist(null, density=True, bins=bins)
         plt.ylabel('Density')
         plt.xlabel(term + word)
         plt.title(term + " Distribution")
 
-        mn, mx = plt.xlim()
-        plt.xlim(mn, mx)
-        kde_xs = np.linspace(mn, mx, 300)
-        kde = scipy.stats.gaussian_kde(null)
-        plt.plot(kde_xs, kde.pdf(kde_xs), label="PDF")
+        if bins > 20:
+            mn, mx = plt.xlim()
+            plt.xlim(mn, mx)
+            kde_xs = np.linspace(mn, mx, 300)
+            kde = scipy.stats.gaussian_kde(null)
+            plt.plot(kde_xs, kde.pdf(kde_xs), label="PDF")
+        else:
+            print("could not add pdf")
 
         plt.axvline(x=top, color='r', lw=3)
 
         plt.savefig(plotname + '.png', bbox_inches='tight')
 
-        plt.clf()  
+        plt.clf()
+
+
+    def save(self, filename):
+
+        """Method for saving the current loci table to a csv file."""
+
+        self.table.to_csv(filename + ".csv", index=False)
 
 
 
