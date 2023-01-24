@@ -92,7 +92,7 @@ class loci_table():
 
 
         #setting lists
-        GO = []
+        go = []
         weighted_GO = []
         
         counter = 0
@@ -100,7 +100,7 @@ class loci_table():
         for i in range(n_permutes):
 
             counter += 1
-            if (counter % 100) == 0:
+            if (counter % 1000) == 0:
                 print("Permutation:", str(counter), "of", n_permutes)
             
             #random sampling
@@ -124,7 +124,7 @@ class loci_table():
                 GO_unique_gene_ls = GO_unique_gene_ls
 
             #unweighted
-            GO.append(len(GO_unique_gene_ls))
+            go.append(len(GO_unique_gene_ls))
 
             #weighted
             GO_SNP_den = []
@@ -142,7 +142,7 @@ class loci_table():
 
 
         #creating permutation dataframe
-        permut_dict = {term:GO, term+'_weighted':weighted_GO}
+        permut_dict = {term:go, term+'_weighted':weighted_GO}
 
         permut_df = pd.DataFrame.from_dict(permut_dict)
 
@@ -168,7 +168,7 @@ class loci_table():
 
 
         #setting lists
-        GO = []
+        go = []
         
         counter = 0
         #permutation
@@ -198,12 +198,12 @@ class loci_table():
                 GO_unique_gene_ls = GO_unique_gene_ls
 
             #unweighted
-            GO.append(len(GO_unique_gene_ls))
+            go.append(len(GO_unique_gene_ls))
 
         #creating permutation dataframe
         permut_df = pd.DataFrame()
 
-        permut_df[term] = GO
+        permut_df[term] = go
 
         return permut_df
 
@@ -456,7 +456,7 @@ class loci_table():
        
 
         #setting list
-        GO = []
+        go = []
 
         #looping through null genes
         for gene in gene_list:
@@ -471,11 +471,11 @@ class loci_table():
                     continue
 
 
-            GO.append(str_GO)
+            go.append(str_GO)
             
 
         #annotating self.table
-        dictionary = {GO_term : GO}
+        dictionary = {GO_term : go}
         GO_df = pd.DataFrame(dictionary)
 
         self.table = pd.merge(self.table, GO_df, left_index=True, right_index=True)
@@ -551,10 +551,16 @@ class loci_table():
             self.top_count.update({GO_term: top_count, GO_term+'_weighted': top_weighted_count})
 
             #null permutation
-            self.permutation_df = self.persite_null_permutator(numofpermutes, top_len, GO_term, FB_GO_ls)
+            perm_df = self.persite_null_permutator(numofpermutes, top_len, GO_term, FB_GO_ls)
 
-            null_counts = self.permutation_df.iloc[:, 0]
-            null_weighted_counts = self.permutation_df.iloc[:, 1]
+            if self.permutation_df.empty:
+                self.permutation_df = perm_df
+            else:
+                self.permutation_df = pd.merge(self.permutation_df, perm_df, left_index=True, right_index=True)
+
+
+            null_counts = perm_df.iloc[:, 0]
+            null_weighted_counts = perm_df.iloc[:, 1]
 
             #z-test adn p-value
             z, p = self.ztest(top_count, null_counts)
@@ -570,8 +576,9 @@ class loci_table():
     def plot_dist_param(self, parameter, plotname):
         """
         This function plots the distribution of the paramer of your choosing in the table.
-        This function takes 1 parameter:
+        This function takes 2 parameters:
         parameter: string of column name over which to plot the distribution.
+        plotname: string name of the plot to save as (dont include .png)
         """
 
         param_ls = self.table[parameter].to_list()

@@ -7,10 +7,10 @@ import numpy as np
 from multiprocessing import Pool
 
 #setting directory
-directory = "/Users/philipbaldassari/Desktop/zim-cos_downsampled/sliding_window_fst"
+directory = "/Users/philipbaldassari/Desktop/zim_cos_fst_data"
 os.chdir(directory)
 
-'''
+
 #get list of txt list files for parallel pool mapping
 file_list = []
 
@@ -21,7 +21,8 @@ for file in os.listdir(directory):
         continue
 
 print(file_list)
-'''
+print('\n\n')
+
 
 def coordinate_switcher(infile):
 
@@ -52,6 +53,12 @@ def coordinate_switcher(infile):
         else:
             continue
 
+    #coordinate cleaning
+    coordinates = [i.replace('X:', '') for i in coordinates]
+    coordinates = [i.replace('2L:', '') for i in coordinates]
+    coordinates = [i.replace('2R:', '') for i in coordinates]
+    coordinates = [i.replace('3L:', '') for i in coordinates]
+    coordinates = [i.replace('3R:', '') for i in coordinates]
 
     #adding column
     df['r6_site'] = pd.Series(coordinates)
@@ -65,18 +72,17 @@ def coordinate_switcher(infile):
     print("inserted r6 sites in ", infile)
 
     #saving as csv
-    df.to_csv(infile, index=False)
+    df.to_csv("r6_" + infile, index=False)
 
-    print("saved ", infile)
+    print("saved ", "r6_" + infile)
 
 
 #for parallele mapping
-txt_list = ['Chr3L_Zim_RAL_ZI_Fst.csv', 'Chr2L_Zim_RAL_ZI_Fst.csv', 'Chr2R_ZW_RAL_ZI_Fst.csv', 'Chr2L_ZW_RAL_ZI_Fst.csv', 'Chr3L_ZS_RAL_ZI_FR_SAfr_Fst.csv', 'Chr2R_ZS_RAL_ZI_FR_SAfr_Fst.csv', 'ChrX_ZS_ZH_ZW_Fst.csv', 'ChrX_ZS_RAL_ZI_Fst.csv', 'Chr3L_ZH_RAL_ZI_Fst.csv', 'Chr2L_ZS_RAL_ZI_Fst.csv', 'Chr2R_ZS_RAL_ZI_Fst.csv', 'Chr3R_ZH_RAL_ZI_Fst.csv', 'Chr2L_ZS_RAL_ZI_FR_SAfr_Fst.csv', 'Chr3R_ZS_RAL_ZI_FR_SAfr_Fst.csv', 'ChrX_ZW_RAL_ZI_Fst.csv', 'Chr2L_ZS_ZH_ZW_Fst.csv', 'ChrX_Zim_RAL_ZI_Fst.csv', 'Chr3R_ZS_RAL_ZI_Fst.csv', 'Chr3R_Zim_RAL_ZI_Fst.csv', 'Chr2R_ZH_RAL_ZI_Fst.csv', 'Chr2L_ZH_RAL_ZI_Fst.csv', 'Chr3L_ZS_RAL_ZI_Fst.csv', 'Chr2R_Zim_RAL_ZI_Fst.csv', 'Chr3L_ZS_ZH_ZW_Fst.csv', 'Chr2R_ZS_ZH_ZW_Fst.csv', 'ChrX_ZH_RAL_ZI_Fst.csv', 'Chr3R_ZS_ZH_ZW_Fst.csv', 'ChrX_ZS_RAL_ZI_FR_SAfr_Fst.csv', 'Chr3L_ZW_RAL_ZI_Fst.csv', 'Chr3R_ZW_RAL_ZI_Fst.csv']
 
 #run in parallel
 def run_in_parallel():
-    pool = Pool(processes=8)
-    pool.map(coordinate_switcher, txt_list)
+    pool = Pool(processes=18)
+    pool.map(coordinate_switcher, file_list)
 
 
 if __name__ == '__main__':
