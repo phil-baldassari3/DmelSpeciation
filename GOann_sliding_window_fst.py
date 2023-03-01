@@ -4,27 +4,49 @@
 import os,sys
 import pandas as pd
 import numpy as np
+from statistics import mean
+import math
 from multiprocessing import Pool
 
-#setting directory
-directory = "/Users/philipbaldassari/Desktop/zim-cos_gene_GO_ann"
+
+
+###########Set Parameters################################################################################
+#########################################################################################################
+
+directory = "/Users/philipbaldassari/Desktop/zim_cos_fst_data/annotated_persite_fst"
+step = 10000
+
+#########################################################################################################
+
+
 os.chdir(directory)
 
-'''
+""" 
 #get list of txt list files for parallel pool mapping
 file_list = []
 
 for file in os.listdir(directory):
-    if file.endswith('.csv') and 'GO_sites_genes' in file:
+    if file.endswith('.csv') and 'annotated' in file:
         file_list.append(file)
     else:
         continue
 
 print(file_list)
-'''
+print(len(file_list))
+ """
 
-step = 1000
 
+def round_up(n, decimals=0):
+    """rounds up to the decimal place you want, positive for right of decimal and negative for left of decimal"""
+
+    multiplier = 10 ** decimals
+
+    c = (math.ceil(n * multiplier)) / multiplier
+
+    #just in case there is a python rounding error
+    r = round(c)
+
+    return int(r)
 
 
 def sliding_window(infile, df):
@@ -36,14 +58,19 @@ def sliding_window(infile, df):
 
     if 'ChrX' in chrom_ls:
         chrom = 'X'
+        chrom_len = 23542271
     elif 'Chr2L' in chrom_ls:
         chrom = '2L'
+        chrom_len = 23513712
     elif 'Chr2R' in chrom_ls:
         chrom = '2R'
+        chrom_len = 25286936
     elif 'Chr3L' in chrom_ls:
         chrom = '3L'
+        chrom_len = 28110227
     elif 'Chr3R' in chrom_ls:
         chrom = '3R'
+        chrom_len = 32079331
     
 
     
@@ -56,6 +83,7 @@ def sliding_window(infile, df):
         avg_fst_2 = []
         avg_fst_3 = []
         avg_fst_4 = []
+        avg = []
 
         #window
         win_start = []
@@ -72,10 +100,8 @@ def sliding_window(infile, df):
 
         print("starting sliding window for ", infile, " with ", step, " bp steps...")
 
-        #sliding window
-        len_list = df['r6_site'].tolist()
 
-        for i in range(0, int(len_list[-1])+step, step):
+        for i in range(0, round_up(chrom_len, (int(math.log10(step) * -1))), step):
 
            #window lists
             win_start.append(i+1)
@@ -89,6 +115,7 @@ def sliding_window(infile, df):
                 avg_fst_2.append(0)
                 avg_fst_3.append(0)
                 avg_fst_4.append(0)
+                avg.append(0)
 
                 FBgn.append('None')
                 gene_symbol.append('None')
@@ -98,10 +125,16 @@ def sliding_window(infile, df):
                 female_mating_behavior.append('None')
 
             else:
-                avg_fst_1.append(chunk_df.iloc[:, 2].mean())
-                avg_fst_2.append(chunk_df.iloc[:, 3].mean())
-                avg_fst_3.append(chunk_df.iloc[:, 4].mean())
-                avg_fst_4.append(chunk_df.iloc[:, 5].mean())
+                mean1 = chunk_df.iloc[:, 2].mean()
+                mean2 = chunk_df.iloc[:, 3].mean()
+                mean3 = chunk_df.iloc[:, 4].mean()
+                mean4 = chunk_df.iloc[:, 5].mean()
+
+                avg_fst_1.append(mean1)
+                avg_fst_2.append(mean2)
+                avg_fst_3.append(mean3)
+                avg_fst_4.append(mean4)
+                avg.append(mean([mean1, mean2, mean3, mean4]))
 
                 chunk_FBgn_temp = chunk_df['FBgn'].tolist()
                 str_FBgn = "; ".join(chunk_FBgn_temp)
@@ -161,13 +194,13 @@ def sliding_window(infile, df):
         #key lists
         col_list = list(df.columns)
         win_list = ['window_start', 'window_end']
-        ann_list = ['FBgn', 'gene_symbol', 'Neurogenesis', 'Mating_behavior', 'Male_mating_behavior', 'Female_mating_behavior']
+        ann_list = ['Avg_fst', 'FBgn', 'gene_symbol', 'Neurogenesis', 'Mating_behavior', 'Male_mating_behavior', 'Female_mating_behavior']
 
         
         key_list = win_list + col_list[2:6] + ann_list
 
         #value list
-        value_list = [win_start, win_end, avg_fst_1, avg_fst_2, avg_fst_3, avg_fst_4, FBgn, gene_symbol, neurogenesis, mating_behavior, male_mating_behavior, female_mating_behavior]
+        value_list = [win_start, win_end, avg_fst_1, avg_fst_2, avg_fst_3, avg_fst_4, avg, FBgn, gene_symbol, neurogenesis, mating_behavior, male_mating_behavior, female_mating_behavior]
 
         #merging key, values to dictionary
         dictionary = dict(zip(key_list, value_list))
@@ -184,6 +217,7 @@ def sliding_window(infile, df):
         avg_fst_1 = []
         avg_fst_2 = []
         avg_fst_3 = []
+        avg = []
 
         #window
         win_start = []
@@ -199,10 +233,8 @@ def sliding_window(infile, df):
 
         print("starting sliding window for ", infile, " with ", step, " bp steps...")
 
-        #sliding window
-        len_list = df['r6_site'].tolist()
 
-        for i in range(0, int(len_list[-1])+step, step):
+        for i in range(0, round_up(chrom_len, (int(math.log10(step) * -1))), step):
 
            #window lists
             win_start.append(i+1)
@@ -215,6 +247,7 @@ def sliding_window(infile, df):
                 avg_fst_1.append(0)
                 avg_fst_2.append(0)
                 avg_fst_3.append(0)
+                avg.append(0)
 
                 FBgn.append('None')
                 gene_symbol.append('None')
@@ -224,9 +257,15 @@ def sliding_window(infile, df):
                 female_mating_behavior.append('None')
 
             else:
-                avg_fst_1.append(chunk_df.iloc[:, 2].mean())
-                avg_fst_2.append(chunk_df.iloc[:, 3].mean())
-                avg_fst_3.append(chunk_df.iloc[:, 4].mean())
+                mean1 = chunk_df.iloc[:, 2].mean()
+                mean2 = chunk_df.iloc[:, 3].mean()
+                mean3 = chunk_df.iloc[:, 4].mean()
+
+                avg_fst_1.append(mean1)
+                avg_fst_2.append(mean2)
+                avg_fst_3.append(mean3)
+                avg.append(mean([mean1, mean2, mean3]))
+
 
                 chunk_FBgn_temp = chunk_df['FBgn'].tolist()
                 str_FBgn = "; ".join(chunk_FBgn_temp)
@@ -285,10 +324,10 @@ def sliding_window(infile, df):
 
         col_list = list(df.columns)
         win_list = ['window_start', 'window_end']
-        ann_list = ['FBgn', 'gene_symbol', 'Neurogenesis', 'Mating_behavior', 'Male_mating_behavior', 'Female_mating_behavior']
+        ann_list = ['Avg_fst', 'FBgn', 'gene_symbol', 'Neurogenesis', 'Mating_behavior', 'Male_mating_behavior', 'Female_mating_behavior']
         
         key_list = win_list + col_list[2:5] + ann_list
-        value_list = [win_start, win_end, avg_fst_1, avg_fst_2, avg_fst_3, FBgn, gene_symbol, neurogenesis, mating_behavior, male_mating_behavior, female_mating_behavior]
+        value_list = [win_start, win_end, avg_fst_1, avg_fst_2, avg_fst_3, avg, FBgn, gene_symbol, neurogenesis, mating_behavior, male_mating_behavior, female_mating_behavior]
         
 
         dictionary = dict(zip(key_list, value_list))
@@ -302,6 +341,7 @@ def sliding_window(infile, df):
         #setting avg fst lists
         avg_fst_1 = []
         avg_fst_2 = []
+        avg = []
 
         #window
         win_start = []
@@ -317,10 +357,8 @@ def sliding_window(infile, df):
 
         print("starting sliding window for ", infile, " with ", step, " bp steps...")
 
-        #sliding window
-        len_list = df['r6_site'].tolist()
         
-        for i in range(0, int(len_list[-1])+step, step):
+        for i in range(0, round_up(chrom_len, (int(math.log10(step) * -1))), step):
 
             #window lists
             win_start.append(i+1)
@@ -332,6 +370,7 @@ def sliding_window(infile, df):
             if len(chunk_df.index) == 0:
                 avg_fst_1.append(0)
                 avg_fst_2.append(0)
+                avg.append(0)
 
                 FBgn.append('None')
                 gene_symbol.append('None')
@@ -341,8 +380,12 @@ def sliding_window(infile, df):
                 female_mating_behavior.append('None')
 
             else:
-                avg_fst_1.append(chunk_df.iloc[:, 2].mean())
-                avg_fst_2.append(chunk_df.iloc[:, 3].mean())
+                mean1 = chunk_df.iloc[:, 2].mean()
+                mean2 = chunk_df.iloc[:, 3].mean()
+
+                avg_fst_1.append(mean1)
+                avg_fst_2.append(mean2)
+                avg.append(mean([mean1, mean2]))
 
                 chunk_FBgn_temp = chunk_df['FBgn'].tolist()
                 str_FBgn = "; ".join(chunk_FBgn_temp)
@@ -400,26 +443,11 @@ def sliding_window(infile, df):
 
         col_list = list(df.columns)
         win_list = ['window_start', 'window_end']
-        ann_list = ['FBgn', 'gene_symbol', 'Neurogenesis', 'Mating_behavior', 'Male_mating_behavior', 'Female_mating_behavior']
+        ann_list = ['Avg_fst', 'FBgn', 'gene_symbol', 'Neurogenesis', 'Mating_behavior', 'Male_mating_behavior', 'Female_mating_behavior']
 
         
         key_list = win_list + col_list[2:4] + ann_list
-        value_list = [win_start, win_end, avg_fst_1, avg_fst_2, FBgn, gene_symbol, neurogenesis, mating_behavior, male_mating_behavior, female_mating_behavior]
-
-
-        """ print('cols:', key_list)
-        print('win_start:', win_start[1328:1348], len(win_start))
-        print('win_end:', win_end[1328:1348], len(win_end))
-        print('avg_fst_1:', avg_fst_1[1328:1348], len(avg_fst_1))
-        print('avg_fst_2:', avg_fst_2[1328:1348], len(avg_fst_2))
-        print('FBgn:', FBgn[1328:1348], len(FBgn))
-        print('gene_symbol:', gene_symbol[1328:1348], len(gene_symbol))
-        print('neurogenesis:', neurogenesis[1328:1348], len(neurogenesis))
-        print('mating_behavior:', mating_behavior[1328:1348], len(mating_behavior))
-        print('male_mating_behavior:', male_mating_behavior[1328:1348], len(male_mating_behavior))
-        print('female_mating_behavior:', female_mating_behavior[1328:1348], len(female_mating_behavior)) """
-
-
+        value_list = [win_start, win_end, avg_fst_1, avg_fst_2, avg, FBgn, gene_symbol, neurogenesis, mating_behavior, male_mating_behavior, female_mating_behavior]
 
         dictionary = dict(zip(key_list, value_list))
 
@@ -463,7 +491,7 @@ def main_function(infile):
     if "X" in infile:
         win_df = sliding_window(infile, persite_df)
 
-        win_df.to_csv('windowed_1kbp_{file}'.format(file=infile), index=False)
+        win_df.to_csv('windowed_' + str(int(step/1000)) + 'kbp_{file}'.format(file=infile), index=False)
 
         print("saved dataframe.")
 
@@ -496,22 +524,19 @@ def main_function(infile):
 
         win_df = pd.concat([win_df_2L, win_df_2R, win_df_3L, win_df_3R])
 
-        win_df.to_csv('windowed_1kbp_{file}'.format(file=infile), index=False)
+        win_df.to_csv('windowed_' + str(int(step/1000)) + 'kbp_{file}'.format(file=infile), index=False)
 
         print("saved dataframe.")
-        print("DO AVERAGES IN R. I DON'T FEEL LIKE SCRIPTING IT HERE.")
 
 
-
-
-#main_function('GO_sites_genes_ZS_RAL_ZI_Fst_autosomes.csv')
 
 
 
 
 
 #for parallel mapping
-csv_list = ['GO_sites_genes_SAfr_vs_RAL_FR_ZI_Fst_autosomes.csv', 'GO_sites_genes_ZS_ZH_ZW_Fst_ChrX.csv', 'GO_sites_genes_FR_vs_RAL_ZI_SAfr_Fst_autosomes.csv', 'GO_sites_genes_FR_vs_RAL_ZI_SAfr_Fst_ChrX.csv', 'GO_sites_genes_ZW_RAL_ZI_Fst_autosomes.csv', 'GO_sites_genes_ZS_RAL_ZI_FR_SAfr_Fst_ChrX.csv', 'GO_sites_genes_ZS_RAL_ZI_Fst_autosomes.csv', 'GO_sites_genes_ZS_RAL_ZI_FR_SAfr_Fst_autosomes.csv', 'GO_sites_genes_ZI_vs_RAL_FR_SAfr_Fst_autosomes.csv', 'GO_sites_genes_ZI_vs_RAL_FR_SAfr_Fst_ChrX.csv', 'GO_sites_genes_ZH_RAL_ZI_Fst_ChrX.csv', 'GO_sites_genes_ZW_RAL_ZI_Fst_ChrX.csv', 'GO_sites_genes_SAfr_vs_RAL_FR_ZI_Fst_ChrX.csv', 'GO_sites_genes_ZH_RAL_ZI_Fst_autosomes.csv', 'GO_sites_genes_ZS_ZH_ZW_Fst_autosomes.csv', 'GO_sites_genes_RAL_vs_FR_ZI_SAfr_Fst_autosomes.csv', 'GO_sites_genes_RAL_vs_FR_ZI_SAfr_Fst_ChrX.csv', 'GO_sites_genes_ZS_RAL_ZI_Fst_ChrX.csv']
+
+csv_list = ['annotated_FR_vs_RAL_ZI_SAfr_Fst_autosomes.csv', 'annotated_SAfr_vs_RAL_FR_ZI_Fst_autosomes.csv', 'annotated_ZH_RAL_ZI_Fst_autosomes.csv', 'annotated_RAL_vs_FR_ZI_SAfr_Fst_ChrX.csv', 'annotated_SAfr_vs_RAL_FR_ZI_Fst_ChrX.csv', 'annotated_ZS_RAL_ZI_FR_SAfr_Fst_autosomes.csv', 'annotated_ZI_vs_RAL_FR_SAfr_Fst_autosomes.csv', 'annotated_ZI_vs_RAL_FR_SAfr_Fst_ChrX.csv', 'annotated_ZS_ZH_ZW_Fst_ChrX.csv', 'annotated_ZW_RAL_ZI_Fst_ChrX.csv', 'annotated_ZS_RAL_ZI_Fst_ChrX.csv', 'annotated_ZS_RAL_ZI_Fst_autosomes.csv', 'annotated_ZS_ZH_ZW_Fst_autosomes.csv', 'annotated_ZW_RAL_ZI_Fst_autosomes.csv', 'annotated_ZS_RAL_ZI_FR_SAfr_Fst_ChrX.csv', 'annotated_RAL_vs_FR_ZI_SAfr_Fst_autosomes.csv', 'annotated_FR_vs_RAL_ZI_SAfr_Fst_ChrX.csv', 'annotated_ZH_RAL_ZI_Fst_ChrX.csv']
 
 #run in parallel
 def run_in_parallel():
@@ -523,5 +548,5 @@ if __name__ == '__main__':
     run_in_parallel()
 
 
-
+ 
 
