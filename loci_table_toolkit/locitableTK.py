@@ -1,7 +1,18 @@
-## Toolkit that takes in per site or windowed data and loads it in as a dataframe
-## The class has a method to annotate SNPs and windows to genes if you load in a gene map
-## The class has a method to annotate genes with Gene Ontology terms when gene lists are loaded
-## The class has meethods to perform a Z test to compare a subset of the data to the entire dataset for specific GO terms
+"""
+locitableTK version 1.0
+
+"Loci Table Toolkit" a.k.a "LTTK"
+
+Author: Phil Baldassari
+
+Description: Toolkit that takes in per site or windowed genomic variant data and loads it into the loci_table class as a dataframe.
+The class has a method to annotate SNPs and windows to genes if you load in a gene map csv.
+The class has a method to annotate genes with Gene Ontology terms when gene lists are loaded in as txt files.
+The class has meethods to perform a Z-test to compare a subset of the data to the entire dataset for specific GO terms.
+Currently this module is only configured to work on Dmel r6 genes.
+
+Usage: `import locitableTK as lttk`
+"""
 
 
 
