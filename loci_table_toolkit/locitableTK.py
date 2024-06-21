@@ -634,7 +634,7 @@ class loci_table():
 
 
 
-    def plot_enrichment_test(self, plotname, term, weighted=False):
+    def plot_enrichment_test(self, plotname, term, weighted=False, plottitle=None):
         """,
         This function is for plotting the distribution of the null counts compared to the count of the top percentage from the last run enrichment test.
         This function takes 3 parameters:
@@ -675,7 +675,10 @@ class loci_table():
         plt.hist(null, density=True, bins=bins)
         plt.ylabel('Density')
         plt.xlabel(term + word)
-        plt.title(term + " Distribution")
+        if plottitle == None:
+            plt.title(term + " Distribution")
+        else:
+            plt.title(plottitle)
 
         if bins > 20:
             mn, mx = plt.xlim()
