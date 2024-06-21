@@ -50,6 +50,8 @@ class loci_table():
             self.table = pd.read_csv(datafile)
         elif isinstance(datafile,str) and ".pi" in datafile:
             self.table = pd.read_csv(datafile, sep='\t')
+        elif isinstance(datafile,str) and ".weir.fst" in datafile:
+            self.table = pd.read_csv(datafile, sep='\t')
         else:
             print("ERROR: file not the correct type")
 
