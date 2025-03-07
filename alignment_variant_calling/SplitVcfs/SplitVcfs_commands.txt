@@ -1,0 +1,5 @@
+java -jar $PICARD SplitVcfs I=unfiltered_dmel_r6_Chr2L_602samples.vcf.gz SNP_OUTPUT=snps/unfiltered_SNPs_dmel_r6_Chr2L_602samples.vcf.gz INDEL_OUTPUT=indels/unfiltered_INDELs_dmel_r6_Chr2L_602samples.vcf.gz STRICT=false
+java -jar $PICARD SplitVcfs I=unfiltered_dmel_r6_Chr2R_602samples.vcf.gz SNP_OUTPUT=snps/unfiltered_SNPs_dmel_r6_Chr2R_602samples.vcf.gz INDEL_OUTPUT=indels/unfiltered_INDELs_dmel_r6_Chr2R_602samples.vcf.gz STRICT=false
+java -jar $PICARD SplitVcfs I=unfiltered_dmel_r6_Chr3L_602samples.vcf.gz SNP_OUTPUT=snps/unfiltered_SNPs_dmel_r6_Chr3L_602samples.vcf.gz INDEL_OUTPUT=indels/unfiltered_INDELs_dmel_r6_Chr3L_602samples.vcf.gz STRICT=false
+java -jar $PICARD SplitVcfs I=unfiltered_dmel_r6_Chr3R_602samples.vcf.gz SNP_OUTPUT=snps/unfiltered_SNPs_dmel_r6_Chr3R_602samples.vcf.gz INDEL_OUTPUT=indels/unfiltered_INDELs_dmel_r6_Chr3R_602samples.vcf.gz STRICT=false
+java -jar $PICARD SplitVcfs I=unfiltered_dmel_r6_ChrX_602samples.vcf.gz SNP_OUTPUT=snps/unfiltered_SNPs_dmel_r6_ChrX_602samples.vcf.gz INDEL_OUTPUT=indels/unfiltered_INDELs_dmel_r6_ChrX_602samples.vcf.gz STRICT=false

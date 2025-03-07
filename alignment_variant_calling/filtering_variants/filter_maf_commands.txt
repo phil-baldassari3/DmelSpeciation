@@ -1,0 +1,5 @@
+vcftools --gzvcf biallelic_missing0.05_SNPs_dmel_r6_Chr2L.vcf.gz --recode --maf 0.01 --out biallelic_maf0.01_missing0.05_SNPs_dmel_r6_Chr2L
+vcftools --gzvcf biallelic_missing0.05_SNPs_dmel_r6_Chr2R.vcf.gz --recode --maf 0.01 --out biallelic_maf0.01_missing0.05_SNPs_dmel_r6_Chr2R
+vcftools --gzvcf biallelic_missing0.05_SNPs_dmel_r6_Chr3L.vcf.gz --recode --maf 0.01 --out biallelic_maf0.01_missing0.05_SNPs_dmel_r6_Chr3L
+vcftools --gzvcf biallelic_missing0.05_SNPs_dmel_r6_Chr3R.vcf.gz --recode --maf 0.01 --out biallelic_maf0.01_missing0.05_SNPs_dmel_r6_Chr3R
+vcftools --gzvcf biallelic_missing0.05_SNPs_dmel_r6_ChrX.vcf.gz --recode --maf 0.01 --out biallelic_maf0.01_missing0.05_SNPs_dmel_r6_ChrX

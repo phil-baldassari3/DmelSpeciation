@@ -1,0 +1,5 @@
+bcftools filter -e 'F_MISSING > 0.05' biallelic_SNPs_dmel_r6_Chr2L.vcf.gz -Oz -o biallelic_missing0.05_SNPs_dmel_r6_Chr2L.vcf.gz
+bcftools filter -e 'F_MISSING > 0.05' biallelic_SNPs_dmel_r6_Chr2R.vcf.gz -Oz -o biallelic_missing0.05_SNPs_dmel_r6_Chr2R.vcf.gz
+bcftools filter -e 'F_MISSING > 0.05' biallelic_SNPs_dmel_r6_Chr3L.vcf.gz -Oz -o biallelic_missing0.05_SNPs_dmel_r6_Chr3L.vcf.gz
+bcftools filter -e 'F_MISSING > 0.05' biallelic_SNPs_dmel_r6_Chr3R.vcf.gz -Oz -o biallelic_missing0.05_SNPs_dmel_r6_Chr3R.vcf.gz
+bcftools filter -e 'F_MISSING > 0.05' biallelic_SNPs_dmel_r6_ChrX.vcf.gz -Oz -o biallelic_missing0.05_SNPs_dmel_r6_ChrX.vcf.gz

@@ -1,0 +1,5 @@
+bash fix_missing.sh unfiltered_SNPs_dmel_r6_Chr2L_602samples.vcf.gz
+bash fix_missing.sh unfiltered_SNPs_dmel_r6_Chr2R_602samples.vcf.gz
+bash fix_missing.sh unfiltered_SNPs_dmel_r6_Chr3L_602samples.vcf.gz
+bash fix_missing.sh unfiltered_SNPs_dmel_r6_Chr3R_602samples.vcf.gz
+bash fix_missing.sh unfiltered_SNPs_dmel_r6_ChrX_602samples.vcf.gz

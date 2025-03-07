@@ -1,0 +1,5 @@
+bcftools view -m2 -M2 -v snps fixed_unfiltered_SNPs_dmel_r6_Chr2L_602samples.vcf.gz -Oz -o biallelic_SNPs_dmel_r6_Chr2L.vcf.gz
+bcftools view -m2 -M2 -v snps fixed_unfiltered_SNPs_dmel_r6_Chr2R_602samples.vcf.gz -Oz -o biallelic_SNPs_dmel_r6_Chr2R.vcf.gz
+bcftools view -m2 -M2 -v snps fixed_unfiltered_SNPs_dmel_r6_Chr3L_602samples.vcf.gz -Oz -o biallelic_SNPs_dmel_r6_Chr3L.vcf.gz
+bcftools view -m2 -M2 -v snps fixed_unfiltered_SNPs_dmel_r6_Chr3R_602samples.vcf.gz -Oz -o biallelic_SNPs_dmel_r6_Chr3R.vcf.gz
+bcftools view -m2 -M2 -v snps fixed_unfiltered_SNPs_dmel_r6_ChrX_602samples.vcf.gz -Oz -o biallelic_SNPs_dmel_r6_ChrX.vcf.gz
