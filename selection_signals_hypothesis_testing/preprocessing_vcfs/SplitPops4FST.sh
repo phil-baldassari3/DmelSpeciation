@@ -1,0 +1,7 @@
+#!/bin/bash
+
+bcftools view -S ZS.txt full_processed_and_filtered_vcfs/biallelicSNPs_NoSingletons_missing0.05_dmel_r6_allChr_202samples.vcf > SubsetPop_vcfs_for_FST/ZS_NoSingletons_dmel_r6_allChr.vcf
+bcftools view -S ZH.txt full_processed_and_filtered_vcfs/biallelicSNPs_NoSingletons_missing0.05_dmel_r6_allChr_202samples.vcf > SubsetPop_vcfs_for_FST/ZH_NoSingletons_dmel_r6_allChr.vcf
+bcftools view -S RAL.txt full_processed_and_filtered_vcfs/biallelicSNPs_NoSingletons_missing0.05_dmel_r6_allChr_202samples.vcf > SubsetPop_vcfs_for_FST/RAL_NoSingletons_dmel_r6_allChr.vcf
+bcftools view -S FR.txt full_processed_and_filtered_vcfs/biallelicSNPs_NoSingletons_missing0.05_dmel_r6_allChr_202samples.vcf > SubsetPop_vcfs_for_FST/FR_NoSingletons_dmel_r6_allChr.vcf
+bcftools view -S ZI.txt full_processed_and_filtered_vcfs/biallelicSNPs_NoSingletons_missing0.05_dmel_r6_allChr_202samples.vcf > SubsetPop_vcfs_for_FST/ZI_NoSingletons_dmel_r6_allChr.vcf
